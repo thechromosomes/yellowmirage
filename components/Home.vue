@@ -1,71 +1,7 @@
 <template>
   <div data-spy="scroll" data-target=".navbar" data-offset="50">
     <div id="mobile-menu-overlay"></div>
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#"
-          ><img src="@/static/assets/images/logo.svg" alt="Marshmallow"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"><i class="mdi mdi-menu"> </i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <div
-            class="
-              d-lg-none d-flex
-              justify-content-between
-              px-4
-              py-3
-              align-items-center
-            "
-          >
-            <img
-              src="@/static/assets/images/logo-dark.svg"
-              class="logo-mobile-menu"
-              alt="logo"
-            />
-            <a href="javascript:;" class="close-menu"
-              ><i class="mdi mdi-close"></i
-            ></a>
-          </div>
-          <ul class="navbar-nav ml-auto align-items-center">
-            <li class="nav-item active">
-              <a class="nav-link" href="#home"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonial">Testimonial</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#plans">Plans</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-success" href="#contact"
-                >174-394-9560</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+
     <div class="page-body-wrapper">
       <section id="home" class="home">
         <div class="container">
@@ -76,22 +12,22 @@
                   <div data-aos="zoom-in-up">
                     <div class="banner-title">
                       <h3 class="font-weight-medium">
-                        We Help Power Millions Of Businesses in 100+ Countries
+                        Once a year...<br />
+                        go someplace you've never been before.
                       </h3>
                     </div>
                     <p class="mt-3">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                      This holiday season, make the most of every moment with
+                      us. Take pleasure in the perfect escape.
 
                       <br />
-                      Lorem Ipsum has been the industry's standard dummy text
-                      ever since the 1500s,
+                     We will always be your favorite hotel!
                     </p>
                     <a href="#" class="btn btn-secondary mt-3">Learn more</a>
                   </div>
                   <div class="mt-5 mt-lg-0">
                     <img
-                      src="@/static/assets/images/group.png"
+                      src="@/static/assets/images/earth.gif"
                       alt="marsmello"
                       class="img-fluid"
                       data-aos="zoom-in-up"
@@ -165,7 +101,7 @@
             <div class="col-sm-12">
               <h5 class="text-dark">We’re offering</h5>
               <h3 class="font-weight-medium text-dark mb-5">
-                Creative Digital Agency
+                The best in the world
               </h3>
             </div>
           </div>
@@ -178,15 +114,18 @@
                 data-aos-duration="1500"
               >
                 <img
-                  src="@/static/assets/images/integrated-marketing.svg"
+                  src="@/static/assets/images/food.png"
                   alt="integrated-marketing"
                   data-aos="zoom-in"
+                  class="w-50"
                 />
                 <h6 class="text-dark mb-3 mt-4 font-weight-medium">
-                  Integrated Marketing
+                  Hygienic food
                 </h6>
                 <p>
-                  Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum
+                  preparing and storing food or drink in a way that best reduces
+                  the risk of consumers becoming sick from the food-borne
+                  disease.
                 </p>
               </div>
             </div>
@@ -198,15 +137,17 @@
                 data-aos-duration="1500"
               >
                 <img
-                  src="@/static/assets/images/design-development.svg"
+                  src="@/static/assets/images/mountain.png"
                   alt="design-development"
                   data-aos="zoom-in"
+                  class="w-50"
                 />
                 <h6 class="text-dark mb-3 mt-4 font-weight-medium">
-                  Design & Development
+                  The best view
                 </h6>
                 <p>
-                  Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum
+                  The most beautiful things are not associated with money; they
+                  are memories and moments and the mountain view in the front :)
                 </p>
               </div>
             </div>
@@ -218,77 +159,17 @@
                 data-aos-duration="1500"
               >
                 <img
-                  src="@/static/assets/images/digital-strategy.svg"
+                  src="@/static/assets/images/planet-earth.png"
                   alt="digital-strategy"
                   data-aos="zoom-in"
+                  class="w-50"
                 />
                 <h6 class="text-dark mb-3 mt-4 font-weight-medium">
-                  Digital Strategy
+                  Earthy smell
                 </h6>
                 <p>
-                  Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row" data-aos="fade-up">
-            <div class="col-sm-4 text-center text-lg-left">
-              <div
-                class="services-box pb-lg-0"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-              >
-                <img
-                  src="@/static/assets/images/digital-marketing.svg"
-                  alt="digital-marketing"
-                  data-aos="zoom-in"
-                />
-                <h6 class="text-dark mb-3 mt-4 font-weight-medium">
-                  Digital Marketing
-                </h6>
-                <p>
-                  Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum
-                </p>
-              </div>
-            </div>
-            <div class="col-sm-4 text-center text-lg-left">
-              <div
-                class="services-box pb-lg-0"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-              >
-                <img
-                  src="@/static/assets/images/growth-strategy.svg"
-                  alt="growth-strategy"
-                  data-aos="zoom-in"
-                />
-                <h6 class="text-dark mb-3 mt-4 font-weight-medium">
-                  Growth Strategy
-                </h6>
-                <p>
-                  Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum
-                </p>
-              </div>
-            </div>
-            <div class="col-sm-4 text-center text-lg-left">
-              <div
-                class="services-box pb-0"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-              >
-                <img
-                  src="@/static/assets/images/saving-strategy.svg"
-                  alt="saving-strategy"
-                  data-aos="zoom-in"
-                />
-                <h6 class="text-dark mb-3 mt-4 font-weight-medium">
-                  Saving Strategy
-                </h6>
-                <p>
-                  Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum
+                  That earthy smell and the beauty of the place is our pride. We
+                  bet you will love it :)
                 </p>
               </div>
             </div>
@@ -301,14 +182,14 @@
             <div class="col-sm-6" data-aos="fade-up">
               <h5 class="text-dark">Our work process</h5>
               <h3 class="font-weight-medium text-dark">
-                Discover New Idea With Us!
+                Discover nature With Us!
               </h3>
               <h5 class="text-dark mb-3">
                 Imagination will take us everywhere
               </h5>
               <p class="font-weight-medium mb-4">
-                Lorem ipsum dolor sit amet, <br />
-                pretium pretium tempor.Lorem ipsum dolor sit amet, consectetur
+                Drop us a mail or simply make a call <br />
+                and we will be happy to help you.
               </p>
               <div class="d-flex justify-content-start mb-3">
                 <img
@@ -316,7 +197,7 @@
                   alt="tick"
                   class="mr-3 tick-icon"
                 />
-                <p class="mb-0">Lorem ipsum dolor sit amet, pretium pretium</p>
+                <p class="mb-0">Book your entry via call, email or your favorite booking site.</p>
               </div>
               <div class="d-flex justify-content-start mb-3">
                 <img
@@ -324,7 +205,7 @@
                   alt="tick"
                   class="mr-3 tick-icon"
                 />
-                <p class="mb-0">Lorem ipsum dolor sit amet, pretium pretium</p>
+                <p class="mb-0">We will provide you the direction and confirm the booking.</p>
               </div>
               <div class="d-flex justify-content-start">
                 <img
@@ -332,7 +213,7 @@
                   alt="tick"
                   class="mr-3 tick-icon"
                 />
-                <p class="mb-0">Lorem ipsum dolor sit amet, pretium pretium</p>
+                <p class="mb-0">From here forget everything just sit on a couch and relax.</p>
               </div>
             </div>
             <div
@@ -350,7 +231,7 @@
           </div>
         </div>
       </section>
-      <section class="our-projects" id="projects">
+      <section class="our-projects" id="projects" v-if="projectImages.length">
         <div class="container">
           <div class="row mb-5">
             <div class="col-sm-12">
@@ -363,10 +244,12 @@
                 "
               >
                 <h3 class="font-weight-medium text-dark">
-                  Let's See Our Latest Project
+                  Let's Explore The Heaven
                 </h3>
                 <div>
-                  <a href="#" class="btn btn-outline-primary">View more</a>
+                  <NuxtLink to="imageGallery" class="btn btn-outline-primary"
+                    >View more</NuxtLink
+                  >
                 </div>
               </div>
             </div>
@@ -374,95 +257,12 @@
         </div>
         <div class="mb-5" data-aos="fade-up">
           <div class="owl-carousel-projects owl-carousel owl-theme">
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider1.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider2.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider3.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider4.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider5.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider1.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider2.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider3.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider4.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider5.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider1.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider2.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider3.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider4.jpg"
-                alt="slider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="@/static/assets/images/carousel/slider5.jpg"
-                alt="slider"
-              />
+            <div
+              class="item"
+              v-for="(item, index) in projectImages.length"
+              :key="index"
+            >
+              <img :src="projectImages[index]" alt="slider" />
             </div>
           </div>
         </div>
@@ -500,7 +300,7 @@
                   <h4 class="font-weight-bold text-dark mb-0">
                     <span class="fpVal">0</span>
                   </h4>
-                  <h5 class="text-dark mb-0">Finished Project</h5>
+                  <h5 class="text-dark mb-0">No of rooms</h5>
                 </div>
               </div>
             </div>
@@ -549,7 +349,7 @@
             <div class="col-sm-6 text-white" data-aos="fade-up">
               <p class="font-weight-bold mb-3">Testimonials</p>
               <h3 class="font-weight-medium">
-                Our customers are our <br />biggest fans
+                Our Visitors   are our <br />biggest fans
               </h3>
               <ul class="flipster-custom-nav">
                 <li class="flipster-custom-nav-item">
@@ -593,12 +393,12 @@
                         class="testimonial-icons"
                       />
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur pretium pretium
-                        tempor.Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Ut pretium
+                        Sometimes you've just got to sit down, whether you're in
+                        the hotel room or on your couch at home, and really just
+                        appreciate what's going on around you.
                       </p>
-                      <h6 class="testimonial-author">Mark Spenser</h6>
-                      <p class="testimonial-destination">Accounts</p>
+                      <h6 class="testimonial-author">Anuja</h6>
+                      <p class="testimonial-destination">Developer</p>
                     </div>
                   </li>
                   <li>
@@ -609,9 +409,10 @@
                         class="testimonial-icons"
                       />
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur pretium pretium
-                        tempor.Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Ut pretium
+                        Weekends are about replenishment and rejuvenation. Time
+                        in Wales would definitely be part of my ideal weekend,
+                        at nature roar. I can already feel the air working its
+                        magic, with the sea breeze drifting over us.
                       </p>
                       <h6 class="testimonial-author">Tua Manuera</h6>
                       <p class="testimonial-destination">Director,Dj market</p>
@@ -625,11 +426,10 @@
                         class="testimonial-icons"
                       />
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur pretium pretium
-                        tempor.Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Ut pretium
+                        I pretend I'm one of the royal family when I'm in a
+                        hotel and that the hotel belongs to me - it is a palace.
                       </p>
-                      <h6 class="testimonial-author">Sarah Philip</h6>
+                      <h6 class="testimonial-author">Megha</h6>
                       <p class="testimonial-destination">Chief Accountant</p>
                     </div>
                   </li>
@@ -641,9 +441,9 @@
                         class="testimonial-icons"
                       />
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur pretium pretium
-                        tempor.Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Ut pretium
+                        I like the Four Seasons. It's a nice hotel. The front
+                        view is heaven. The staff is very friendly. I wish I had
+                        a room with a same view.
                       </p>
                       <h6 class="testimonial-author">Mark Spenser</h6>
                       <p class="testimonial-destination">Director,Dj market</p>
@@ -655,153 +455,7 @@
           </div>
         </div>
       </section>
-      <section
-        class="clients pt-5 mt-5"
-        data-aos="fade-up"
-        data-aos-offset="-400"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="d-sm-flex justify-content-between align-items-center">
-                <img
-                  src="@/static/assets/images/deloit.svg"
-                  alt="deloit"
-                  class="p-2 p-lg-0"
-                  data-aos="fade-down"
-                  data-aos-offset="-400"
-                />
-                <img
-                  src="@/static/assets/images/erricson.svg"
-                  alt="erricson"
-                  class="p-2 p-lg-0"
-                  data-aos="fade-up"
-                  data-aos-offset="-400"
-                />
-                <img
-                  src="@/static/assets/images/netflix.svg"
-                  alt="netflix"
-                  class="p-2 p-lg-0"
-                  data-aos="fade-down"
-                  data-aos-offset="-400"
-                />
-                <img
-                  src="@/static/assets/images/instagram.svg"
-                  alt="instagram"
-                  class="p-2 p-lg-0"
-                  data-aos="fade-up"
-                  data-aos-offset="-400"
-                />
-                <img
-                  src="@/static/assets/images/coinbase.svg"
-                  alt="coinbase"
-                  class="p-2 p-lg-0"
-                  data-aos="fade-down"
-                  data-aos-offset="-400"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="pricing-list" id="plans">
-        <div class="container">
-          <div class="row" data-aos="fade-up" data-aos-offset="-500">
-            <div class="col-sm-12">
-              <div
-                class="
-                  d-sm-flex
-                  justify-content-between
-                  align-items-center
-                  mb-2
-                "
-              >
-                <div>
-                  <h3 class="font-weight-medium text-dark">
-                    Checkout Pricing Plan
-                  </h3>
-                  <h5 class="text-dark">
-                    Lorem ipsum dolor sit amet, consectetur pretium pretium
-                    tempor. Lorem ipsum dolor
-                  </h5>
-                </div>
-                <div class="mb-5 mb-lg-0 mt-3 mt-lg-0">
-                  <div class="d-flex align-items-center">
-                    <p
-                      class="
-                        mr-2
-                        font-weight-medium
-                        monthly
-                        text-active
-                        check-box-label
-                      "
-                    >
-                      Monthly
-                    </p>
-                    <label class="toggle-switch toggle-switch">
-                      <input type="checkbox" checked id="toggle-switch" />
-                      <span class="toggle-slider round"></span>
-                    </label>
-                    <p class="ml-2 font-weight-medium yearly check-box-label">
-                      Yearly
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row" data-aos="fade-up" data-aos-offset="-300">
-            <div class="col-sm-4">
-              <div class="pricing-box">
-                <img src="@/static/assets/images/starter.svg" alt="starter" />
-                <h6 class="font-weight-medium title-text">Starter Business</h6>
-                <h1 class="text-amount mb-4 mt-2">$23</h1>
-                <ul class="pricing-list">
-                  <li>Create a free website</li>
-                  <li>Connect Domain</li>
-                  <li>Business and ecommerce</li>
-                  <li>Idea for smaller professional websites</li>
-                  <li>Web space</li>
-                </ul>
-                <a href="#" class="btn btn-outline-primary">Puchase Now</a>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="pricing-box selected">
-                <img
-                  src="@/static/assets/images/proffessional.svg"
-                  alt="starter"
-                />
-                <h6 class="font-weight-medium title-text">Professional</h6>
-                <h1 class="text-amount mb-4 mt-2">$45</h1>
-                <ul class="pricing-list">
-                  <li>Create a free website</li>
-                  <li>Connect Domain</li>
-                  <li>Business and ecommerce</li>
-                  <li>Idea for smaller professional websites</li>
-                  <li>Web space</li>
-                </ul>
-                <a href="#" class="btn btn-primary">Puchase Now</a>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="pricing-box">
-                <img src="@/static/assets/images/premium.svg" alt="starter" />
-                <h6 class="font-weight-medium title-text">Premium</h6>
-                <h1 class="text-amount mb-4 mt-2">$87</h1>
-                <ul class="pricing-list">
-                  <li>Create a free website</li>
-                  <li>Connect Domain</li>
-                  <li>Business and ecommerce</li>
-                  <li>Idea for smaller professional websites</li>
-                  <li>Web space</li>
-                </ul>
-                <a href="#" class="btn btn-outline-primary">Puchase Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section class="contactus" id="contact">
         <div class="container">
           <div class="row mb-5 pb-5">
@@ -817,7 +471,7 @@
                 Got A Problem
               </h3>
               <h5 class="text-dark mb-5">
-                Lorem ipsum dolor sit amet, consectetur pretium
+                No worries, we are here to help you out.
               </h5>
               <form>
                 <div class="row">
@@ -841,6 +495,27 @@
                       />
                     </div>
                   </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input
+                        type="tel"
+                        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                        class="form-control"
+                        id="phone"
+                        placeholder="phone*"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="location"
+                        placeholder="location"
+                      />
+                    </div>
+                  </div>
                   <div class="col-sm-12">
                     <div class="form-group">
                       <textarea
@@ -861,122 +536,10 @@
           </div>
         </div>
       </section>
+      <section>
+        <Instagram />
+      </section>
     </div>
-    <footer class="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <address>
-                <p>143 castle road 517</p>
-                <p class="mb-4">district, kiyev port south Canada</p>
-                <div class="d-flex align-items-center">
-                  <p class="mr-4 mb-0">+3 123 456 789</p>
-                  <a href="mailto:info@yourmail.com" class="footer-link"
-                    >info@yourmail.com</a
-                  >
-                </div>
-                <div class="d-flex align-items-center">
-                  <p class="mr-4 mb-0">+1 222 345 342</p>
-                  <a href="mailto:Marshmallow@yourmail.com" class="footer-link"
-                    >Marshmallow@yourmail.com</a
-                  >
-                </div>
-              </address>
-              <div class="social-icons">
-                <h6 class="footer-title font-weight-bold">Social Share</h6>
-                <div class="d-flex">
-                  <a href="#"><i class="mdi mdi-github-circle"></i></a>
-                  <a href="#"><i class="mdi mdi-facebook-box"></i></a>
-                  <a href="#"><i class="mdi mdi-twitter"></i></a>
-                  <a href="#"><i class="mdi mdi-dribbble"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="row">
-                <div class="col-sm-4">
-                  <h6 class="footer-title">Social Share</h6>
-                  <ul class="list-footer">
-                    <li><a href="#" class="footer-link">Home</a></li>
-                    <li><a href="#" class="footer-link">About</a></li>
-                    <li><a href="#" class="footer-link">Services</a></li>
-                    <li><a href="#" class="footer-link">Portfolio</a></li>
-                    <li><a href="#" class="footer-link">Contact</a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-4">
-                  <h6 class="footer-title">Product</h6>
-                  <ul class="list-footer">
-                    <li>
-                      <a href="#" class="footer-link">Digital Marketing</a>
-                    </li>
-                    <li><a href="#" class="footer-link">Web Development</a></li>
-                    <li><a href="#" class="footer-link">App Development</a></li>
-                    <li><a href="#" class="footer-link">Design</a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-4">
-                  <h6 class="footer-title">Company</h6>
-                  <ul class="list-footer">
-                    <li><a href="#" class="footer-link">Partners</a></li>
-                    <li><a href="#" class="footer-link">Investors</a></li>
-                    <li><a href="#" class="footer-link">Partners</a></li>
-                    <li><a href="#" class="footer-link">FAQ</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center">
-              <img
-                src="@/static/assets/images/logo.svg"
-                alt="logo"
-                class="mr-3"
-              />
-              <p class="mb-0 text-small pt-1">
-                © 2019-2020
-                <a
-                  href="https://www.bootstrapdash.com"
-                  class="text-white"
-                  target="_blank"
-                  >BootstrapDash</a
-                >. All rights reserved.
-              </p>
-
-              <p class="mb-0 text-small pt-1 pl-4">
-                Distributed By:
-                <a
-                  href="https://www.themewagon.com"
-                  class="text-white"
-                  target="_blank"
-                  >Themewagon</a
-                >
-              </p>
-            </div>
-
-            <div>
-              <div class="d-flex">
-                <a href="#" class="text-small text-white mx-2 footer-link"
-                  >Privacy Policy
-                </a>
-                <a href="#" class="text-small text-white mx-2 footer-link"
-                  >Customer Support
-                </a>
-                <a href="#" class="text-small text-white mx-2 footer-link"
-                  >Careers Guide</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
   </div>
 </template>
 <script>
@@ -984,7 +547,9 @@ export default {
   name: "home",
 
   data() {
-    return {};
+    return {
+      projectImages: [],
+    };
   },
 
   head() {
@@ -1008,6 +573,21 @@ export default {
         },
       ],
     };
+  },
+
+  async fetch() {
+    function importAll(r) {
+      return r.keys().map(r);
+    }
+
+    const images = await importAll(
+      require.context(
+        "@/static/assets/images/hotelPic",
+        false,
+        /\.(png|jpe?g|svg)$/
+      )
+    );
+    this.projectImages = images;
   },
 };
 </script>
