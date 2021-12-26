@@ -12491,7 +12491,7 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0px 0px;
 }
 
 .navbar > .container,
@@ -12504,8 +12504,7 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -18631,7 +18630,7 @@ html {
 }
 
 .main-banner {
-  padding: 4.2rem 0 14rem 0;
+  padding: 4.2rem 0 6rem 0;
   color: #ffffff;
   background-size: cover;
 }
@@ -19016,3 +19015,6 @@ section {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+/* ===================== shubham style============ */
+.navbar{ padding: 0px;}
+.glob-content-div{padding-right: 80px!important;}

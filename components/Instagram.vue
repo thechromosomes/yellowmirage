@@ -2,19 +2,19 @@
   <div class="section sec-instagram" v-if="images.length">
     <div class="container mb-5">
       <div class="row">
-        <div class="col-lg-3" data-aos="fade-up">
-          <h2 class="heading">Instagram</h2>
+        <div class="col-lg-12" >
+          <h2 class="font-weight-medium text-dark mt-5 mt-lg-0">Instagram</h2>
         </div>
-        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-12" >
           <p>
             Just hold your breath, rub your eyes and be ready to explore the
-            world of heaven. Over every mountain there is a path, although it
+            world of heaven.<br> Over every mountain there is a path, although it
             may not be seen from the valley.
           </p>
         </div>
       </div>
     </div>
-    <div class="instagram-slider-wrap" data-aos="fade-up" data-aos-delay="200">
+    <div class="instagram-slider-wrap" >
       <div class="instagram-slider" id="instagram-slider">
         <slick :options="slickOptions">
           <div
@@ -43,12 +43,46 @@ export default {
       images: "",
       slickOptions: {
         slidesToShow: 5,
-        dots: false,
+        dots: true,
         arrows: false,
         infinite: true,
         speed: 300,
         autoplay: true,
         autoplaySpeed: 3000,
+         responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        arrows: false,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1.5,
+        slidesToScroll: 1,dots: false,
+        arrows: false,
+         infinite: false,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1.5,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+         infinite: false,
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 
         // Any other options that can be got from plugin documentation
       },
@@ -131,4 +165,18 @@ export default {
   opacity: 1;
   visibility: visible;
 }
+  .item.instagramCarouselID{padding-right: 15px;}
+ .slick-list.draggable {padding-left: 15px!important;}
+.slick-dots{ display: flex;justify-content: center;}
+.slick-dots > li{ margin-right: 8px;}
+.slick-dots > li > button{border: 0px!important; background-color:transparent!important;}
+ @media only screen and (max-width: 767px) {
+
+ .instagram-sectiuon h2{ padding-top: 0px;margin-top: 0px!important;}
+ .slick-slide{ float: right!important;}
+ .instagram-sectiuon {
+    padding-bottom: 13px;
+
+ }
+ }
 </style>

@@ -9,11 +9,11 @@
             <div class="col-sm-12">
               <div class="main-banner">
                 <div class="d-sm-flex justify-content-between">
-                  <div data-aos="zoom-in-up">
+                  <div data-aos="zoom-in-up glob-content-div">
                     <div class="banner-title">
                       <h3 class="font-weight-medium">
                         Once a year...<br />
-                        go someplace you've never been before.
+                        go someplace you've <br>never been before.
                       </h3>
                     </div>
                     <p class="mt-3">
@@ -29,7 +29,7 @@
                     <img
                       src="@/static/assets/images/earth.gif"
                       alt="marsmello"
-                      class="img-fluid"
+                      class=" glob-image"
                       data-aos="zoom-in-up"
                     />
                   </div>
@@ -39,17 +39,17 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="section sec-form-search py-0 bg-light">
+      <section class="date-picker" data-aos="fade-up"   >
+        <div class="section sec-form-search ">
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
-                <div class="form row" data-aos="fade-up">
+                <div class="form row" >
                   <div class="col-lg-3">
                     <div class="input-icon-wrap">
                       <span class="icon-calendar"></span>
                       <input
-                        type="text"
+                        type="date"
                         class="form-control"
                         id="arrival"
                         placeholder="Date Arrival"
@@ -60,7 +60,7 @@
                     <div class="input-icon-wrap">
                       <span class="icon-calendar"></span>
                       <input
-                        type="text"
+                        type="date"
                         class="form-control"
                         id="departure"
                         placeholder="Date Departure"
@@ -243,7 +243,7 @@
                   mb-2
                 "
               >
-                <h3 class="font-weight-medium text-dark">
+                <h3 class="font-weight-medium text-dark explore-heavern">
                   Let's Explore The Heaven
                 </h3>
                 <div>
@@ -256,18 +256,18 @@
           </div>
         </div>
         <div class="mb-5" data-aos="fade-up">
-          <div class="owl-carousel-projects owl-carousel owl-theme">
+          <slick :options="slickOptionstwo">
             <div
               class="item"
               v-for="(item, index) in projectImages.length"
               :key="index"
             >
-              <img :src="projectImages[index]" alt="slider" />
+              <img :src="projectImages[index]" alt="slickder" />
             </div>
-          </div>
+          </slick>
         </div>
         <div class="container">
-          <div class="row pt-5 mt-5 pb-5 mb-5">
+          <div class="row pt-5 mt-5 pb-5 mb-5 project-pd">
             <div class="col-sm-3">
               <div
                 class="d-flex py-3 my-3 my-lg-0 justify-content-center"
@@ -458,12 +458,12 @@
 
       <section class="contactus" id="contact">
         <div class="container">
-          <div class="row mb-5 pb-5">
+          <div class="row mb-5 pb-5 contactus-bottom-pd">
             <div class="col-sm-5" data-aos="fade-up" data-aos-offset="-500">
               <img
                 src="@/static/assets/images/contact.jpg"
                 alt="contact"
-                class="img-fluid"
+                class="img-fluid contact-img"
               />
             </div>
             <div class="col-sm-7" data-aos="fade-up" data-aos-offset="-500">
@@ -521,9 +521,9 @@
                       <textarea
                         name="message"
                         id="message"
-                        class="form-control"
+                        class="form-control masseage-box"
                         placeholder="Message*"
-                        rows="5"
+                        rows="5" 
                       ></textarea>
                     </div>
                   </div>
@@ -536,19 +536,68 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="instagram-sectiuon">
+        
         <Instagram />
+       
       </section>
     </div>
   </div>
 </template>
 <script>
+import Slick from "vue-slick";
+import "slick-carousel/slick/slick.css";
 export default {
+   components: { Slick },
   name: "home",
 
   data() {
     return {
       projectImages: [],
+       slickOptionstwo: {
+        slidesToShow: 5,
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 300,
+        autoplay: true,
+        autoplaySpeed: 3000,
+         responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1.5,dots: true,
+        arrows: false,
+         infinite: false,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1.5,
+        slidesToScroll: 2,
+        dots: true,
+        autoplay:true,
+        infinite: false,
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+
+        // Any other options that can be got from plugin documentation
+      },
     };
   },
 
@@ -589,8 +638,84 @@ export default {
     );
     this.projectImages = images;
   },
+  
+
 };
 </script>
+<style scoped>
+.home{ padding-top: 111px;}
+.date-picker{ padding: 15px 0px;margin-top: 20px;
+    }
+.form-control{ padding: 10px;height: 40px;}
+.date-picker .form-control{border-radius: 30px; color: #3c37f1;border: 2px solid #3c37f1; font-weight: bold;}
+.date-picker .input{ color: #3c37f1;}
+/* .btn.btn-primary.btn-block.w-100{background-color: #00d663;} */
+.our-services{ padding: 60px 0px 0px 0px;}
+.main-banner .banner-title {
+    width: 100%;
+}
+ .main-banner .banner-title .font-weight-medium{ font-weight: bold; font-size: 45px;} 
+ .main-banner {
+    padding: 4.2rem 0 8rem 0;}
+    section{ padding-top: 60px; padding-bottom: 0px;}
+    .home{ padding-bottom: 40px;}
+    .instagram-sectiuon{ padding-bottom: 60px;padding-left: 15px;}
+    .owl-carousel .owl-item .item img{ border-radius: 0px;border: 0px;}
+    .owl-carousel .owl-item .item{ border-radius: 0px;}
+.glob-image {
+    width: 248px; margin-top: 100px;
+    
+}
+    .glob-content-div{padding-right: 80px!important;}
+    .slick-slide img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+}
+.masseage-box{ height: auto;}
+   @media only screen and (max-width: 767px) {
+
+.glob-image {
+    width: 153px;
+    float: right;
+    margin-top: -104px;margin-right: 0px;
+}
+.main-banner {
+    padding: initial;
+}
+.date-picker {
+    padding: 40px 0px;}
+    .input-icon-wrap{ margin-bottom: 11px;}
+    .services-box img{ max-width: 110px;}
+    .project-pd{ margin: 0px!important; padding: 0px!important;}
+    .contact-img{width: 194px;
+    margin: 0 auto;
+    display: block;
+}
+.contactus-bottom-pd{ margin-bottom: 0px!important;}
+.instagram-sectiuon{ padding-top: 20px;}
+.slick-slide{ float: right!important;}
+.main-banner .banner-title .font-weight-medium {
+    font-size: 28px;
+    padding-top: 2px;
+}
+.home {
+  
+    background-position: 0 -110px;
+    
+}
+.date-picker {
+    padding: 0px 0px;
+}
+.date-picker .form-control {
+  
+    margin-bottom: 20px;
+}
+.explore-heavern{ padding-bottom: 20px;}
+
+   }
+</style>
 
 
 

@@ -60,3 +60,21 @@
     </div>
   </nav>
 </template>
+<style scoped>
+.navbar{ padding: 0px;}
+.navbar .navbar-brand img {
+    width: 125px;
+}
+@media only screen and (max-width: 767px) {
+.navbar .navbar-brand{ padding: 0px 15px;}
+.navbar .navbar-brand img {
+    width: 105px;
+}
+.sidebar-overlay #mobile-menu-overlay{ top: 0;}
+.navbar .navbar-nav {
+    padding: 0px 0px;}
+    .navbar .navbar-nav .nav-item{ padding: 0px 15px;border-bottom: 1px solid #ccc;}
+    .navbar .navbar-nav .nav-item:last-child{ margin-top: 30px; border: 0px;}
+
+}
+</style>
