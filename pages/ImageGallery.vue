@@ -228,6 +228,7 @@
   
 </template>
 <script>
+import jQuery from "jquery";
 export default {
  mounted() {
                  // $('.portfolio-item').isotope({

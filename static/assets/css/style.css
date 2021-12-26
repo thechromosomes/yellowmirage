@@ -10234,6 +10234,13 @@ pre code {
     border: 0;
   }
   .slick-slide{ float: right!important;}
+  #about h4 {
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+}
+#about .section-heading{ font-size: 28px;}
+#about h4{ font-size: 14px!important;}
 }
 
 @media (max-width: 991.98px) {

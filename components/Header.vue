@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg fixed-top">
+  <nav class="navbar navbar-expand-lg " :class="[scrollPosition > 30 ? 'fixed' : '']">
     <div class="container">
       <a class="navbar-brand" href="#"
         ><img src="@/static/logo.png" alt="nature roar"
@@ -60,7 +60,30 @@
     </div>
   </nav>
 </template>
+<script>
+export default {
+  data(){
+    return{
+       scrollPosition: null,
+    }
+  },
+  async mounted() {
+    // for sticky header
+    window.addEventListener("scroll", this.updateScroll);
+  },
+  methods:{
+    updateScroll() {
+      this.scrollPosition = window.scrollY;
+    },
+  }
+}
+</script>
 <style scoped>
+nav.navbar.navbar-expand-lg.fixed {
+    top: 0;
+    position: fixed;
+    z-index: 99;
+}
 .navbar{ padding: 0px;}
 .navbar .navbar-brand img {
     width: 125px;

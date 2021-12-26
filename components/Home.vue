@@ -643,7 +643,7 @@ export default {
 };
 </script>
 <style scoped>
-.home{ padding-top: 111px;}
+
 .date-picker{ padding: 15px 0px;margin-top: 20px;
     }
 .form-control{ padding: 10px;height: 40px;}
@@ -702,7 +702,7 @@ export default {
 }
 .home {
   
-    background-position: 0 -110px;
+    background-position: 0 -161px;
     
 }
 .date-picker {

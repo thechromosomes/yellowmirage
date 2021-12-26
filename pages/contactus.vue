@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="container d-flex justify-content-center align-items-center">
+    <div class="container d-flex justify-content-center align-items-center form-wraper">
       <!-- // SVG
 					from: https://www.freepik.com/free-vector/new-message-concept-landing-page_5777076.htm 
   -------------------------------------------------------------
   -- Note: need to use inline svg to manipulate its components
   ------------------------------------------------------------>
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 563" fill="none">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 563" fill="none" class="svg-img">
         <g id="Image">
           <g id="g14">
             <g id="g16">
@@ -957,4 +957,23 @@ form .icon {
   background-size: 100% 100%;
   transform: translateY(-0.15em);
 }
+/* =================================767============= */
+ @media only screen and (max-width: 767px) {
+.form-wraper{ display: block!important;height: auto; padding-bottom: 50px;}
+.svg-img{ width: 100%; height: auto;}
+form {
+    min-width: 100%;
+}
+form .title {
+    font-family: "Pacifico", cursive;
+    color: #212529;
+    font-size: 32px;
+    padding-top: 20px;
+}
+form .form-control {
+    
+    border: 1px solid #cccccc85;
+}
+
+ }
 </style>
