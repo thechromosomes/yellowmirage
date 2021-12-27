@@ -53,7 +53,7 @@
             <a class="nav-link" href="#testimonial">Testimonial</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-success" href="#contact">174-394-9560</a>
+            <a class="nav-link btn btn-success" href="tel:7466056737">7466056737</a>
           </li>
         </ul>
       </div>
