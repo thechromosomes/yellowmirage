@@ -5,19 +5,21 @@
         <div class="row">
           <div class="col-sm-6">
             <address>
-              <p>143 castle road 517</p>
-              <p class="mb-4">district, kiyev port south Canada</p>
-              <div class="d-flex align-items-center">
-                <p class="mr-4 mb-0">+3 123 456 789</p>
-                <a href="mailto:info@yourmail.com" class="footer-link"
-                  >info@yourmail.com</a
+              <p>Village bajun near golu mandir.</p>
+              <p class="mb-4">district, Nainital Uttrakhand</p>
+                <a href="mailto:support@natureroar.com" class="footer-link"
+                  >support@natureroar.com</a
                 >
+              <div class="d-flex align-items-center">
+                <p class="mr-4 mb-0">
+                  <a href="tel:9837176793" class="Blondie"><i class="mdi mdi-cellphone-basic"></i>9837176793</a>
+                </p>
+              
               </div>
               <div class="d-flex align-items-center">
-                <p class="mr-4 mb-0">+1 222 345 342</p>
-                <a href="mailto:Marshmallow@yourmail.com" class="footer-link"
-                  >Marshmallow@yourmail.com</a
-                >
+                <p class="mr-4 mb-0">
+                  <a href="tel:7466056737" class="Blondie"><i class="mdi mdi-cellphone-basic"></i>7466056737</a>
+                </p>
               </div>
             </address>
           </div>
@@ -30,10 +32,10 @@
                     <NuxtLink to="/" title="home"
                       ><i class="mdi mdi-home-assistant"></i
                     ></NuxtLink>
-                    <NuxtLink to="/contact" title="contact us"
+                    <NuxtLink to="/contactus" title="contact us"
                       ><i class="mdi mdi-email"></i
                     ></NuxtLink>
-                    <NuxtLink to="/abouttus" title="about us"
+                    <NuxtLink to="/aboutus" title="about us"
                       ><i class="mdi mdi-information-variant"></i
                     ></NuxtLink>
                   </div>
@@ -73,5 +75,8 @@
 .bottomStickBotton img {
   width: 79px;
   padding: 15px;
+}
+.Blondie{
+  color: #fff;
 }
 </style>

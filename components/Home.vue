@@ -394,7 +394,7 @@
                       />
                       <p>
                         Sometimes you've just got to sit down, whether you're in
-                        the hotel room or on your couch at home, and really just
+                        the hotel room or on your couch, really just
                         appreciate what's going on around you.
                       </p>
                       <h6 class="testimonial-author">Anuja</h6>
@@ -411,8 +411,7 @@
                       <p>
                         Weekends are about replenishment and rejuvenation. Time
                         in Wales would definitely be part of my ideal weekend,
-                        at nature roar. I can already feel the air working its
-                        magic, with the sea breeze drifting over us.
+                        at nature roar. 
                       </p>
                       <h6 class="testimonial-author">Tua Manuera</h6>
                       <p class="testimonial-destination">Director,Dj market</p>

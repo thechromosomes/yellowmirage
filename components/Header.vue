@@ -1,9 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg " :class="[scrollPosition > 30 ? 'fixed' : '']">
     <div class="container">
-      <a class="navbar-brand" href="#"
+      <NuxtLink class="navbar-brand" to="/"
         ><img src="@/static/logo.png" alt="nature roar"
-      /></a>
+      /></NuxtLink>
       <button
         class="navbar-toggler"
         type="button"
