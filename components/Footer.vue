@@ -53,7 +53,7 @@
                 </div>
               </div>
               <section class="bottomStickBotton">
-                <a href="https://wa.me/message/+917466056737" target="blank"
+                <a href="https://wa.link/nzi0bw" target="blank"
                   ><img src="@/static/assets/images/whatsApp.png" />
                 </a>
               </section>
