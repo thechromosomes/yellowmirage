@@ -488,14 +488,14 @@
       <section class="contactus" id="contact">
         <div class="container">
           <div class="row mb-5 pb-5 contactus-bottom-pd">
-            <div class="col-sm-5" data-aos="fade-up" data-aos-offset="-500">
+            <div class="col-sm-5">
               <img
                 src="@/static/assets/images/contact.jpg"
                 alt="contact"
                 class="img-fluid contact-img"
               />
             </div>
-            <div class="col-sm-7" data-aos="fade-up" data-aos-offset="-500">
+            <div class="col-sm-7">
               <h3 class="font-weight-medium text-dark mt-5 mt-lg-0">
                 Got A Problem
               </h3>
