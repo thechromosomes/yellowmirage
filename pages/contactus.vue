@@ -1,13 +1,26 @@
 <template>
   <div>
-    <div class="container d-flex justify-content-center align-items-center form-wraper">
+    <div
+      class="
+        container
+        d-flex
+        justify-content-center
+        align-items-center
+        form-wraper
+      "
+    >
       <!-- // SVG
 					from: https://www.freepik.com/free-vector/new-message-concept-landing-page_5777076.htm 
   -------------------------------------------------------------
   -- Note: need to use inline svg to manipulate its components
   ------------------------------------------------------------>
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 563" fill="none" class="svg-img">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 790 563"
+        fill="none"
+        class="svg-img"
+      >
         <g id="Image">
           <g id="g14">
             <g id="g16">
@@ -765,7 +778,7 @@
   -------------------------------------------------------------
   ------------------------------------------------------------>
 
-      <form>
+      <div class="form">
         <h1 class="title text-center mb-4">Talk to Us</h1>
 
         <!-- Name -->
@@ -775,6 +788,7 @@
           </label>
           <input
             type="text"
+            v-model="user.name"
             id="formName"
             class="form-control form-control-lg thick"
             placeholder="Name"
@@ -787,6 +801,8 @@
           </label>
           <input
             type="tel"
+            v-model="user.phone"
+            required
             id="formName"
             class="form-control form-control-lg thick"
             placeholder="Phone number"
@@ -800,6 +816,8 @@
           </label>
           <input
             type="email"
+            required
+            v-model="user.email"
             id="formEmail"
             class="form-control form-control-lg thick"
             placeholder="E-mail"
@@ -810,22 +828,81 @@
         <div class="form-group message">
           <textarea
             id="formMessage"
+            v-model="user.message"
             class="form-control form-control-lg"
             rows="7"
-            placeholder="Mensagem"
+            placeholder="Message"
           ></textarea>
         </div>
 
         <!-- Submit btn -->
         <div class="text-center">
-          <button type="submit" class="btn btn-primary" tabIndex="-1">
+          <button
+            @click="sendMail('contact')"
+            type="submit"
+            class="btn btn-primary"
+            tabIndex="-1"
+          >
             Send message
           </button>
         </div>
-      </form>
+      </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      user: {},
+    };
+  },
+
+  methods: {
+    async sendMail(type) {
+      let form = {
+        name: this.user.name,
+        email: this.user.email,
+        phone: this.user.phone,
+        location: this.user.location,
+        message: this.user.message,
+        emailType: type,
+        startDate: this.user.startDate,
+        endDate: this.user.endDate,
+        person: this.user.person,
+      };
+
+      if (!form.phone) {
+        this.$toast.open({
+          message: "Please fill all the fields",
+          type: "error",
+        });
+        return;
+      }
+
+      let response = await this.$store.dispatch("ApiCall", {
+        method: "post",
+        url: `/sendmail`,
+        params: form,
+      });
+
+      if (response.status) {
+        this.$toast.open({
+          message: "Message sent successfully",
+          type: "success",
+        });
+        this.user = {};
+      } else {
+        this.$toast.open({
+          message: "Something went wrong",
+          type: "error",
+        });
+      }
+    },
+  },
+};
+</script>
 
 <style scoped>
 svg {
@@ -892,33 +969,33 @@ svg {
   height: 100vh;
 }
 
-form {
+.form {
   min-width: 25rem;
 }
-form .title {
+.form .title {
   font-family: "Pacifico", cursive;
   color: #212529;
   font-size: 2.5rem;
 }
-form .form-control {
+.form .form-control {
   background-color: #f2f6f8;
   border-radius: 2rem;
   border: none;
   box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
 }
-form .form-control.thick {
+.form .form-control.thick {
   height: 3.3rem;
   padding: 0.5rem 3.5rem;
 }
-form .form-control:focus {
+.form .form-control:focus {
   background-color: #f2f6f8;
   border: none;
   box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
 }
-form .message .form-control {
+.form .message .form-control {
   padding: 0.5rem 1.8rem;
 }
-form ::placeholder {
+.form ::placeholder {
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
@@ -926,13 +1003,13 @@ form ::placeholder {
   position: relative;
   left: 0;
 }
-form input,
-form textarea {
+.form input,
+.form textarea {
   font-family: "Quicksand", sans-serif;
   color: #212529;
   font-size: 1.1rem;
 }
-form .icon {
+.form .icon {
   color: #57565c;
   height: 1.3rem;
   position: absolute;
@@ -958,22 +1035,27 @@ form .icon {
   transform: translateY(-0.15em);
 }
 /* =================================767============= */
- @media only screen and (max-width: 767px) {
-.form-wraper{ display: block!important;height: auto; padding-bottom: 50px;}
-.svg-img{ width: 100%; height: auto;}
-form {
+@media only screen and (max-width: 767px) {
+  .form-wraper {
+    display: block !important;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .svg-img {
+    width: 100%;
+    height: auto;
+  }
+  .form {
     min-width: 100%;
-}
-form .title {
+  }
+  .form .title {
     font-family: "Pacifico", cursive;
     color: #212529;
     font-size: 32px;
     padding-top: 20px;
-}
-form .form-control {
-    
+  }
+  .form .form-control {
     border: 1px solid #cccccc85;
+  }
 }
-
- }
 </style>

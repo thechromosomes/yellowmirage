@@ -7,18 +7,21 @@
             <address>
               <p>Village bajun near golu mandir.</p>
               <p class="mb-4">district, Nainital Uttrakhand</p>
-                <a href="mailto:support@natureroar.com" class="footer-link"
-                  >support@natureroar.com</a
-                >
+              <a href="mailto:support@natureroar.com" class="footer-link"
+                >support@natureroar.com</a
+              >
               <div class="d-flex align-items-center">
                 <p class="mr-4 mb-0">
-                  <a href="tel:9837176793" class="Blondie"><i class="mdi mdi-cellphone-basic"></i>9837176793</a>
+                  <a href="tel:9837176793" class="Blondie"
+                    ><i class="mdi mdi-cellphone-basic"></i>9837176793</a
+                  >
                 </p>
-              
               </div>
               <div class="d-flex align-items-center">
                 <p class="mr-4 mb-0">
-                  <a href="tel:7466056737" class="Blondie"><i class="mdi mdi-cellphone-basic"></i>7466056737</a>
+                  <a href="tel:7466056737" class="Blondie"
+                    ><i class="mdi mdi-cellphone-basic"></i>7466056737</a
+                  >
                 </p>
               </div>
             </address>
@@ -45,10 +48,9 @@
                 <div class="social-icons">
                   <h6 class="footer-title font-weight-bold">Social Share</h6>
                   <div class="d-flex">
-                    <a href="#"><i class="mdi mdi-github-circle"></i></a>
+                    <a href="https://twitter.com/RoarNature" target="_BLANK"><i class="mdi mdi-twitter"></i></a>
                     <a href="#"><i class="mdi mdi-facebook-box"></i></a>
-                    <a href="#"><i class="mdi mdi-twitter"></i></a>
-                    <a href="#"><i class="mdi mdi-dribbble"></i></a>
+                    <a href="https://www.instagram.com/thenatureroar/" target="_BLANK"><i class="mdi mdi-instagram"></i></a>
                   </div>
                 </div>
               </div>
@@ -65,6 +67,19 @@
   </footer>
 </template>
 
+<script>
+export default {
+  mounted() {
+    // scroll to top
+    this.$nextTick(() => {
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }, 500);
+    });
+  },
+};
+</script>
+
 <style scoped>
 .bottomStickBotton {
   position: fixed;
@@ -76,7 +91,7 @@
   width: 79px;
   padding: 15px;
 }
-.Blondie{
+.Blondie {
   color: #fff;
 }
 </style>

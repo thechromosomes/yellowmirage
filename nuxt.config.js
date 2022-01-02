@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "haltandlive",
+    title: "Nature roar",
     htmlAttrs: {
       lang: "en",
     },
@@ -10,8 +10,31 @@ export default {
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
+
+      // seo
+      {
+        hid: "description",
+        name: "description",
+        content: "we are trying to make eco friendly and peaceful living",
+      },
+      {
+        hid: "og:Nature roar",
+        property: "og:Nature roar",
+        content: "Nature roar",
+      },
+      {
+        hid: "og:image",
+        property: "og:image",
+        content: "/logo.png",
+      },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+
+    script: [
+      {
+        src: "/assets/js/gSap.js", defer: true
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -28,5 +51,22 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  target: "static", // default is 'server'
+  modules: ["@nuxtjs/axios"],
+
+  plugins: [
+    { src: "~/plugins/jsonld", defer: true },
+    { src: "@plugins/toast", mode: "client" },
+  ],
+
+  // server  middleware for back end api
+  // a server middleware that runs only server site
+  serverMiddleware: ["~/server-middleware/sendMail"],
+
+  // target: "static", // default is 'server'
+
+  server: {
+    port: 3000,
+    // configure local area network
+    // host: "0.0.0.0",
+  },
 };
