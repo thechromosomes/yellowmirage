@@ -1,6 +1,6 @@
 export const state = () => ({
-  BASE_URL: "http://natureroar.com",
-//   BASE_URL: "http://localhost:3000",
+  // BASE_URL: "http://natureroar.com",
+  BASE_URL: "http://localhost:3000",
 
   pageLoader: false,
 });

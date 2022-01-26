@@ -69,6 +69,7 @@ app.post("/sendmail", async (req, res) => {
           status: false,
           message: "Error occurred while sending email",
         });
+        return false
       }
 
       res.send({

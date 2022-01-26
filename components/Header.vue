@@ -41,22 +41,14 @@
           ></a>
         </div>
         <ul class="navbar-nav ml-auto align-items-center">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home"
-              >Home <span class="sr-only">(current)</span></a
-            >
+          <li class="nav-item">
+            <NuxtLink class="nav-link" to="/contactus">Contact</NuxtLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
+            <NuxtLink class="nav-link" to="/aboutus">About</NuxtLink>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#testimonial">Testimonial</a>
+           <li class="nav-item">
+            <NuxtLink class="nav-link" to="/imagegallery">Gallery</NuxtLink>
           </li>
           <li class="nav-item">
             <a class="nav-link btn btn-success" href="tel:7466056737"

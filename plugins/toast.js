@@ -1,9 +1,8 @@
-import Vue from "vue";
-import VueToast from "vue-toast-notification";
+// main.js
+import Vue from 'vue';
+import VueSweetalert2 from 'vue-sweetalert2';
 
-import "vue-toast-notification/dist/theme-sugar.css";
+// If you don't need the styles, do not connect
+import 'sweetalert2/dist/sweetalert2.min.css';
 
-Vue.use(VueToast, {
-  position: "top-right",
-  queue: true,
-});
+Vue.use(VueSweetalert2)

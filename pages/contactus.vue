@@ -874,9 +874,11 @@ export default {
       };
 
       if (!form.phone) {
-        this.$toast.open({
-          message: "Please fill all the fields",
-          type: "error",
+        this.$swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Please fill the form first!",
+          timer: 10000,
         });
         return;
       }
@@ -888,15 +890,20 @@ export default {
       });
 
       if (response.status) {
-        this.$toast.open({
-          message: "Message sent successfully",
-          type: "success",
+        this.$swal.fire({
+          icon: "success",
+          timer: 10000,
+          title: "Voila!",
+          text: "Message sent successfully, expect a reply soon",
         });
         this.user = {};
       } else {
-        this.$toast.open({
-          message: "Something went wrong",
-          type: "error",
+        this.$swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Something went wrong!",
+          timer: 10000,
+          text: "Message sent successfully, expect a reply soon",
         });
       }
     },
