@@ -1,182 +1,280 @@
 <template>
-  <div class="section sec-instagram" v-if="images.length">
-    <div class="container mb-5">
-      <div class="row">
-        <div class="col-lg-12" >
-          <h2 class="font-weight-medium text-dark mt-5 mt-lg-0">Instagram</h2>
-        </div>
-        <div class="col-lg-12" >
-          <p>
-            Just hold your breath, rub your eyes and be ready to explore the
-            world of heaven.<br> Over every mountain there is a path, although it
-            may not be seen from the valley.
-          </p>
-        </div>
+  <div class="container mainContainer" v-if="instaPost.length">
+    <!-- instagram @ -->
+    <div class="instagram-section">
+      <h3 class="title">
+        <span class="text-secondary">@</span><span class="text-success">Nature</span
+        ><span class="text-pink">Roar</span>
+      </h3>
+      <div class="slider-wrapper slider_box slider_arrow">
+        <VueSlickCarousel ref="slick" :options="settingsInsta">
+          <template v-for="(image, imgIndex) in instaPost">
+            <div
+              class="item"
+              v-if="image.media_type === 'IMAGE'"
+              :key="imgIndex"
+            >
+              <div class="img-box">
+                <img :src="image.media_url" alt="img" class="w-100" />
+                <div class="overlaey">
+                  <a :href="image.permalink" target="_blank">
+                    <span class="insta-icon">
+                      <img
+                        src="~/static/assets/images/instagram.png"
+                        aria-label="instagram"
+                        alt="img"
+                    /></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </template>
+        </VueSlickCarousel>
+      </div>
+      <div class="b-flowbox-body">
+        <p>Tag your pictures with <b>@NatureRoar</b> and appear at our feed!</p>
       </div>
     </div>
-    <div class="instagram-slider-wrap" >
-      <div class="instagram-slider" id="instagram-slider">
-        <slick :options="slickOptions">
-          <div
-            class="item instagramCarouselID"
-            v-for="(item, index) in images.length"
-            :key="index"
-          >
-            <a class="instagram-item">
-              <span class="icon-instagram"></span>
-              <img :src="images[index]" alt="Image" class="img-fluid" />
-            </a>
-          </div>
-        </slick>
-      </div>
-    </div>
+    <!-- instagram @ end -->
   </div>
 </template>
 
 <script>
-import Slick from "vue-slick";
-import "slick-carousel/slick/slick.css";
+import VueSlickCarousel from "vue-slick";
+
 export default {
-  components: { Slick },
+  components: { VueSlickCarousel },
   data() {
     return {
-      images: "",
-      slickOptions: {
-        slidesToShow: 5,
-        dots: true,
-        arrows: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 3000,
-         responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        arrows: false,
-        dots: false
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 1.5,
-        slidesToScroll: 1,dots: false,
-        arrows: false,
-         infinite: false,
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1.5,
+      instaPost: [],
+      settingsInsta: {
+        slidesToShow: 4,
         slidesToScroll: 1,
-        dots: true,
         arrows: false,
-         infinite: false,
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
+        draggable: true,
+        infinite: false,
+        autoplay: true,
+        dots: false,
 
-        // Any other options that can be got from plugin documentation
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
       },
     };
   },
 
-  async fetch() {
-    function importAll(r) {
-      return r.keys().map(r);
-    }
+  methods: {
+    async getInstaPost() {
+      try {
+        var authOptions = {
+          method: "get",
+          url: `https://graph.instagram.com/me/media?fields=media_url,media_type,permalink,thumbnail_url&count=6&access_token=${this.$store.state.INSTA_TOKEN}`,
+          headers: {
+            "Content-Type": "application/json",
+          },
+        };
+        let response = await this.$axios(authOptions);
+        if (response.status == 200) {
+          this.instaPost = response.data.data;
+        } else {
+          throw "encountered error while fetching instagram data";
+        }
+      } catch (error) {
+        console.log("error from get insta post", error);
+      }
+    },
+  },
 
-    const images = await importAll(
-      require.context(
-        "@/static/assets/images/hotelPic",
-        false,
-        /\.(png|jpe?g|svg)$/
-      )
-    );
-    this.images = images;
+  async fetch() {
+    this.getInstaPost();
   },
 };
 </script>
 
 <style scoped>
-.instagram-item {
+
+.text-pink {
+  color: #f05c90;
+}
+.mainContainer {
+  margin-top: 30px;
+}
+.b-flowbox-body {
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+  margin: 10px auto;
+  text-align: center;
+}
+/* .b-flowbox-body p {
+  margin: 20px 0;
+} */
+.b-flowbox-body b {
+  color: #f44436;
+}
+.instagram-section .slider-wrapper .slick-initialized .slick-slide {
+  padding: 0 10px;
+}
+
+.instagram-section .slider-wrapper.slider_box.slider_arrow .slick-arrow {
+  width: 50px;
+  height: 50px;
+}
+.instagram-section .slider_box.slider_arrow .slick-arrow.slick-prev {
+  left: -15px;
+}
+.slider_box.slider_arrow .slick-arrow.slick-next {
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  right: 20px;
+}
+.instagram-section .slider_box.slider_arrow .slick-arrow.slick-next {
+  right: -15px;
+}
+.icon-instagram:before {
+  content: "\e912";
+}
+.instagram-section {
+  width: 100%;
+  padding: 0px 30px 0px 30px;
+}
+.instagram-section h3 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #f44436;
+  text-align: center;
+}
+.instagram-section .slider-wrapper {
+  width: 100%;
+  padding: 20px;
+}
+.instagram-section .slider-wrapper .item {
+  /* width: 20%; */
+  border-radius: 8px;
+}
+.instagram-section .slider-wrapper .item .img-box {
+  width: 100%;
   position: relative;
-  display: block;
-  cursor: pointer;
-  overflow: hidden;
+  border-radius: 8px;
+  padding: 10px;
 }
-.instagram-item img {
-  position: relative;
-  z-index: -1;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  transition: 0.3s all ease;
+.instagram-section .slider-wrapper .item .img-box img {
+  border-radius: 8px;
 }
-.instagram-item:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.2);
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  transition: 0.3s all ease;
+.instagram-section .slider-wrapper .item .info-insta {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f2f2;
+  padding: 12px;
 }
-.instagram-item [class^="icon-"] {
+.instagram-section .slider-wrapper .item .info-insta .insta-icon {
+  width: 15px;
+}
+.insta-icon {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 30px;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  filter: invert(1);
   opacity: 0;
-  visibility: hidden;
-  color: #fff;
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  transition: 0.3s all ease;
 }
-.instagram-item:hover img {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
+.insta-icon img {
+  width: 30px;
 }
-.instagram-item:hover:before {
-  opacity: 1;
-  visibility: visible;
-}
-.instagram-item:hover [class^="icon-"] {
-  opacity: 1;
-  visibility: visible;
-}
-  .item.instagramCarouselID{padding-right: 15px;}
- .slick-list.draggable {padding-left: 15px!important;}
-.slick-dots{ display: flex;justify-content: center;}
-.slick-dots > li{ margin-right: 8px;}
-.slick-dots > li > button{border: 0px!important; background-color:transparent!important;}
- @media only screen and (max-width: 767px) {
 
- .instagram-sectiuon h2{ padding-top: 0px;margin-top: 0px!important;}
- .slick-slide{ float: right!important;}
- .instagram-sectiuon {
-    padding-bottom: 13px;
+.img-box:hover .insta-icon {
+  opacity: 1;
+}
 
- }
- }
+.img-box:hover .overlaey {
+  background: red;
+  border: solid
+}
+@media only screen and (max-width: 767px) {
+  .instagram-section .slider-wrapper {
+    padding: 0;
+  }
+  .instagram-section .slider-wrapper.slider_box.slider_arrow .slick-arrow {
+    width: 30px;
+    height: 30px;
+  }
+
+  .slider-carousel_items .slick-dots li button {
+    height: 8px;
+    width: 8px;
+    border: 0px;
+    padding: 0px;
+    background-color: #fff;
+    appearance: none;
+    margin-right: 12px;
+    background-color: #d8d2d2;
+    border-radius: 50%;
+    line-height: 0px;
+  }
+  .slider-carousel_items .slick-dots .slick-active button {
+    background-color: #000 !important;
+  }
+  .slider-carousel_items .slide-dots {
+    background-color: transparent !important;
+  }
+  .tag-picture-list .slick-arrow.slick-prev {
+    left: 0;
+  }
+  .tag-picture-list .slick-arrow {
+    top: 29%;
+    height: 30px;
+    width: 30px;
+  }
+  .star-re-con {
+    color: #a3a3a3;
+  }
+  .sub-banner-button .button_light {
+    max-width: 99px;
+    min-width: 99px;
+    padding: 8px 5px 7px;
+    text-align: center;
+  }
+  .hp_banner_section .banner-content .content,
+  .sub-banner-button {
+    padding: 20px;
+  }
+  .best_sellers .h2-title,
+  .h2-title {
+    padding-bottom: 0px;
+    color: #f44436 !important;
+  }
+  .shop_section {
+    padding: 0px 20px 40px 20px;
+  }
+  .instagram-section {
+    padding: 0px;
+  }
+  .instagram-section .slider-wrapper .slick-initialized .slick-slide {
+    padding: 0px;
+  }
+  .instagram-section .slider-wrapper.slider_box.slider_arrow .slick-prev {
+    left: -4%;
+  }
+  .instagram-section .slider-wrapper.slider_box.slider_arrow .slick-next {
+    right: -4%;
+  }
+
+  .iiz__btn.iiz__hint {
+    display: none !important;
+  }
+}
 </style>

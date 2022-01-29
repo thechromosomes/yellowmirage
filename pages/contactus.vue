@@ -14,6 +14,7 @@
   -------------------------------------------------------------
   -- Note: need to use inline svg to manipulate its components
   ------------------------------------------------------------>
+        <h1 class="title text-center mb-4">Talk to Us</h1>
 
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -779,7 +780,6 @@
   ------------------------------------------------------------>
 
       <div class="form">
-        <h1 class="title text-center mb-4">Talk to Us</h1>
 
         <!-- Name -->
         <div class="form-group position-relative">
