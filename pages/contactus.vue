@@ -901,9 +901,8 @@ export default {
         this.$swal.fire({
           icon: "error",
           title: "Oops...",
-          text: "Something went wrong!",
+          text: "Something went wrong! Please try again later",
           timer: 10000,
-          text: "Message sent successfully, expect a reply soon",
         });
       }
     },

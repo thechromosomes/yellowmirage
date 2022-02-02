@@ -3,7 +3,7 @@
     <!-- instagram @ -->
     <div class="instagram-section">
       <h3 class="title">
-        <span class="text-secondary">@</span><span class="text-success">Nature</span
+        <span class="text-black">@</span><span class="text-success">Nature</span
         ><span class="text-pink">Roar</span>
       </h3>
       <div class="slider-wrapper slider_box slider_arrow">
@@ -32,7 +32,7 @@
         </VueSlickCarousel>
       </div>
       <div class="b-flowbox-body">
-        <p>Tag your pictures with <b>@NatureRoar</b> and appear at our feed!</p>
+        <p>Tag your pictures with <b><a href="https://www.instagram.com/explore/tags/natureRoar/" target="_blank">#NatureRoar</a></b> and appear at our feed!</p>
       </div>
     </div>
     <!-- instagram @ end -->
@@ -52,7 +52,7 @@ export default {
         slidesToScroll: 1,
         arrows: false,
         draggable: true,
-        infinite: false,
+        infinite: true,
         autoplay: true,
         dots: false,
 
@@ -106,6 +106,9 @@ export default {
 
 .text-pink {
   color: #f05c90;
+}
+.text-black{
+  color: black;
 }
 .mainContainer {
   margin-top: 30px;
@@ -189,7 +192,6 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  filter: invert(1);
   opacity: 0;
 }
 .insta-icon img {
@@ -200,10 +202,7 @@ export default {
   opacity: 1;
 }
 
-.img-box:hover .overlaey {
-  background: red;
-  border: solid
-}
+
 @media only screen and (max-width: 767px) {
   .instagram-section .slider-wrapper {
     padding: 0;

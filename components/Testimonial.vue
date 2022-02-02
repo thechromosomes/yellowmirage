@@ -24,7 +24,7 @@
               <div class="img">
                 <img :src="item.image" alt="item.name" />
               </div>
-              <h2>{{ item.name }}</h2>
+              <h2 class="testimonial-name">{{ item.name }}</h2>
               <p>
                 {{ item.description }}
               </p>
@@ -196,11 +196,12 @@ export default {
 
 .testim {
   width: 100%;
-  -webkit-transform: translatey(-50%);
+  /* -webkit-transform: translatey(-50%);
   -moz-transform: translatey(-50%);
   -ms-transform: translatey(-50%);
   -o-transform: translatey(-50%);
-  transform: translatey(-50%);
+  transform: translatey(-50%); */
+  text-align: center;
 }
 
 .testim .wrap {
@@ -247,6 +248,9 @@ export default {
 .testim .arrow.right {
   right: 10px;
 }
+.testimonial-name {
+  color: #000 !important;
+}
 
 .testim .dots {
   text-align: center;
@@ -255,7 +259,7 @@ export default {
   bottom: 60px;
   left: 0;
   display: block;
-  z-index: 3333;
+  /* z-index: 3333; */
   height: 12px;
 }
 

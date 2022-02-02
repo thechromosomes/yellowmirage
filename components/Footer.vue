@@ -49,7 +49,7 @@
                   <h6 class="footer-title font-weight-bold">Social Share</h6>
                   <div class="d-flex">
                     <a href="https://twitter.com/RoarNature" target="_BLANK"><i class="mdi mdi-twitter"></i></a>
-                    <a href="#"><i class="mdi mdi-facebook-box"></i></a>
+                    <a href="https://www.facebook.com/thenatureroar/" target="_BLANK"><i class="mdi mdi-facebook-box"></i></a>
                     <a href="https://www.instagram.com/thenatureroar/" target="_BLANK"><i class="mdi mdi-instagram"></i></a>
                   </div>
                 </div>

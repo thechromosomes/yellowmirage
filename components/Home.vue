@@ -377,7 +377,7 @@
       <section class="testimonial">
         <div class="container">
           <div class="row mt-md-0 mt-lg-4">
-            <div class="col-sm-6">
+            <div class="col-sm-12">
               <div>
                 <Testimonial />
               </div>
@@ -648,9 +648,8 @@ export default {
         this.$swal.fire({
           icon: "error",
           title: "Oops...",
-          text: "Something went wrong!",
+          text: "Something went wrong! Please try againy",
           timer: 10000,
-          text: "Message sent successfully, expect a reply soon",
         });
       }
     },
