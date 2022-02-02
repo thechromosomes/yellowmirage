@@ -1,5 +1,5 @@
 export const state = () => ({
-  BASE_URL: "http://natureroar.com",
+  BASE_URL: "https://natureroar.com",
   // BASE_URL: "http://localhost:3000",
   INSTA_TOKEN:
     "IGQVJVM3hhVl9ud0t6b2pHa1RUSlZAobnFEWnIwVnRmdFJsS0xGNE1hQXpGZAExaQjdERVMxWFlnVk4wZAlM2WkRDeGpZAcUFUUkhDd3lXLTA0ZA0EyeUdwbmdRX0ctRUN5OTRiQW1BMTRoVy03NC1nV0llMQZDZD",

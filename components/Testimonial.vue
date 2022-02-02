@@ -50,7 +50,7 @@ export default {
         {
           name: "Manish",
           description:
-            " eekends are about replenishment and rejuvenation. Time in Wales would definitely be part of my ideal weekend, at nature roar.",
+            " Weekends are about replenishment and rejuvenation. Time in Wales would definitely be part of my ideal weekend, at nature roar.",
           image: require("@/static/assets/images/testimonial/testimonial3.jpg"),
         },
         {
