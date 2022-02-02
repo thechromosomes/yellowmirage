@@ -10,14 +10,14 @@
               <a href="mailto:support@natureroar.com" class="footer-link"
                 >support@natureroar.com</a
               >
-              <div class="d-flex align-items-center">
+              <div class="d-flex-custom align-items-center">
                 <p class="mr-4 mb-0">
                   <a href="tel:9837176793" class="Blondie"
                     ><i class="mdi mdi-cellphone-basic"></i>9837176793</a
                   >
                 </p>
               </div>
-              <div class="d-flex align-items-center">
+              <div class="d-flex-custom align-items-center">
                 <p class="mr-4 mb-0">
                   <a href="tel:7466056737" class="Blondie"
                     ><i class="mdi mdi-cellphone-basic"></i>7466056737</a
@@ -31,7 +31,7 @@
               <div class="col-sm-6">
                 <div class="social-icons">
                   <h6 class="footer-title font-weight-bold">Explore</h6>
-                  <div class="d-flex">
+                  <div class="d-flex-custom">
                     <NuxtLink to="/" title="home"
                       ><i class="mdi mdi-home-assistant"></i
                     ></NuxtLink>
@@ -47,7 +47,7 @@
               <div class="col-sm-4">
                 <div class="social-icons">
                   <h6 class="footer-title font-weight-bold">Social Share</h6>
-                  <div class="d-flex">
+                  <div class="d-flex-custom">
                     <a href="https://twitter.com/RoarNature" target="_BLANK"><i class="mdi mdi-twitter"></i></a>
                     <a href="https://www.facebook.com/thenatureroar/" target="_BLANK"><i class="mdi mdi-facebook-box"></i></a>
                     <a href="https://www.instagram.com/thenatureroar/" target="_BLANK"><i class="mdi mdi-instagram"></i></a>
