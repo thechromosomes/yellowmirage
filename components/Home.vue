@@ -11,7 +11,7 @@
                 <div class="d-sm-flex justify-content-between">
                   <div data-aos="zoom-in-up glob-content-div">
                     <div class="banner-title">
-                      <h3 class="font-weight-medium">
+                      <h3 class="font-weight-medium text-white">
                         Once a year...<br />
                         go someplace you've <br />never been before.
                       </h3>
