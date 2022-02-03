@@ -48,13 +48,13 @@ export default {
           image: require("@/static/assets/images/testimonial/testimonial1.jpg"),
         },
         {
-          name: "Manish",
+          name: "Megha",
           description:
             " Weekends are about replenishment and rejuvenation. Time in Wales would definitely be part of my ideal weekend, at nature roar.",
           image: require("@/static/assets/images/testimonial/testimonial3.jpg"),
         },
         {
-          name: "Megha",
+          name: "Manish",
           description:
             "  I pretend I'm one of the royal family when I'm in a hotel and that the hotel belongs to me - it is a palace.",
           image: require("@/static/assets/images/testimonial/testimonial4.jpg"),
