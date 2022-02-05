@@ -32,7 +32,8 @@ export default {
 
     script: [
       {
-        src: "/assets/js/gSap.js", defer: true
+        src: "/assets/js/gSap.js",
+        defer: true,
       },
     ],
   },
@@ -51,7 +52,7 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  modules: ["@nuxtjs/axios"],
+  modules: ["@nuxtjs/axios", "@nuxtjs/gtm"],
 
   plugins: [
     { src: "~/plugins/jsonld", defer: true },
@@ -63,6 +64,14 @@ export default {
   serverMiddleware: ["~/server-middleware/sendMail"],
 
   // target: "static", // default is 'server'
+
+  // google tag manger
+  gtm: {
+    id: "GTM-T2WH949",
+    enabled: true,
+    debug: true,
+    loadScript: true,
+  },
 
   server: {
     port: 3000,
