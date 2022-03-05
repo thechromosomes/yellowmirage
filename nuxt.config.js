@@ -52,7 +52,7 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  modules: ["@nuxtjs/axios", "@nuxtjs/gtm"],
+  modules: ["@nuxtjs/axios", "@nuxtjs/gtm", '@nuxtjs/device',],
 
   plugins: [
     { src: "~/plugins/jsonld", defer: true },

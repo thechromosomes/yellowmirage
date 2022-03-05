@@ -119,6 +119,9 @@
           </div>
         </div>
       </section>
+         <section class="floating-images">
+        <FloatingImages />
+      </section>
       <section class="our-services" id="services">
         <div class="container">
           <div class="row">
