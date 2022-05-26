@@ -1,0 +1,6002 @@
+[
+ {
+   "hotel_name": "Ostrožská Nová Ves",
+   "hotel_category": "Elevator",
+   "price": "$1.73",
+   "hotel_image": "http://dummyimage.com/149x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Laspezia",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$7.01",
+   "hotel_image": "http://dummyimage.com/118x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Tomakomai",
+   "hotel_category": "Framing (Wood)",
+   "price": "$2.60",
+   "hotel_image": "http://dummyimage.com/212x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Phanom Sarakham",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$1.01",
+   "hotel_image": "http://dummyimage.com/211x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Des Moines",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$0.77",
+   "hotel_image": "http://dummyimage.com/121x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Krajan",
+   "hotel_category": "Framing (Wood)",
+   "price": "$6.54",
+   "hotel_image": "http://dummyimage.com/106x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Khovaling",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$5.40",
+   "hotel_image": "http://dummyimage.com/212x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Naranjal",
+   "hotel_category": "HVAC",
+   "price": "$1.27",
+   "hotel_image": "http://dummyimage.com/244x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Vroutek",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$1.66",
+   "hotel_image": "http://dummyimage.com/235x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Qorovulbozor Shahri",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$9.24",
+   "hotel_image": "http://dummyimage.com/198x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Telagaselaba",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$9.81",
+   "hotel_image": "http://dummyimage.com/200x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Velasco Ibarra",
+   "hotel_category": "Framing (Wood)",
+   "price": "$3.54",
+   "hotel_image": "http://dummyimage.com/161x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Bol’shoy Karay",
+   "hotel_category": "Framing (Steel)",
+   "price": "$8.55",
+   "hotel_image": "http://dummyimage.com/108x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Panitian",
+   "hotel_category": "Drilled Shafts",
+   "price": "$1.32",
+   "hotel_image": "http://dummyimage.com/204x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Cambita Garabitos",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$2.67",
+   "hotel_image": "http://dummyimage.com/133x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Ozatlán",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$2.88",
+   "hotel_image": "http://dummyimage.com/203x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Alofi",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$8.46",
+   "hotel_image": "http://dummyimage.com/240x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kanuma",
+   "hotel_category": "Wall Protection",
+   "price": "$4.82",
+   "hotel_image": "http://dummyimage.com/217x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Pedome",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$7.82",
+   "hotel_image": "http://dummyimage.com/160x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Apeldoorn",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$5.86",
+   "hotel_image": "http://dummyimage.com/183x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tân Việt",
+   "hotel_category": "Masonry",
+   "price": "$6.53",
+   "hotel_image": "http://dummyimage.com/146x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Káto Nevrokópi",
+   "hotel_category": "HVAC",
+   "price": "$8.44",
+   "hotel_image": "http://dummyimage.com/206x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Zakliczyn",
+   "hotel_category": "Curb & Gutter",
+   "price": "$7.45",
+   "hotel_image": "http://dummyimage.com/132x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Siasi",
+   "hotel_category": "Fire Protection",
+   "price": "$3.47",
+   "hotel_image": "http://dummyimage.com/202x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Stavyshche",
+   "hotel_category": "Masonry & Precast",
+   "price": "$2.89",
+   "hotel_image": "http://dummyimage.com/180x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Chust Shahri",
+   "hotel_category": "Framing (Steel)",
+   "price": "$0.29",
+   "hotel_image": "http://dummyimage.com/187x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Hagonoy",
+   "hotel_category": "Masonry",
+   "price": "$3.01",
+   "hotel_image": "http://dummyimage.com/186x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Ponikiew",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$7.83",
+   "hotel_image": "http://dummyimage.com/191x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Passal",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$6.42",
+   "hotel_image": "http://dummyimage.com/182x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Sagua de Tánamo",
+   "hotel_category": "Wall Protection",
+   "price": "$1.21",
+   "hotel_image": "http://dummyimage.com/231x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kudara-Somon",
+   "hotel_category": "Site Furnishings",
+   "price": "$4.78",
+   "hotel_image": "http://dummyimage.com/188x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Yangce",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$6.99",
+   "hotel_image": "http://dummyimage.com/176x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Drawsko",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$0.17",
+   "hotel_image": "http://dummyimage.com/175x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Pinhal de Frades",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$0.63",
+   "hotel_image": "http://dummyimage.com/239x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Yongdeng Chengguanzhen",
+   "hotel_category": "Site Furnishings",
+   "price": "$1.43",
+   "hotel_image": "http://dummyimage.com/107x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Águas de Lindóia",
+   "hotel_category": "RF Shielding",
+   "price": "$0.21",
+   "hotel_image": "http://dummyimage.com/248x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Kizema",
+   "hotel_category": "EIFS",
+   "price": "$1.37",
+   "hotel_image": "http://dummyimage.com/219x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Rafaela",
+   "hotel_category": "Casework",
+   "price": "$5.94",
+   "hotel_image": "http://dummyimage.com/214x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Apt",
+   "hotel_category": "Electrical",
+   "price": "$5.63",
+   "hotel_image": "http://dummyimage.com/147x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Villamaría",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$9.04",
+   "hotel_image": "http://dummyimage.com/105x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Zhuangshi",
+   "hotel_category": "Granite Surfaces",
+   "price": "$5.68",
+   "hotel_image": "http://dummyimage.com/139x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Borino",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$9.84",
+   "hotel_image": "http://dummyimage.com/145x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kisesa",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$3.12",
+   "hotel_image": "http://dummyimage.com/233x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Proástion",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$7.29",
+   "hotel_image": "http://dummyimage.com/169x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Portela",
+   "hotel_category": "EIFS",
+   "price": "$2.57",
+   "hotel_image": "http://dummyimage.com/151x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Dianshui",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$0.60",
+   "hotel_image": "http://dummyimage.com/174x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Mpanda",
+   "hotel_category": "RF Shielding",
+   "price": "$6.86",
+   "hotel_image": "http://dummyimage.com/144x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Columbus",
+   "hotel_category": "Masonry",
+   "price": "$3.58",
+   "hotel_image": "http://dummyimage.com/236x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Wingham",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$6.39",
+   "hotel_image": "http://dummyimage.com/167x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Pindorama",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$7.61",
+   "hotel_image": "http://dummyimage.com/124x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Corumbá",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$9.35",
+   "hotel_image": "http://dummyimage.com/229x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Mendi",
+   "hotel_category": "Termite Control",
+   "price": "$5.40",
+   "hotel_image": "http://dummyimage.com/129x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kyonju",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$8.32",
+   "hotel_image": "http://dummyimage.com/134x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Estrada",
+   "hotel_category": "Overhead Doors",
+   "price": "$7.45",
+   "hotel_image": "http://dummyimage.com/188x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Gândara",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$0.61",
+   "hotel_image": "http://dummyimage.com/158x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Nowshahr",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$4.01",
+   "hotel_image": "http://dummyimage.com/249x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Dřevohostice",
+   "hotel_category": "Termite Control",
+   "price": "$3.98",
+   "hotel_image": "http://dummyimage.com/159x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Zhongfang",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$9.05",
+   "hotel_image": "http://dummyimage.com/131x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Yanino Vtoroye",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$4.10",
+   "hotel_image": "http://dummyimage.com/158x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "São Miguel da Carreira",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$5.70",
+   "hotel_image": "http://dummyimage.com/144x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Carlos Tejedor",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$1.67",
+   "hotel_image": "http://dummyimage.com/139x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Lutowiska",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$3.19",
+   "hotel_image": "http://dummyimage.com/186x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Blimbing",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$4.33",
+   "hotel_image": "http://dummyimage.com/216x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Florence",
+   "hotel_category": "HVAC",
+   "price": "$2.50",
+   "hotel_image": "http://dummyimage.com/203x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Gemblengmulyo",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$8.95",
+   "hotel_image": "http://dummyimage.com/108x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Paris La Défense",
+   "hotel_category": "Casework",
+   "price": "$9.40",
+   "hotel_image": "http://dummyimage.com/169x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Xingang",
+   "hotel_category": "HVAC",
+   "price": "$6.46",
+   "hotel_image": "http://dummyimage.com/169x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Samothráki",
+   "hotel_category": "Overhead Doors",
+   "price": "$5.23",
+   "hotel_image": "http://dummyimage.com/189x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Sukorejo",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$7.44",
+   "hotel_image": "http://dummyimage.com/181x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Kineshma",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$4.56",
+   "hotel_image": "http://dummyimage.com/216x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Succha",
+   "hotel_category": "Drilled Shafts",
+   "price": "$8.53",
+   "hotel_image": "http://dummyimage.com/157x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Zarzis",
+   "hotel_category": "Framing (Wood)",
+   "price": "$4.47",
+   "hotel_image": "http://dummyimage.com/114x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Dashtavan",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$5.48",
+   "hotel_image": "http://dummyimage.com/188x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Chynów",
+   "hotel_category": "Casework",
+   "price": "$2.11",
+   "hotel_image": "http://dummyimage.com/148x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Shuitou",
+   "hotel_category": "Framing (Steel)",
+   "price": "$0.73",
+   "hotel_image": "http://dummyimage.com/233x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Lixi",
+   "hotel_category": "Asphalt Paving",
+   "price": "$0.92",
+   "hotel_image": "http://dummyimage.com/128x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Cipicung",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$3.00",
+   "hotel_image": "http://dummyimage.com/219x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Vareiá",
+   "hotel_category": "Drilled Shafts",
+   "price": "$9.47",
+   "hotel_image": "http://dummyimage.com/122x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Minggang",
+   "hotel_category": "Exterior Signage",
+   "price": "$0.71",
+   "hotel_image": "http://dummyimage.com/139x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Pupiales",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$4.39",
+   "hotel_image": "http://dummyimage.com/149x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Shihuang",
+   "hotel_category": "Casework",
+   "price": "$7.30",
+   "hotel_image": "http://dummyimage.com/250x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Pécs",
+   "hotel_category": "Asphalt Paving",
+   "price": "$3.99",
+   "hotel_image": "http://dummyimage.com/206x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Paihia",
+   "hotel_category": "Masonry & Precast",
+   "price": "$5.80",
+   "hotel_image": "http://dummyimage.com/130x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Nzeto",
+   "hotel_category": "Masonry",
+   "price": "$0.47",
+   "hotel_image": "http://dummyimage.com/182x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Jaguarão",
+   "hotel_category": "Drilled Shafts",
+   "price": "$7.90",
+   "hotel_image": "http://dummyimage.com/230x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Yichun",
+   "hotel_category": "Termite Control",
+   "price": "$7.79",
+   "hotel_image": "http://dummyimage.com/103x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Yanglong",
+   "hotel_category": "Site Furnishings",
+   "price": "$2.25",
+   "hotel_image": "http://dummyimage.com/237x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kipini",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$3.06",
+   "hotel_image": "http://dummyimage.com/135x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Nowa Sarzyna",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$2.12",
+   "hotel_image": "http://dummyimage.com/127x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Gaozhai",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$7.47",
+   "hotel_image": "http://dummyimage.com/199x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Xinji",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$5.39",
+   "hotel_image": "http://dummyimage.com/149x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Angkimang",
+   "hotel_category": "RF Shielding",
+   "price": "$1.52",
+   "hotel_image": "http://dummyimage.com/173x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Mamponteng",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$7.47",
+   "hotel_image": "http://dummyimage.com/180x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tres Isletas",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$9.70",
+   "hotel_image": "http://dummyimage.com/248x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Ciudad Bolívar",
+   "hotel_category": "Drilled Shafts",
+   "price": "$2.12",
+   "hotel_image": "http://dummyimage.com/250x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Iogach",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$2.90",
+   "hotel_image": "http://dummyimage.com/214x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Uthai",
+   "hotel_category": "Casework",
+   "price": "$5.70",
+   "hotel_image": "http://dummyimage.com/110x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Raškovice",
+   "hotel_category": "Electrical",
+   "price": "$0.25",
+   "hotel_image": "http://dummyimage.com/245x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Songshan",
+   "hotel_category": "EIFS",
+   "price": "$8.99",
+   "hotel_image": "http://dummyimage.com/217x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kotaagung",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$7.30",
+   "hotel_image": "http://dummyimage.com/213x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Quiling",
+   "hotel_category": "Site Furnishings",
+   "price": "$7.58",
+   "hotel_image": "http://dummyimage.com/169x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Batojaran",
+   "hotel_category": "Curb & Gutter",
+   "price": "$5.81",
+   "hotel_image": "http://dummyimage.com/112x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Lederaba",
+   "hotel_category": "Elevator",
+   "price": "$7.59",
+   "hotel_image": "http://dummyimage.com/247x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Sancha",
+   "hotel_category": "Overhead Doors",
+   "price": "$6.84",
+   "hotel_image": "http://dummyimage.com/239x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Dateng",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$3.54",
+   "hotel_image": "http://dummyimage.com/188x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Uman’",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$9.81",
+   "hotel_image": "http://dummyimage.com/138x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Kristiansund N",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$2.82",
+   "hotel_image": "http://dummyimage.com/157x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Pandan",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$3.23",
+   "hotel_image": "http://dummyimage.com/166x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Yezhou",
+   "hotel_category": "Asphalt Paving",
+   "price": "$9.44",
+   "hotel_image": "http://dummyimage.com/211x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Januária",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$1.59",
+   "hotel_image": "http://dummyimage.com/202x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Konary",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$6.05",
+   "hotel_image": "http://dummyimage.com/172x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Yong’an",
+   "hotel_category": "Framing (Wood)",
+   "price": "$5.05",
+   "hotel_image": "http://dummyimage.com/112x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Himaya",
+   "hotel_category": "Framing (Wood)",
+   "price": "$1.85",
+   "hotel_image": "http://dummyimage.com/184x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Tucaní",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$4.45",
+   "hotel_image": "http://dummyimage.com/229x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Fuvahmulah",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$4.03",
+   "hotel_image": "http://dummyimage.com/154x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Manhumirim",
+   "hotel_category": "Electrical",
+   "price": "$2.70",
+   "hotel_image": "http://dummyimage.com/168x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Magan",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$0.05",
+   "hotel_image": "http://dummyimage.com/228x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Concepcion",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$3.15",
+   "hotel_image": "http://dummyimage.com/124x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Iquipi",
+   "hotel_category": "Casework",
+   "price": "$1.29",
+   "hotel_image": "http://dummyimage.com/106x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "El Bálsamo",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$5.37",
+   "hotel_image": "http://dummyimage.com/176x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Bakovci",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$6.46",
+   "hotel_image": "http://dummyimage.com/168x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Saint-Quentin-en-Yvelines",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$1.02",
+   "hotel_image": "http://dummyimage.com/208x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "San Carlos",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$4.91",
+   "hotel_image": "http://dummyimage.com/245x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "El Carmen",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$0.37",
+   "hotel_image": "http://dummyimage.com/154x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Har-Us",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$3.24",
+   "hotel_image": "http://dummyimage.com/187x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Surovikino",
+   "hotel_category": "Glass & Glazing",
+   "price": "$7.70",
+   "hotel_image": "http://dummyimage.com/244x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Partizan",
+   "hotel_category": "Framing (Wood)",
+   "price": "$0.09",
+   "hotel_image": "http://dummyimage.com/121x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Pau",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$3.82",
+   "hotel_image": "http://dummyimage.com/203x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Göteborg",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$10.00",
+   "hotel_image": "http://dummyimage.com/173x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Zhangcunping",
+   "hotel_category": "Masonry & Precast",
+   "price": "$1.81",
+   "hotel_image": "http://dummyimage.com/146x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Perelhal",
+   "hotel_category": "EIFS",
+   "price": "$5.91",
+   "hotel_image": "http://dummyimage.com/240x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Guinticgan",
+   "hotel_category": "Masonry & Precast",
+   "price": "$8.79",
+   "hotel_image": "http://dummyimage.com/204x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Paris 01",
+   "hotel_category": "Wall Protection",
+   "price": "$4.33",
+   "hotel_image": "http://dummyimage.com/217x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Bobolice",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$1.35",
+   "hotel_image": "http://dummyimage.com/110x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Trảng Bom",
+   "hotel_category": "Overhead Doors",
+   "price": "$9.76",
+   "hotel_image": "http://dummyimage.com/233x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Falun",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$2.30",
+   "hotel_image": "http://dummyimage.com/199x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Runjin",
+   "hotel_category": "Framing (Wood)",
+   "price": "$0.48",
+   "hotel_image": "http://dummyimage.com/158x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Lashkar Gāh",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$5.01",
+   "hotel_image": "http://dummyimage.com/195x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Villanova",
+   "hotel_category": "Casework",
+   "price": "$9.68",
+   "hotel_image": "http://dummyimage.com/213x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Mosquée",
+   "hotel_category": "EIFS",
+   "price": "$4.43",
+   "hotel_image": "http://dummyimage.com/233x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Los Pinos",
+   "hotel_category": "Casework",
+   "price": "$7.93",
+   "hotel_image": "http://dummyimage.com/110x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Sakhnīn",
+   "hotel_category": "RF Shielding",
+   "price": "$6.88",
+   "hotel_image": "http://dummyimage.com/191x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Bestovje",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$7.45",
+   "hotel_image": "http://dummyimage.com/223x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Nizhniy Ufaley",
+   "hotel_category": "Curb & Gutter",
+   "price": "$4.46",
+   "hotel_image": "http://dummyimage.com/100x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Lorica",
+   "hotel_category": "Elevator",
+   "price": "$2.53",
+   "hotel_image": "http://dummyimage.com/161x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Klyuchevsk",
+   "hotel_category": "Granite Surfaces",
+   "price": "$6.78",
+   "hotel_image": "http://dummyimage.com/118x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Georgiyevsk",
+   "hotel_category": "Granite Surfaces",
+   "price": "$5.46",
+   "hotel_image": "http://dummyimage.com/188x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Lanxi",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$4.10",
+   "hotel_image": "http://dummyimage.com/232x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Sumurgeneng",
+   "hotel_category": "Exterior Signage",
+   "price": "$9.80",
+   "hotel_image": "http://dummyimage.com/186x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Ózd",
+   "hotel_category": "Casework",
+   "price": "$8.35",
+   "hotel_image": "http://dummyimage.com/222x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Härnösand",
+   "hotel_category": "HVAC",
+   "price": "$5.36",
+   "hotel_image": "http://dummyimage.com/108x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Umeå",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$2.42",
+   "hotel_image": "http://dummyimage.com/146x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Gongli",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$3.26",
+   "hotel_image": "http://dummyimage.com/122x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Gaojiabu",
+   "hotel_category": "Site Furnishings",
+   "price": "$6.51",
+   "hotel_image": "http://dummyimage.com/221x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Zhuxi",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$7.17",
+   "hotel_image": "http://dummyimage.com/237x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Jangdam",
+   "hotel_category": "Fire Protection",
+   "price": "$6.47",
+   "hotel_image": "http://dummyimage.com/174x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Jiangchuan",
+   "hotel_category": "Termite Control",
+   "price": "$1.03",
+   "hotel_image": "http://dummyimage.com/157x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Baltiysk",
+   "hotel_category": "Fire Protection",
+   "price": "$3.73",
+   "hotel_image": "http://dummyimage.com/197x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Kolindrós",
+   "hotel_category": "Termite Control",
+   "price": "$7.67",
+   "hotel_image": "http://dummyimage.com/239x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Fryanovo",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$5.32",
+   "hotel_image": "http://dummyimage.com/187x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Bayanhongor",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$8.26",
+   "hotel_image": "http://dummyimage.com/116x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Hebu",
+   "hotel_category": "Casework",
+   "price": "$6.65",
+   "hotel_image": "http://dummyimage.com/138x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Los Angeles",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$9.24",
+   "hotel_image": "http://dummyimage.com/152x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Mira",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$0.43",
+   "hotel_image": "http://dummyimage.com/247x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Cidade Velha",
+   "hotel_category": "Masonry & Precast",
+   "price": "$9.34",
+   "hotel_image": "http://dummyimage.com/169x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Thành Phố Lạng Sơn",
+   "hotel_category": "RF Shielding",
+   "price": "$9.59",
+   "hotel_image": "http://dummyimage.com/248x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Ngozi",
+   "hotel_category": "Masonry",
+   "price": "$6.31",
+   "hotel_image": "http://dummyimage.com/236x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Ḩurayḑah",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$5.71",
+   "hotel_image": "http://dummyimage.com/106x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Agen",
+   "hotel_category": "Fire Protection",
+   "price": "$6.60",
+   "hotel_image": "http://dummyimage.com/110x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "North Bay",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$7.11",
+   "hotel_image": "http://dummyimage.com/211x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Koloniya Zastav’ye",
+   "hotel_category": "EIFS",
+   "price": "$5.71",
+   "hotel_image": "http://dummyimage.com/200x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Tegalalang",
+   "hotel_category": "RF Shielding",
+   "price": "$8.52",
+   "hotel_image": "http://dummyimage.com/249x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Mayskiy",
+   "hotel_category": "Drilled Shafts",
+   "price": "$3.49",
+   "hotel_image": "http://dummyimage.com/233x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Erniusuokou",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$1.19",
+   "hotel_image": "http://dummyimage.com/131x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Firmat",
+   "hotel_category": "Ornamental Railings",
+   "price": "$1.47",
+   "hotel_image": "http://dummyimage.com/212x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Ḑawrān ad Daydah",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$6.93",
+   "hotel_image": "http://dummyimage.com/102x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Xiangyanglu",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$9.15",
+   "hotel_image": "http://dummyimage.com/174x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Rancaranji",
+   "hotel_category": "Electrical",
+   "price": "$3.10",
+   "hotel_image": "http://dummyimage.com/151x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Fatumnasi",
+   "hotel_category": "Overhead Doors",
+   "price": "$6.51",
+   "hotel_image": "http://dummyimage.com/109x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Chyšky",
+   "hotel_category": "Granite Surfaces",
+   "price": "$6.65",
+   "hotel_image": "http://dummyimage.com/165x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Marseille",
+   "hotel_category": "Casework",
+   "price": "$4.14",
+   "hotel_image": "http://dummyimage.com/239x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Góra",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$3.42",
+   "hotel_image": "http://dummyimage.com/123x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Carenang Lor",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$2.75",
+   "hotel_image": "http://dummyimage.com/211x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Las Cruces",
+   "hotel_category": "Termite Control",
+   "price": "$3.94",
+   "hotel_image": "http://dummyimage.com/188x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Rantauambacang",
+   "hotel_category": "Overhead Doors",
+   "price": "$9.68",
+   "hotel_image": "http://dummyimage.com/124x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Karangsari",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$9.60",
+   "hotel_image": "http://dummyimage.com/118x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Jiuzhen",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$0.85",
+   "hotel_image": "http://dummyimage.com/182x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Wulingyuan",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$6.62",
+   "hotel_image": "http://dummyimage.com/127x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Santa Ana",
+   "hotel_category": "Exterior Signage",
+   "price": "$1.42",
+   "hotel_image": "http://dummyimage.com/205x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Abuyog",
+   "hotel_category": "Framing (Wood)",
+   "price": "$1.97",
+   "hotel_image": "http://dummyimage.com/135x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Lac La Biche",
+   "hotel_category": "Overhead Doors",
+   "price": "$4.31",
+   "hotel_image": "http://dummyimage.com/112x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Cala",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$3.16",
+   "hotel_image": "http://dummyimage.com/121x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Antimácheia",
+   "hotel_category": "Casework",
+   "price": "$1.47",
+   "hotel_image": "http://dummyimage.com/135x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Al Mughayyir",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$3.79",
+   "hotel_image": "http://dummyimage.com/147x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Haymā’",
+   "hotel_category": "Wall Protection",
+   "price": "$3.47",
+   "hotel_image": "http://dummyimage.com/175x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Buawan",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$7.36",
+   "hotel_image": "http://dummyimage.com/116x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "كاف الجاع",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$0.50",
+   "hotel_image": "http://dummyimage.com/128x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Madolenihm Municipality Government",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$6.20",
+   "hotel_image": "http://dummyimage.com/158x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Fuyang",
+   "hotel_category": "Termite Control",
+   "price": "$5.00",
+   "hotel_image": "http://dummyimage.com/128x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Armavir",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$5.63",
+   "hotel_image": "http://dummyimage.com/222x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Batad",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$4.73",
+   "hotel_image": "http://dummyimage.com/162x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Krasnyy Lyman",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$5.44",
+   "hotel_image": "http://dummyimage.com/226x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Vänersborg",
+   "hotel_category": "Masonry & Precast",
+   "price": "$5.99",
+   "hotel_image": "http://dummyimage.com/201x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Beylagan",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$9.28",
+   "hotel_image": "http://dummyimage.com/154x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Srebrenik",
+   "hotel_category": "Granite Surfaces",
+   "price": "$8.56",
+   "hotel_image": "http://dummyimage.com/136x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Čapljina",
+   "hotel_category": "Framing (Wood)",
+   "price": "$2.18",
+   "hotel_image": "http://dummyimage.com/104x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Malbork",
+   "hotel_category": "Glass & Glazing",
+   "price": "$9.95",
+   "hotel_image": "http://dummyimage.com/205x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Saint Petersburg",
+   "hotel_category": "Masonry & Precast",
+   "price": "$4.97",
+   "hotel_image": "http://dummyimage.com/150x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Beigang",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$1.81",
+   "hotel_image": "http://dummyimage.com/217x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tobatí",
+   "hotel_category": "Curb & Gutter",
+   "price": "$0.96",
+   "hotel_image": "http://dummyimage.com/122x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Takai",
+   "hotel_category": "RF Shielding",
+   "price": "$6.72",
+   "hotel_image": "http://dummyimage.com/226x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Jiyang",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$1.90",
+   "hotel_image": "http://dummyimage.com/173x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Osiek",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$7.26",
+   "hotel_image": "http://dummyimage.com/118x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Horní Bříza",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$1.10",
+   "hotel_image": "http://dummyimage.com/219x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Trần Văn Thời",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$1.22",
+   "hotel_image": "http://dummyimage.com/147x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Tagum",
+   "hotel_category": "Site Furnishings",
+   "price": "$6.01",
+   "hotel_image": "http://dummyimage.com/162x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Tsagaanchuluut",
+   "hotel_category": "Glass & Glazing",
+   "price": "$2.12",
+   "hotel_image": "http://dummyimage.com/187x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Rapas",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$6.75",
+   "hotel_image": "http://dummyimage.com/178x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Pushkino",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$0.96",
+   "hotel_image": "http://dummyimage.com/193x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Lalupon",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$7.48",
+   "hotel_image": "http://dummyimage.com/119x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Lampa",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$2.82",
+   "hotel_image": "http://dummyimage.com/227x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Barra do Corda",
+   "hotel_category": "Wall Protection",
+   "price": "$5.49",
+   "hotel_image": "http://dummyimage.com/222x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Changzhi",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$0.39",
+   "hotel_image": "http://dummyimage.com/135x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Daji",
+   "hotel_category": "Masonry & Precast",
+   "price": "$7.30",
+   "hotel_image": "http://dummyimage.com/135x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Longtang",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$0.84",
+   "hotel_image": "http://dummyimage.com/242x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Xinzhou",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$4.79",
+   "hotel_image": "http://dummyimage.com/222x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Matangpayang",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$4.60",
+   "hotel_image": "http://dummyimage.com/176x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Taipingying",
+   "hotel_category": "Ornamental Railings",
+   "price": "$5.97",
+   "hotel_image": "http://dummyimage.com/207x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Dalongtan",
+   "hotel_category": "Exterior Signage",
+   "price": "$9.65",
+   "hotel_image": "http://dummyimage.com/130x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Paris La Défense",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$9.10",
+   "hotel_image": "http://dummyimage.com/248x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Acajutla",
+   "hotel_category": "Masonry",
+   "price": "$9.69",
+   "hotel_image": "http://dummyimage.com/123x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Klenica",
+   "hotel_category": "Framing (Steel)",
+   "price": "$9.29",
+   "hotel_image": "http://dummyimage.com/200x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Granja",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$0.24",
+   "hotel_image": "http://dummyimage.com/169x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Oni",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$1.17",
+   "hotel_image": "http://dummyimage.com/199x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Chongxing",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$9.54",
+   "hotel_image": "http://dummyimage.com/235x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Feodosiya",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$5.78",
+   "hotel_image": "http://dummyimage.com/166x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Itapevi",
+   "hotel_category": "Asphalt Paving",
+   "price": "$6.51",
+   "hotel_image": "http://dummyimage.com/134x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Shuihu",
+   "hotel_category": "Wall Protection",
+   "price": "$2.98",
+   "hotel_image": "http://dummyimage.com/168x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kanluran",
+   "hotel_category": "EIFS",
+   "price": "$3.98",
+   "hotel_image": "http://dummyimage.com/148x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tyrawa Wołoska",
+   "hotel_category": "Ornamental Railings",
+   "price": "$3.80",
+   "hotel_image": "http://dummyimage.com/188x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Qaraçuxur",
+   "hotel_category": "Drilled Shafts",
+   "price": "$2.83",
+   "hotel_image": "http://dummyimage.com/118x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Nang Rong",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$9.41",
+   "hotel_image": "http://dummyimage.com/235x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Boston",
+   "hotel_category": "Termite Control",
+   "price": "$9.46",
+   "hotel_image": "http://dummyimage.com/210x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Bohou",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$2.38",
+   "hotel_image": "http://dummyimage.com/140x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Hamamatsu",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$6.80",
+   "hotel_image": "http://dummyimage.com/161x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Doksy",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$9.32",
+   "hotel_image": "http://dummyimage.com/204x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kertamukti",
+   "hotel_category": "Framing (Steel)",
+   "price": "$4.18",
+   "hotel_image": "http://dummyimage.com/244x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Serra de Água",
+   "hotel_category": "Ornamental Railings",
+   "price": "$3.33",
+   "hotel_image": "http://dummyimage.com/114x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Amiens",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$0.51",
+   "hotel_image": "http://dummyimage.com/151x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kopong",
+   "hotel_category": "Site Furnishings",
+   "price": "$6.19",
+   "hotel_image": "http://dummyimage.com/117x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Kujama",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$5.13",
+   "hotel_image": "http://dummyimage.com/169x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "San Juan",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$2.28",
+   "hotel_image": "http://dummyimage.com/113x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Cheb",
+   "hotel_category": "Drilled Shafts",
+   "price": "$7.87",
+   "hotel_image": "http://dummyimage.com/215x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Narutochō-mitsuishi",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$2.84",
+   "hotel_image": "http://dummyimage.com/242x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tagoloan",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$2.98",
+   "hotel_image": "http://dummyimage.com/202x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Bowang",
+   "hotel_category": "Asphalt Paving",
+   "price": "$1.18",
+   "hotel_image": "http://dummyimage.com/249x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Hulei",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$2.68",
+   "hotel_image": "http://dummyimage.com/182x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Hrazdan",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$1.55",
+   "hotel_image": "http://dummyimage.com/173x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Grand Bank",
+   "hotel_category": "Exterior Signage",
+   "price": "$2.56",
+   "hotel_image": "http://dummyimage.com/199x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Thị Trấn Thọ Xuân",
+   "hotel_category": "Ornamental Railings",
+   "price": "$6.43",
+   "hotel_image": "http://dummyimage.com/241x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Garešnica",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$6.65",
+   "hotel_image": "http://dummyimage.com/140x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Tucson",
+   "hotel_category": "Exterior Signage",
+   "price": "$9.21",
+   "hotel_image": "http://dummyimage.com/122x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Banjarejo",
+   "hotel_category": "Asphalt Paving",
+   "price": "$7.19",
+   "hotel_image": "http://dummyimage.com/227x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Sunduk",
+   "hotel_category": "Overhead Doors",
+   "price": "$5.98",
+   "hotel_image": "http://dummyimage.com/165x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Cueto",
+   "hotel_category": "RF Shielding",
+   "price": "$9.07",
+   "hotel_image": "http://dummyimage.com/120x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tierp",
+   "hotel_category": "Termite Control",
+   "price": "$4.72",
+   "hotel_image": "http://dummyimage.com/202x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Sinjār",
+   "hotel_category": "Casework",
+   "price": "$1.91",
+   "hotel_image": "http://dummyimage.com/149x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Niechanowo",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$2.33",
+   "hotel_image": "http://dummyimage.com/142x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Caibiran",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$1.32",
+   "hotel_image": "http://dummyimage.com/125x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Ryczów",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$8.21",
+   "hotel_image": "http://dummyimage.com/183x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Sydney",
+   "hotel_category": "Exterior Signage",
+   "price": "$4.95",
+   "hotel_image": "http://dummyimage.com/161x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Dardhas",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$2.50",
+   "hotel_image": "http://dummyimage.com/114x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Walferdange",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$5.10",
+   "hotel_image": "http://dummyimage.com/121x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Mariquita",
+   "hotel_category": "Asphalt Paving",
+   "price": "$5.59",
+   "hotel_image": "http://dummyimage.com/230x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Belūsovka",
+   "hotel_category": "Glass & Glazing",
+   "price": "$6.66",
+   "hotel_image": "http://dummyimage.com/192x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Göteborg",
+   "hotel_category": "Site Furnishings",
+   "price": "$4.65",
+   "hotel_image": "http://dummyimage.com/153x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Panggunguni",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$2.31",
+   "hotel_image": "http://dummyimage.com/155x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Haparanda",
+   "hotel_category": "Ornamental Railings",
+   "price": "$0.47",
+   "hotel_image": "http://dummyimage.com/167x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tangxi",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$8.15",
+   "hotel_image": "http://dummyimage.com/204x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Wuhu",
+   "hotel_category": "Wall Protection",
+   "price": "$7.21",
+   "hotel_image": "http://dummyimage.com/182x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Kim Sơn",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$6.95",
+   "hotel_image": "http://dummyimage.com/231x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Dongping",
+   "hotel_category": "Wall Protection",
+   "price": "$9.59",
+   "hotel_image": "http://dummyimage.com/205x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Jiangyin",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$7.48",
+   "hotel_image": "http://dummyimage.com/134x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tampa",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$6.22",
+   "hotel_image": "http://dummyimage.com/246x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Eci",
+   "hotel_category": "Framing (Steel)",
+   "price": "$3.91",
+   "hotel_image": "http://dummyimage.com/183x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tais",
+   "hotel_category": "Exterior Signage",
+   "price": "$0.79",
+   "hotel_image": "http://dummyimage.com/118x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Aix-les-Bains",
+   "hotel_category": "Overhead Doors",
+   "price": "$0.67",
+   "hotel_image": "http://dummyimage.com/164x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Ardirejo",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$8.54",
+   "hotel_image": "http://dummyimage.com/125x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kumai",
+   "hotel_category": "Ornamental Railings",
+   "price": "$8.60",
+   "hotel_image": "http://dummyimage.com/133x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Opočno",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$6.28",
+   "hotel_image": "http://dummyimage.com/128x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Nkongsamba",
+   "hotel_category": "Granite Surfaces",
+   "price": "$4.73",
+   "hotel_image": "http://dummyimage.com/226x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Hennenman",
+   "hotel_category": "Glass & Glazing",
+   "price": "$7.85",
+   "hotel_image": "http://dummyimage.com/117x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Maleevsk",
+   "hotel_category": "Elevator",
+   "price": "$3.18",
+   "hotel_image": "http://dummyimage.com/198x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "San Diego",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$2.04",
+   "hotel_image": "http://dummyimage.com/162x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "El Asintal",
+   "hotel_category": "Site Furnishings",
+   "price": "$9.95",
+   "hotel_image": "http://dummyimage.com/241x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Brok",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$8.30",
+   "hotel_image": "http://dummyimage.com/185x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Nunmanu",
+   "hotel_category": "Exterior Signage",
+   "price": "$3.10",
+   "hotel_image": "http://dummyimage.com/121x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Mlangali",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$9.09",
+   "hotel_image": "http://dummyimage.com/105x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Sinuknipan",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$4.09",
+   "hotel_image": "http://dummyimage.com/120x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Sitajara",
+   "hotel_category": "Elevator",
+   "price": "$9.58",
+   "hotel_image": "http://dummyimage.com/124x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Arlöv",
+   "hotel_category": "Masonry",
+   "price": "$8.33",
+   "hotel_image": "http://dummyimage.com/156x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Yumbo",
+   "hotel_category": "Wall Protection",
+   "price": "$0.47",
+   "hotel_image": "http://dummyimage.com/230x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Iguape",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$6.32",
+   "hotel_image": "http://dummyimage.com/224x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Holoubkov",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$5.02",
+   "hotel_image": "http://dummyimage.com/141x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Caitang",
+   "hotel_category": "Electrical",
+   "price": "$2.31",
+   "hotel_image": "http://dummyimage.com/202x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Yong’an",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$8.13",
+   "hotel_image": "http://dummyimage.com/208x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Neresnytsya",
+   "hotel_category": "RF Shielding",
+   "price": "$0.91",
+   "hotel_image": "http://dummyimage.com/182x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Huambo",
+   "hotel_category": "Masonry & Precast",
+   "price": "$3.59",
+   "hotel_image": "http://dummyimage.com/242x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Fornos de Algodres",
+   "hotel_category": "Masonry",
+   "price": "$2.37",
+   "hotel_image": "http://dummyimage.com/164x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Amirabad",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$2.17",
+   "hotel_image": "http://dummyimage.com/134x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tcholliré",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$1.73",
+   "hotel_image": "http://dummyimage.com/156x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Sison",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$5.93",
+   "hotel_image": "http://dummyimage.com/196x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Burgau",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$3.08",
+   "hotel_image": "http://dummyimage.com/222x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Tottori",
+   "hotel_category": "EIFS",
+   "price": "$0.22",
+   "hotel_image": "http://dummyimage.com/175x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Vostryakovo",
+   "hotel_category": "Ornamental Railings",
+   "price": "$6.54",
+   "hotel_image": "http://dummyimage.com/118x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Duiwelskloof",
+   "hotel_category": "EIFS",
+   "price": "$0.08",
+   "hotel_image": "http://dummyimage.com/180x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Des Moines",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$4.05",
+   "hotel_image": "http://dummyimage.com/122x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Krajan Winong",
+   "hotel_category": "Glass & Glazing",
+   "price": "$4.07",
+   "hotel_image": "http://dummyimage.com/196x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Newark",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$4.18",
+   "hotel_image": "http://dummyimage.com/173x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Dongfeng",
+   "hotel_category": "Site Furnishings",
+   "price": "$9.41",
+   "hotel_image": "http://dummyimage.com/126x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Praia da Vagueira",
+   "hotel_category": "Asphalt Paving",
+   "price": "$1.17",
+   "hotel_image": "http://dummyimage.com/244x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Vallenar",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$1.75",
+   "hotel_image": "http://dummyimage.com/210x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Iguape",
+   "hotel_category": "Site Furnishings",
+   "price": "$3.05",
+   "hotel_image": "http://dummyimage.com/155x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Kafr Nubl",
+   "hotel_category": "Glass & Glazing",
+   "price": "$2.86",
+   "hotel_image": "http://dummyimage.com/150x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Makar’yev",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$8.78",
+   "hotel_image": "http://dummyimage.com/172x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Dingbu",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$6.31",
+   "hotel_image": "http://dummyimage.com/108x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Now Zād",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$5.62",
+   "hotel_image": "http://dummyimage.com/181x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kupino",
+   "hotel_category": "EIFS",
+   "price": "$5.31",
+   "hotel_image": "http://dummyimage.com/162x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Zaragoza",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$4.22",
+   "hotel_image": "http://dummyimage.com/184x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Chengnan",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$3.64",
+   "hotel_image": "http://dummyimage.com/209x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "El Regalo",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$8.85",
+   "hotel_image": "http://dummyimage.com/214x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Habiganj",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$7.72",
+   "hotel_image": "http://dummyimage.com/149x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Pasirputih",
+   "hotel_category": "Framing (Steel)",
+   "price": "$6.33",
+   "hotel_image": "http://dummyimage.com/144x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Gaoyang",
+   "hotel_category": "Glass & Glazing",
+   "price": "$9.50",
+   "hotel_image": "http://dummyimage.com/111x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Abay",
+   "hotel_category": "Wall Protection",
+   "price": "$5.07",
+   "hotel_image": "http://dummyimage.com/134x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kertanegla",
+   "hotel_category": "RF Shielding",
+   "price": "$6.75",
+   "hotel_image": "http://dummyimage.com/109x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Cantilan",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$3.22",
+   "hotel_image": "http://dummyimage.com/134x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Huaquirca",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$5.41",
+   "hotel_image": "http://dummyimage.com/207x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Пласница",
+   "hotel_category": "Granite Surfaces",
+   "price": "$7.84",
+   "hotel_image": "http://dummyimage.com/159x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Lanas",
+   "hotel_category": "Masonry",
+   "price": "$6.42",
+   "hotel_image": "http://dummyimage.com/117x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Hengjian",
+   "hotel_category": "Asphalt Paving",
+   "price": "$6.54",
+   "hotel_image": "http://dummyimage.com/234x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Perdões",
+   "hotel_category": "Asphalt Paving",
+   "price": "$3.71",
+   "hotel_image": "http://dummyimage.com/204x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Ozërsk",
+   "hotel_category": "Termite Control",
+   "price": "$0.55",
+   "hotel_image": "http://dummyimage.com/109x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Pukë",
+   "hotel_category": "Ornamental Railings",
+   "price": "$7.41",
+   "hotel_image": "http://dummyimage.com/246x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Gopaan",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$6.17",
+   "hotel_image": "http://dummyimage.com/217x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Zdovbytsya",
+   "hotel_category": "Masonry",
+   "price": "$2.58",
+   "hotel_image": "http://dummyimage.com/148x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tremembé",
+   "hotel_category": "Wall Protection",
+   "price": "$6.07",
+   "hotel_image": "http://dummyimage.com/217x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Lappi",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$1.02",
+   "hotel_image": "http://dummyimage.com/224x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Vodňany",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$1.77",
+   "hotel_image": "http://dummyimage.com/104x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Şaqānis",
+   "hotel_category": "Glass & Glazing",
+   "price": "$9.21",
+   "hotel_image": "http://dummyimage.com/202x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "San Pedro Carchá",
+   "hotel_category": "Site Furnishings",
+   "price": "$0.75",
+   "hotel_image": "http://dummyimage.com/147x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Parengan",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$1.70",
+   "hotel_image": "http://dummyimage.com/144x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Ajasse Ipo",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$3.16",
+   "hotel_image": "http://dummyimage.com/116x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Parksville",
+   "hotel_category": "Casework",
+   "price": "$1.23",
+   "hotel_image": "http://dummyimage.com/222x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Lębork",
+   "hotel_category": "Framing (Steel)",
+   "price": "$0.95",
+   "hotel_image": "http://dummyimage.com/150x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Pontian",
+   "hotel_category": "Fire Protection",
+   "price": "$7.20",
+   "hotel_image": "http://dummyimage.com/123x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Norrköping",
+   "hotel_category": "Framing (Wood)",
+   "price": "$2.70",
+   "hotel_image": "http://dummyimage.com/181x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Okegawa",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$4.54",
+   "hotel_image": "http://dummyimage.com/194x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Choujiang",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$9.48",
+   "hotel_image": "http://dummyimage.com/171x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Mander",
+   "hotel_category": "Overhead Doors",
+   "price": "$1.40",
+   "hotel_image": "http://dummyimage.com/205x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Uppsala",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$7.02",
+   "hotel_image": "http://dummyimage.com/114x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Otjiwarongo",
+   "hotel_category": "Framing (Wood)",
+   "price": "$0.47",
+   "hotel_image": "http://dummyimage.com/140x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Gīdolē",
+   "hotel_category": "Site Furnishings",
+   "price": "$2.77",
+   "hotel_image": "http://dummyimage.com/221x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Novyy Urengoy",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$4.14",
+   "hotel_image": "http://dummyimage.com/164x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Tierp",
+   "hotel_category": "Granite Surfaces",
+   "price": "$6.61",
+   "hotel_image": "http://dummyimage.com/103x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Sungaipuntik",
+   "hotel_category": "RF Shielding",
+   "price": "$9.92",
+   "hotel_image": "http://dummyimage.com/229x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Praia da Barra",
+   "hotel_category": "Granite Surfaces",
+   "price": "$7.66",
+   "hotel_image": "http://dummyimage.com/143x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Khong Chai",
+   "hotel_category": "Drilled Shafts",
+   "price": "$6.24",
+   "hotel_image": "http://dummyimage.com/100x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Barakī Barak",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$6.67",
+   "hotel_image": "http://dummyimage.com/249x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Becerril",
+   "hotel_category": "Glass & Glazing",
+   "price": "$8.09",
+   "hotel_image": "http://dummyimage.com/206x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Katori-shi",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$8.27",
+   "hotel_image": "http://dummyimage.com/237x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Pantin",
+   "hotel_category": "Elevator",
+   "price": "$4.51",
+   "hotel_image": "http://dummyimage.com/139x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Xinxing",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$4.21",
+   "hotel_image": "http://dummyimage.com/223x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Dijon",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$8.03",
+   "hotel_image": "http://dummyimage.com/228x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Tuwa",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$3.14",
+   "hotel_image": "http://dummyimage.com/148x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Mopti",
+   "hotel_category": "Masonry",
+   "price": "$5.39",
+   "hotel_image": "http://dummyimage.com/191x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Bogorodsk",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$6.97",
+   "hotel_image": "http://dummyimage.com/222x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Danville",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$9.61",
+   "hotel_image": "http://dummyimage.com/195x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Malé Svatoňovice",
+   "hotel_category": "Casework",
+   "price": "$6.29",
+   "hotel_image": "http://dummyimage.com/175x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Palmares",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$0.02",
+   "hotel_image": "http://dummyimage.com/239x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Aguadulce",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$4.72",
+   "hotel_image": "http://dummyimage.com/111x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Lamas",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$3.71",
+   "hotel_image": "http://dummyimage.com/226x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Zhemtala",
+   "hotel_category": "Framing (Wood)",
+   "price": "$9.82",
+   "hotel_image": "http://dummyimage.com/236x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Xiongzhou",
+   "hotel_category": "Ornamental Railings",
+   "price": "$10.00",
+   "hotel_image": "http://dummyimage.com/176x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Koloniya Zastav’ye",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$4.08",
+   "hotel_image": "http://dummyimage.com/188x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Uppsala",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$4.81",
+   "hotel_image": "http://dummyimage.com/218x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Ducheng",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$2.99",
+   "hotel_image": "http://dummyimage.com/240x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Black River",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$2.94",
+   "hotel_image": "http://dummyimage.com/160x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Khoa",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$0.73",
+   "hotel_image": "http://dummyimage.com/154x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Novoye Devyatkino",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$2.48",
+   "hotel_image": "http://dummyimage.com/100x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Mariano Moreno",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$0.00",
+   "hotel_image": "http://dummyimage.com/236x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Čelinac",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$9.97",
+   "hotel_image": "http://dummyimage.com/137x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Pazarić",
+   "hotel_category": "Masonry",
+   "price": "$6.14",
+   "hotel_image": "http://dummyimage.com/155x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Bagacay",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$9.20",
+   "hotel_image": "http://dummyimage.com/163x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Ust’-Kalmanka",
+   "hotel_category": "Overhead Doors",
+   "price": "$8.53",
+   "hotel_image": "http://dummyimage.com/217x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Thatta",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$2.27",
+   "hotel_image": "http://dummyimage.com/202x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Jinta",
+   "hotel_category": "Site Furnishings",
+   "price": "$9.74",
+   "hotel_image": "http://dummyimage.com/117x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Makadi Bay",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$5.80",
+   "hotel_image": "http://dummyimage.com/158x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Trnava",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$9.22",
+   "hotel_image": "http://dummyimage.com/234x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Eqbālīyeh",
+   "hotel_category": "Wall Protection",
+   "price": "$5.65",
+   "hotel_image": "http://dummyimage.com/169x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Ningyuan",
+   "hotel_category": "Masonry",
+   "price": "$4.99",
+   "hotel_image": "http://dummyimage.com/195x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Puerto Eldorado",
+   "hotel_category": "Curb & Gutter",
+   "price": "$5.94",
+   "hotel_image": "http://dummyimage.com/245x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "São João dos Inhamuns",
+   "hotel_category": "RF Shielding",
+   "price": "$3.98",
+   "hotel_image": "http://dummyimage.com/114x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Samparna",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$2.46",
+   "hotel_image": "http://dummyimage.com/118x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kastsyukowka",
+   "hotel_category": "HVAC",
+   "price": "$1.74",
+   "hotel_image": "http://dummyimage.com/203x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tía Juana",
+   "hotel_category": "Overhead Doors",
+   "price": "$8.35",
+   "hotel_image": "http://dummyimage.com/118x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Sumberbening",
+   "hotel_category": "Site Furnishings",
+   "price": "$0.33",
+   "hotel_image": "http://dummyimage.com/188x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Nachalovo",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$0.16",
+   "hotel_image": "http://dummyimage.com/124x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Rychvald",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$0.81",
+   "hotel_image": "http://dummyimage.com/122x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Quy Đạt",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$4.67",
+   "hotel_image": "http://dummyimage.com/209x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kalisangkrah Lor",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$3.10",
+   "hotel_image": "http://dummyimage.com/111x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Luo’ao",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$1.29",
+   "hotel_image": "http://dummyimage.com/159x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Desakolot",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$8.66",
+   "hotel_image": "http://dummyimage.com/250x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Linares",
+   "hotel_category": "Termite Control",
+   "price": "$2.27",
+   "hotel_image": "http://dummyimage.com/137x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Banjar Sedang",
+   "hotel_category": "Casework",
+   "price": "$3.61",
+   "hotel_image": "http://dummyimage.com/119x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Puan Selatan",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$7.32",
+   "hotel_image": "http://dummyimage.com/165x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Buseresere",
+   "hotel_category": "Fire Protection",
+   "price": "$5.18",
+   "hotel_image": "http://dummyimage.com/209x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Siedlce",
+   "hotel_category": "Site Furnishings",
+   "price": "$9.85",
+   "hotel_image": "http://dummyimage.com/228x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Chinameca",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$2.97",
+   "hotel_image": "http://dummyimage.com/235x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Ajung",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$6.88",
+   "hotel_image": "http://dummyimage.com/248x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Ujung Gading",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$4.86",
+   "hotel_image": "http://dummyimage.com/225x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Yanshi",
+   "hotel_category": "Casework",
+   "price": "$3.08",
+   "hotel_image": "http://dummyimage.com/203x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Xinzhu",
+   "hotel_category": "Drilled Shafts",
+   "price": "$2.54",
+   "hotel_image": "http://dummyimage.com/229x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Putat Lor",
+   "hotel_category": "Termite Control",
+   "price": "$7.34",
+   "hotel_image": "http://dummyimage.com/161x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Kalidawe",
+   "hotel_category": "Casework",
+   "price": "$6.40",
+   "hotel_image": "http://dummyimage.com/201x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Mayapusi",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$5.82",
+   "hotel_image": "http://dummyimage.com/126x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Indralayang",
+   "hotel_category": "Fire Protection",
+   "price": "$2.01",
+   "hotel_image": "http://dummyimage.com/207x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Stockholm",
+   "hotel_category": "RF Shielding",
+   "price": "$7.66",
+   "hotel_image": "http://dummyimage.com/126x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Yetang",
+   "hotel_category": "Asphalt Paving",
+   "price": "$4.52",
+   "hotel_image": "http://dummyimage.com/210x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kodyma",
+   "hotel_category": "Overhead Doors",
+   "price": "$3.06",
+   "hotel_image": "http://dummyimage.com/163x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Neuville",
+   "hotel_category": "Granite Surfaces",
+   "price": "$2.82",
+   "hotel_image": "http://dummyimage.com/136x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Melbourne",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$2.04",
+   "hotel_image": "http://dummyimage.com/178x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Vrachnaíika",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$3.87",
+   "hotel_image": "http://dummyimage.com/223x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Nevers",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$8.54",
+   "hotel_image": "http://dummyimage.com/204x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Iracemápolis",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$4.42",
+   "hotel_image": "http://dummyimage.com/166x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Los Palacios",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$9.87",
+   "hotel_image": "http://dummyimage.com/138x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Dalong",
+   "hotel_category": "Wall Protection",
+   "price": "$5.28",
+   "hotel_image": "http://dummyimage.com/127x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Arrah",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$0.96",
+   "hotel_image": "http://dummyimage.com/104x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Xinhe",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$7.07",
+   "hotel_image": "http://dummyimage.com/183x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Katrineholm",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$9.20",
+   "hotel_image": "http://dummyimage.com/110x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Wolong",
+   "hotel_category": "Asphalt Paving",
+   "price": "$2.78",
+   "hotel_image": "http://dummyimage.com/246x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Ekpoma",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$2.80",
+   "hotel_image": "http://dummyimage.com/193x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Middleton",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$0.31",
+   "hotel_image": "http://dummyimage.com/139x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Trompsburg",
+   "hotel_category": "Casework",
+   "price": "$6.75",
+   "hotel_image": "http://dummyimage.com/225x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Slavyanovo",
+   "hotel_category": "RF Shielding",
+   "price": "$4.53",
+   "hotel_image": "http://dummyimage.com/223x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Rosaspata",
+   "hotel_category": "Asphalt Paving",
+   "price": "$2.59",
+   "hotel_image": "http://dummyimage.com/210x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Las Matas de Farfán",
+   "hotel_category": "Asphalt Paving",
+   "price": "$3.46",
+   "hotel_image": "http://dummyimage.com/248x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Toulouse",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$0.02",
+   "hotel_image": "http://dummyimage.com/224x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Tawau",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$0.11",
+   "hotel_image": "http://dummyimage.com/220x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Getafe",
+   "hotel_category": "Termite Control",
+   "price": "$9.89",
+   "hotel_image": "http://dummyimage.com/214x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Zonghan",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$0.81",
+   "hotel_image": "http://dummyimage.com/197x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Sukaraja",
+   "hotel_category": "Drilled Shafts",
+   "price": "$7.87",
+   "hotel_image": "http://dummyimage.com/179x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Arnage",
+   "hotel_category": "Site Furnishings",
+   "price": "$9.60",
+   "hotel_image": "http://dummyimage.com/146x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Chōfugaoka",
+   "hotel_category": "Fire Protection",
+   "price": "$4.46",
+   "hotel_image": "http://dummyimage.com/225x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Rengang",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$6.12",
+   "hotel_image": "http://dummyimage.com/148x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Lutun",
+   "hotel_category": "HVAC",
+   "price": "$5.49",
+   "hotel_image": "http://dummyimage.com/195x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Garahan",
+   "hotel_category": "Casework",
+   "price": "$1.65",
+   "hotel_image": "http://dummyimage.com/153x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Codó",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$6.90",
+   "hotel_image": "http://dummyimage.com/155x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Camatagua",
+   "hotel_category": "Fire Protection",
+   "price": "$5.58",
+   "hotel_image": "http://dummyimage.com/199x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Knyaze-Volkonskoye",
+   "hotel_category": "Exterior Signage",
+   "price": "$3.26",
+   "hotel_image": "http://dummyimage.com/238x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Belo",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$4.87",
+   "hotel_image": "http://dummyimage.com/195x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Jorong Lauk",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$4.77",
+   "hotel_image": "http://dummyimage.com/183x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Sapouy",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$4.81",
+   "hotel_image": "http://dummyimage.com/178x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Ducheng",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$5.79",
+   "hotel_image": "http://dummyimage.com/140x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Nishinoomote",
+   "hotel_category": "Ornamental Railings",
+   "price": "$8.99",
+   "hotel_image": "http://dummyimage.com/235x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Chaguaramas",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$4.37",
+   "hotel_image": "http://dummyimage.com/245x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Thessaloníki",
+   "hotel_category": "Casework",
+   "price": "$7.28",
+   "hotel_image": "http://dummyimage.com/135x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Hamakita",
+   "hotel_category": "Ornamental Railings",
+   "price": "$1.72",
+   "hotel_image": "http://dummyimage.com/235x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Alistráti",
+   "hotel_category": "Elevator",
+   "price": "$7.20",
+   "hotel_image": "http://dummyimage.com/248x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Tuka",
+   "hotel_category": "Masonry",
+   "price": "$7.54",
+   "hotel_image": "http://dummyimage.com/140x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Hamburg",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$2.48",
+   "hotel_image": "http://dummyimage.com/194x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Tierra Blanca",
+   "hotel_category": "EIFS",
+   "price": "$8.28",
+   "hotel_image": "http://dummyimage.com/167x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Kolodenka",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$5.62",
+   "hotel_image": "http://dummyimage.com/225x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Karipidita",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$0.18",
+   "hotel_image": "http://dummyimage.com/112x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Myadzyel",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$9.74",
+   "hotel_image": "http://dummyimage.com/104x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "La Celia",
+   "hotel_category": "Electrical",
+   "price": "$8.03",
+   "hotel_image": "http://dummyimage.com/221x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Potou",
+   "hotel_category": "Drilled Shafts",
+   "price": "$2.24",
+   "hotel_image": "http://dummyimage.com/198x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Tamorot",
+   "hotel_category": "Curb & Gutter",
+   "price": "$4.74",
+   "hotel_image": "http://dummyimage.com/232x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Lanci Satu",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$3.82",
+   "hotel_image": "http://dummyimage.com/154x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Zlín",
+   "hotel_category": "Curb & Gutter",
+   "price": "$3.45",
+   "hotel_image": "http://dummyimage.com/161x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Laojunpo",
+   "hotel_category": "Asphalt Paving",
+   "price": "$8.14",
+   "hotel_image": "http://dummyimage.com/174x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Tadine",
+   "hotel_category": "Framing (Steel)",
+   "price": "$7.99",
+   "hotel_image": "http://dummyimage.com/180x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Longhua",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$2.42",
+   "hotel_image": "http://dummyimage.com/223x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "La Cruz",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$5.00",
+   "hotel_image": "http://dummyimage.com/143x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Fushan",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$0.20",
+   "hotel_image": "http://dummyimage.com/227x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Raga",
+   "hotel_category": "Glass & Glazing",
+   "price": "$0.59",
+   "hotel_image": "http://dummyimage.com/238x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Lat Lum Kaeo",
+   "hotel_category": "Curb & Gutter",
+   "price": "$5.16",
+   "hotel_image": "http://dummyimage.com/249x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Biwer",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$4.85",
+   "hotel_image": "http://dummyimage.com/216x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Narok",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$8.75",
+   "hotel_image": "http://dummyimage.com/108x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Hammarö",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$8.43",
+   "hotel_image": "http://dummyimage.com/236x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Veyno",
+   "hotel_category": "Wall Protection",
+   "price": "$2.83",
+   "hotel_image": "http://dummyimage.com/235x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Belfort",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$10.00",
+   "hotel_image": "http://dummyimage.com/164x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Isu",
+   "hotel_category": "Asphalt Paving",
+   "price": "$0.40",
+   "hotel_image": "http://dummyimage.com/102x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Södertälje",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$4.55",
+   "hotel_image": "http://dummyimage.com/121x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Trzciana",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$3.02",
+   "hotel_image": "http://dummyimage.com/237x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Nankang",
+   "hotel_category": "Wall Protection",
+   "price": "$7.53",
+   "hotel_image": "http://dummyimage.com/175x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Rionegro",
+   "hotel_category": "Masonry",
+   "price": "$2.75",
+   "hotel_image": "http://dummyimage.com/169x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Antiguo Cuscatlán",
+   "hotel_category": "Curb & Gutter",
+   "price": "$4.71",
+   "hotel_image": "http://dummyimage.com/227x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Roermond",
+   "hotel_category": "Asphalt Paving",
+   "price": "$8.11",
+   "hotel_image": "http://dummyimage.com/131x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Svetlyy",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$6.77",
+   "hotel_image": "http://dummyimage.com/135x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Qingduizi",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$5.00",
+   "hotel_image": "http://dummyimage.com/237x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Kurbnesh",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$5.07",
+   "hotel_image": "http://dummyimage.com/235x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Oslo",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$0.35",
+   "hotel_image": "http://dummyimage.com/188x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Vista Hermosa",
+   "hotel_category": "EIFS",
+   "price": "$5.84",
+   "hotel_image": "http://dummyimage.com/110x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Dinititi",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$8.73",
+   "hotel_image": "http://dummyimage.com/110x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Slobodskoy",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$4.33",
+   "hotel_image": "http://dummyimage.com/151x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Hamamatsu",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$5.94",
+   "hotel_image": "http://dummyimage.com/166x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Loučeň",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$0.65",
+   "hotel_image": "http://dummyimage.com/110x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Nusajaya",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$7.71",
+   "hotel_image": "http://dummyimage.com/156x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Flen",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$7.85",
+   "hotel_image": "http://dummyimage.com/128x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Lixiqiao",
+   "hotel_category": "Overhead Doors",
+   "price": "$1.92",
+   "hotel_image": "http://dummyimage.com/174x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Mstsislaw",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$6.44",
+   "hotel_image": "http://dummyimage.com/177x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Zhentou",
+   "hotel_category": "Overhead Doors",
+   "price": "$3.60",
+   "hotel_image": "http://dummyimage.com/195x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Gulai",
+   "hotel_category": "RF Shielding",
+   "price": "$1.47",
+   "hotel_image": "http://dummyimage.com/208x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Reno",
+   "hotel_category": "Framing (Steel)",
+   "price": "$9.31",
+   "hotel_image": "http://dummyimage.com/170x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Cayambe",
+   "hotel_category": "Masonry",
+   "price": "$0.69",
+   "hotel_image": "http://dummyimage.com/145x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Parthenay",
+   "hotel_category": "Asphalt Paving",
+   "price": "$5.67",
+   "hotel_image": "http://dummyimage.com/226x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Rizári",
+   "hotel_category": "Masonry",
+   "price": "$0.77",
+   "hotel_image": "http://dummyimage.com/206x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Zangzhai",
+   "hotel_category": "Framing (Steel)",
+   "price": "$9.01",
+   "hotel_image": "http://dummyimage.com/196x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kota Kinabalu",
+   "hotel_category": "Ornamental Railings",
+   "price": "$0.57",
+   "hotel_image": "http://dummyimage.com/203x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Siaya",
+   "hotel_category": "Granite Surfaces",
+   "price": "$4.88",
+   "hotel_image": "http://dummyimage.com/207x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Haiyan",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$3.48",
+   "hotel_image": "http://dummyimage.com/140x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Pigcawayan",
+   "hotel_category": "Wall Protection",
+   "price": "$7.33",
+   "hotel_image": "http://dummyimage.com/186x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Gaoyu",
+   "hotel_category": "Masonry",
+   "price": "$5.58",
+   "hotel_image": "http://dummyimage.com/240x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Bāniyās",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$8.25",
+   "hotel_image": "http://dummyimage.com/106x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "San Quintin",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$8.73",
+   "hotel_image": "http://dummyimage.com/131x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Kunashak",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$3.87",
+   "hotel_image": "http://dummyimage.com/163x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Jayanca",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$0.36",
+   "hotel_image": "http://dummyimage.com/139x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Dąbrowa",
+   "hotel_category": "Framing (Steel)",
+   "price": "$6.09",
+   "hotel_image": "http://dummyimage.com/195x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Grootfontein",
+   "hotel_category": "Site Furnishings",
+   "price": "$2.89",
+   "hotel_image": "http://dummyimage.com/108x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Xicheng",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$1.08",
+   "hotel_image": "http://dummyimage.com/114x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Maïné Soroa",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$4.75",
+   "hotel_image": "http://dummyimage.com/132x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Shezhu",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$6.11",
+   "hotel_image": "http://dummyimage.com/247x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Lleida",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$4.96",
+   "hotel_image": "http://dummyimage.com/146x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Shitang",
+   "hotel_category": "Framing (Wood)",
+   "price": "$6.27",
+   "hotel_image": "http://dummyimage.com/180x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Cidadap",
+   "hotel_category": "Termite Control",
+   "price": "$7.54",
+   "hotel_image": "http://dummyimage.com/135x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Ginatilan",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$1.01",
+   "hotel_image": "http://dummyimage.com/231x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Itaituba",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$2.11",
+   "hotel_image": "http://dummyimage.com/206x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Boguszów-Gorce",
+   "hotel_category": "EIFS",
+   "price": "$4.19",
+   "hotel_image": "http://dummyimage.com/212x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Serov",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$5.04",
+   "hotel_image": "http://dummyimage.com/166x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Bandar Seri Begawan",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$0.09",
+   "hotel_image": "http://dummyimage.com/206x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Oslo",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$2.47",
+   "hotel_image": "http://dummyimage.com/180x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Nyima",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$7.18",
+   "hotel_image": "http://dummyimage.com/199x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Lijia",
+   "hotel_category": "HVAC",
+   "price": "$3.10",
+   "hotel_image": "http://dummyimage.com/139x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Norak",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$0.40",
+   "hotel_image": "http://dummyimage.com/171x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Bcharré",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$7.66",
+   "hotel_image": "http://dummyimage.com/183x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Rates",
+   "hotel_category": "Termite Control",
+   "price": "$8.29",
+   "hotel_image": "http://dummyimage.com/129x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Leeuwarden",
+   "hotel_category": "Masonry & Precast",
+   "price": "$0.71",
+   "hotel_image": "http://dummyimage.com/182x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Cikananga",
+   "hotel_category": "Masonry",
+   "price": "$6.81",
+   "hotel_image": "http://dummyimage.com/127x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Eauripik",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$4.03",
+   "hotel_image": "http://dummyimage.com/215x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Jiuzhen",
+   "hotel_category": "Glass & Glazing",
+   "price": "$7.86",
+   "hotel_image": "http://dummyimage.com/122x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Del Campillo",
+   "hotel_category": "Curb & Gutter",
+   "price": "$1.05",
+   "hotel_image": "http://dummyimage.com/157x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Mengxi",
+   "hotel_category": "Site Furnishings",
+   "price": "$3.47",
+   "hotel_image": "http://dummyimage.com/227x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Berezayka",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$3.54",
+   "hotel_image": "http://dummyimage.com/206x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Jönköping",
+   "hotel_category": "HVAC",
+   "price": "$8.25",
+   "hotel_image": "http://dummyimage.com/215x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Nový Bydžov",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$5.51",
+   "hotel_image": "http://dummyimage.com/194x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Krajan",
+   "hotel_category": "Curb & Gutter",
+   "price": "$8.80",
+   "hotel_image": "http://dummyimage.com/197x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Babakanloa",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$0.28",
+   "hotel_image": "http://dummyimage.com/245x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Bonak",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$0.32",
+   "hotel_image": "http://dummyimage.com/248x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Falënki",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$8.61",
+   "hotel_image": "http://dummyimage.com/112x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Obong",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$2.48",
+   "hotel_image": "http://dummyimage.com/234x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Nancheng",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$7.99",
+   "hotel_image": "http://dummyimage.com/217x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Jiworejo",
+   "hotel_category": "Wall Protection",
+   "price": "$7.98",
+   "hotel_image": "http://dummyimage.com/111x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Hamakita",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$2.35",
+   "hotel_image": "http://dummyimage.com/239x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Neuilly-sur-Marne",
+   "hotel_category": "Wall Protection",
+   "price": "$5.80",
+   "hotel_image": "http://dummyimage.com/197x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Rappang",
+   "hotel_category": "Drilled Shafts",
+   "price": "$0.54",
+   "hotel_image": "http://dummyimage.com/181x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Tha Maka",
+   "hotel_category": "Masonry & Precast",
+   "price": "$5.55",
+   "hotel_image": "http://dummyimage.com/239x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Qianfoling",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$3.17",
+   "hotel_image": "http://dummyimage.com/175x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Yisuhe",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$1.95",
+   "hotel_image": "http://dummyimage.com/198x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Abashiri",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$7.78",
+   "hotel_image": "http://dummyimage.com/116x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Bieliny",
+   "hotel_category": "Exterior Signage",
+   "price": "$9.87",
+   "hotel_image": "http://dummyimage.com/151x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Weda",
+   "hotel_category": "Curb & Gutter",
+   "price": "$1.33",
+   "hotel_image": "http://dummyimage.com/176x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Cimonyong",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$9.80",
+   "hotel_image": "http://dummyimage.com/240x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Laleng",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$7.91",
+   "hotel_image": "http://dummyimage.com/110x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Karanggeneng",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$7.47",
+   "hotel_image": "http://dummyimage.com/249x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Cañada de Gómez",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$1.96",
+   "hotel_image": "http://dummyimage.com/101x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Chuandao",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$3.81",
+   "hotel_image": "http://dummyimage.com/100x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Jingpeng",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$2.49",
+   "hotel_image": "http://dummyimage.com/233x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Taosha",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$7.63",
+   "hotel_image": "http://dummyimage.com/117x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Kadipaten",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$7.85",
+   "hotel_image": "http://dummyimage.com/157x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Fengchan",
+   "hotel_category": "Asphalt Paving",
+   "price": "$8.07",
+   "hotel_image": "http://dummyimage.com/175x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Wentugaole",
+   "hotel_category": "Exterior Signage",
+   "price": "$6.89",
+   "hotel_image": "http://dummyimage.com/151x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Nueva Cajamarca",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$8.49",
+   "hotel_image": "http://dummyimage.com/245x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Graksop",
+   "hotel_category": "Overhead Doors",
+   "price": "$8.54",
+   "hotel_image": "http://dummyimage.com/155x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Jaworzyna Śląska",
+   "hotel_category": "Ornamental Railings",
+   "price": "$1.39",
+   "hotel_image": "http://dummyimage.com/188x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Massakory",
+   "hotel_category": "Framing (Steel)",
+   "price": "$2.04",
+   "hotel_image": "http://dummyimage.com/233x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kovářská",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$7.44",
+   "hotel_image": "http://dummyimage.com/110x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Changlin",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$1.35",
+   "hotel_image": "http://dummyimage.com/103x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Metchosin",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$0.95",
+   "hotel_image": "http://dummyimage.com/239x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Berlin",
+   "hotel_category": "Granite Surfaces",
+   "price": "$8.95",
+   "hotel_image": "http://dummyimage.com/148x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "El Corozo",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$2.86",
+   "hotel_image": "http://dummyimage.com/192x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Longwantun",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$5.71",
+   "hotel_image": "http://dummyimage.com/177x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Oklahoma City",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$8.70",
+   "hotel_image": "http://dummyimage.com/100x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kuala Lumpur",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$8.79",
+   "hotel_image": "http://dummyimage.com/106x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Manta",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$8.15",
+   "hotel_image": "http://dummyimage.com/205x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Boldumsaz",
+   "hotel_category": "HVAC",
+   "price": "$2.10",
+   "hotel_image": "http://dummyimage.com/199x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Longhuashan",
+   "hotel_category": "Wall Protection",
+   "price": "$3.67",
+   "hotel_image": "http://dummyimage.com/206x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Standerton",
+   "hotel_category": "Fire Protection",
+   "price": "$0.77",
+   "hotel_image": "http://dummyimage.com/119x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Antanhol",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$5.31",
+   "hotel_image": "http://dummyimage.com/103x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Jūrmala",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$3.26",
+   "hotel_image": "http://dummyimage.com/184x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Alexandria",
+   "hotel_category": "HVAC",
+   "price": "$3.85",
+   "hotel_image": "http://dummyimage.com/241x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Quillota",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$6.70",
+   "hotel_image": "http://dummyimage.com/147x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Pasatan",
+   "hotel_category": "Asphalt Paving",
+   "price": "$0.24",
+   "hotel_image": "http://dummyimage.com/116x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Providencia",
+   "hotel_category": "Electrical",
+   "price": "$7.72",
+   "hotel_image": "http://dummyimage.com/143x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Ballinteer",
+   "hotel_category": "Overhead Doors",
+   "price": "$1.33",
+   "hotel_image": "http://dummyimage.com/159x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Wyszki",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$4.14",
+   "hotel_image": "http://dummyimage.com/119x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Jindong",
+   "hotel_category": "Masonry & Precast",
+   "price": "$4.27",
+   "hotel_image": "http://dummyimage.com/233x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Tutayev",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$8.23",
+   "hotel_image": "http://dummyimage.com/113x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Callanca",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$5.33",
+   "hotel_image": "http://dummyimage.com/144x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Igbeti",
+   "hotel_category": "Framing (Steel)",
+   "price": "$4.52",
+   "hotel_image": "http://dummyimage.com/165x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Cabrero",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$1.04",
+   "hotel_image": "http://dummyimage.com/202x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Novikovo",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$6.25",
+   "hotel_image": "http://dummyimage.com/162x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Bokat",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$5.94",
+   "hotel_image": "http://dummyimage.com/191x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Wuci",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$1.95",
+   "hotel_image": "http://dummyimage.com/239x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Pamiątkowo",
+   "hotel_category": "Framing (Wood)",
+   "price": "$5.37",
+   "hotel_image": "http://dummyimage.com/214x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Neebing",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$8.97",
+   "hotel_image": "http://dummyimage.com/120x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Şafwá",
+   "hotel_category": "Masonry",
+   "price": "$5.94",
+   "hotel_image": "http://dummyimage.com/226x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Burujul",
+   "hotel_category": "Fire Protection",
+   "price": "$8.84",
+   "hotel_image": "http://dummyimage.com/179x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "São José do Rio Preto",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$0.28",
+   "hotel_image": "http://dummyimage.com/217x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tatsuno",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$9.66",
+   "hotel_image": "http://dummyimage.com/101x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Grenoble",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$6.81",
+   "hotel_image": "http://dummyimage.com/141x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Yanwan",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$8.86",
+   "hotel_image": "http://dummyimage.com/166x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Saint Louis",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$9.81",
+   "hotel_image": "http://dummyimage.com/234x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Santa Cruz De Tenerife",
+   "hotel_category": "Electrical",
+   "price": "$4.80",
+   "hotel_image": "http://dummyimage.com/220x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Janes",
+   "hotel_category": "Exterior Signage",
+   "price": "$4.19",
+   "hotel_image": "http://dummyimage.com/200x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Pecna",
+   "hotel_category": "Curb & Gutter",
+   "price": "$8.53",
+   "hotel_image": "http://dummyimage.com/218x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Biting",
+   "hotel_category": "HVAC",
+   "price": "$0.16",
+   "hotel_image": "http://dummyimage.com/182x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kolor",
+   "hotel_category": "Wall Protection",
+   "price": "$7.63",
+   "hotel_image": "http://dummyimage.com/182x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Dianzi",
+   "hotel_category": "Framing (Wood)",
+   "price": "$0.59",
+   "hotel_image": "http://dummyimage.com/217x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Novopokrovka",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$8.55",
+   "hotel_image": "http://dummyimage.com/115x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Rustam jo Goth",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$8.10",
+   "hotel_image": "http://dummyimage.com/168x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Nantes",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$7.59",
+   "hotel_image": "http://dummyimage.com/223x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Nishor",
+   "hotel_category": "Casework",
+   "price": "$5.67",
+   "hotel_image": "http://dummyimage.com/189x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Duekoué",
+   "hotel_category": "Fire Protection",
+   "price": "$9.63",
+   "hotel_image": "http://dummyimage.com/164x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Tsyurupyns’k",
+   "hotel_category": "Granite Surfaces",
+   "price": "$8.83",
+   "hotel_image": "http://dummyimage.com/151x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Zdíkov",
+   "hotel_category": "HVAC",
+   "price": "$9.02",
+   "hotel_image": "http://dummyimage.com/191x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Odiongan",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$5.80",
+   "hotel_image": "http://dummyimage.com/110x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "El Rancho",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$3.13",
+   "hotel_image": "http://dummyimage.com/106x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Nîmes",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$7.50",
+   "hotel_image": "http://dummyimage.com/128x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Isfana",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$3.24",
+   "hotel_image": "http://dummyimage.com/206x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Karangbayat",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$1.83",
+   "hotel_image": "http://dummyimage.com/156x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Jajaway",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$5.99",
+   "hotel_image": "http://dummyimage.com/241x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Armenia",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$5.47",
+   "hotel_image": "http://dummyimage.com/228x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Serra de Água",
+   "hotel_category": "Glass & Glazing",
+   "price": "$6.41",
+   "hotel_image": "http://dummyimage.com/138x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Baimi",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$5.15",
+   "hotel_image": "http://dummyimage.com/180x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Honglu",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$4.41",
+   "hotel_image": "http://dummyimage.com/152x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Rettikhovka",
+   "hotel_category": "Site Furnishings",
+   "price": "$2.16",
+   "hotel_image": "http://dummyimage.com/133x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Mayorga",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$7.33",
+   "hotel_image": "http://dummyimage.com/110x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Bartniczka",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$9.54",
+   "hotel_image": "http://dummyimage.com/185x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Töreboda",
+   "hotel_category": "Site Furnishings",
+   "price": "$4.60",
+   "hotel_image": "http://dummyimage.com/203x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "La Floresta",
+   "hotel_category": "RF Shielding",
+   "price": "$9.27",
+   "hotel_image": "http://dummyimage.com/181x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Woken",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$9.07",
+   "hotel_image": "http://dummyimage.com/239x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Dailing",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$8.66",
+   "hotel_image": "http://dummyimage.com/169x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Rrasa e Sipërme",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$0.07",
+   "hotel_image": "http://dummyimage.com/124x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Charlotte Amalie",
+   "hotel_category": "Elevator",
+   "price": "$4.77",
+   "hotel_image": "http://dummyimage.com/134x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Nueva Esperanza",
+   "hotel_category": "HVAC",
+   "price": "$9.85",
+   "hotel_image": "http://dummyimage.com/110x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Zlín",
+   "hotel_category": "RF Shielding",
+   "price": "$2.92",
+   "hotel_image": "http://dummyimage.com/153x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Ra-ngae",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$1.99",
+   "hotel_image": "http://dummyimage.com/187x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Balong Wetan",
+   "hotel_category": "Termite Control",
+   "price": "$9.32",
+   "hotel_image": "http://dummyimage.com/105x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Berlin",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$5.91",
+   "hotel_image": "http://dummyimage.com/150x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Waiholo",
+   "hotel_category": "Electrical",
+   "price": "$7.23",
+   "hotel_image": "http://dummyimage.com/130x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Shuanglu",
+   "hotel_category": "Exterior Signage",
+   "price": "$1.27",
+   "hotel_image": "http://dummyimage.com/224x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Troitsk",
+   "hotel_category": "Exterior Signage",
+   "price": "$1.85",
+   "hotel_image": "http://dummyimage.com/161x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Gandusari",
+   "hotel_category": "Ornamental Railings",
+   "price": "$3.41",
+   "hotel_image": "http://dummyimage.com/221x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Paisha",
+   "hotel_category": "Electrical",
+   "price": "$6.54",
+   "hotel_image": "http://dummyimage.com/101x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Sawara",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$8.98",
+   "hotel_image": "http://dummyimage.com/113x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Teslić",
+   "hotel_category": "Casework",
+   "price": "$7.61",
+   "hotel_image": "http://dummyimage.com/244x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Tomaševac",
+   "hotel_category": "Fire Protection",
+   "price": "$1.12",
+   "hotel_image": "http://dummyimage.com/159x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Siemiątkowo",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$3.90",
+   "hotel_image": "http://dummyimage.com/114x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Lafiagi",
+   "hotel_category": "Ornamental Railings",
+   "price": "$7.46",
+   "hotel_image": "http://dummyimage.com/133x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Jietou",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$9.72",
+   "hotel_image": "http://dummyimage.com/158x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kochani",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$1.97",
+   "hotel_image": "http://dummyimage.com/231x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Phoenix",
+   "hotel_category": "HVAC",
+   "price": "$3.81",
+   "hotel_image": "http://dummyimage.com/187x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Fort Liberté",
+   "hotel_category": "HVAC",
+   "price": "$1.92",
+   "hotel_image": "http://dummyimage.com/129x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Gaomi",
+   "hotel_category": "Drilled Shafts",
+   "price": "$2.24",
+   "hotel_image": "http://dummyimage.com/205x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Itacoatiara",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$2.44",
+   "hotel_image": "http://dummyimage.com/244x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Thị Trấn Cao Phong",
+   "hotel_category": "Termite Control",
+   "price": "$6.11",
+   "hotel_image": "http://dummyimage.com/215x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Anfu",
+   "hotel_category": "Masonry",
+   "price": "$0.79",
+   "hotel_image": "http://dummyimage.com/204x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Francisco Villa",
+   "hotel_category": "RF Shielding",
+   "price": "$1.28",
+   "hotel_image": "http://dummyimage.com/189x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Loučná nad Desnou",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$5.63",
+   "hotel_image": "http://dummyimage.com/113x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Umanggudang",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$8.75",
+   "hotel_image": "http://dummyimage.com/157x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Vista Hermosa",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$9.14",
+   "hotel_image": "http://dummyimage.com/179x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Hayil",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$3.06",
+   "hotel_image": "http://dummyimage.com/103x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Lue Amnat",
+   "hotel_category": "RF Shielding",
+   "price": "$5.73",
+   "hotel_image": "http://dummyimage.com/249x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Changping",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$5.85",
+   "hotel_image": "http://dummyimage.com/243x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Lunang",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$5.79",
+   "hotel_image": "http://dummyimage.com/124x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Kizilyurt",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$9.14",
+   "hotel_image": "http://dummyimage.com/105x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Severoural’sk",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$7.20",
+   "hotel_image": "http://dummyimage.com/192x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Buliwao",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$3.93",
+   "hotel_image": "http://dummyimage.com/197x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Khao Kho",
+   "hotel_category": "Casework",
+   "price": "$8.22",
+   "hotel_image": "http://dummyimage.com/107x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Pedra Furada",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$9.07",
+   "hotel_image": "http://dummyimage.com/243x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Gorobinci",
+   "hotel_category": "Framing (Steel)",
+   "price": "$5.77",
+   "hotel_image": "http://dummyimage.com/108x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Virginia Beach",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$4.11",
+   "hotel_image": "http://dummyimage.com/192x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Villanova",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$0.23",
+   "hotel_image": "http://dummyimage.com/174x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Bonnyville",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$0.96",
+   "hotel_image": "http://dummyimage.com/101x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Ágios Andréas",
+   "hotel_category": "Electrical",
+   "price": "$4.93",
+   "hotel_image": "http://dummyimage.com/209x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "San Cristóbal",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$7.63",
+   "hotel_image": "http://dummyimage.com/174x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "San Martín",
+   "hotel_category": "Electrical",
+   "price": "$7.28",
+   "hotel_image": "http://dummyimage.com/198x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Banī Suwayf",
+   "hotel_category": "Exterior Signage",
+   "price": "$5.03",
+   "hotel_image": "http://dummyimage.com/244x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Yudai",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$8.12",
+   "hotel_image": "http://dummyimage.com/154x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Adygeysk",
+   "hotel_category": "EIFS",
+   "price": "$4.51",
+   "hotel_image": "http://dummyimage.com/120x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Frei",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$6.85",
+   "hotel_image": "http://dummyimage.com/235x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Gonça",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$9.86",
+   "hotel_image": "http://dummyimage.com/140x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Zgornje Pirniče",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$2.13",
+   "hotel_image": "http://dummyimage.com/213x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Meylan",
+   "hotel_category": "Ornamental Railings",
+   "price": "$2.33",
+   "hotel_image": "http://dummyimage.com/160x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Yicheng",
+   "hotel_category": "Site Furnishings",
+   "price": "$7.38",
+   "hotel_image": "http://dummyimage.com/107x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Elato",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$0.07",
+   "hotel_image": "http://dummyimage.com/203x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Wuquan",
+   "hotel_category": "Overhead Doors",
+   "price": "$4.04",
+   "hotel_image": "http://dummyimage.com/202x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Saint-Égrève",
+   "hotel_category": "Termite Control",
+   "price": "$2.38",
+   "hotel_image": "http://dummyimage.com/102x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Stupino",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$7.20",
+   "hotel_image": "http://dummyimage.com/148x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Thiès Nones",
+   "hotel_category": "HVAC",
+   "price": "$0.74",
+   "hotel_image": "http://dummyimage.com/131x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Vale das Mós",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$6.34",
+   "hotel_image": "http://dummyimage.com/103x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kitakata",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$7.47",
+   "hotel_image": "http://dummyimage.com/203x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Garunggang",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$0.31",
+   "hotel_image": "http://dummyimage.com/118x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Khānpur",
+   "hotel_category": "Casework",
+   "price": "$5.06",
+   "hotel_image": "http://dummyimage.com/109x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Ljungskile",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$3.71",
+   "hotel_image": "http://dummyimage.com/202x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Tupesy",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$0.52",
+   "hotel_image": "http://dummyimage.com/110x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Atalaia",
+   "hotel_category": "HVAC",
+   "price": "$2.45",
+   "hotel_image": "http://dummyimage.com/170x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Saint-Avertin",
+   "hotel_category": "Framing (Steel)",
+   "price": "$0.22",
+   "hotel_image": "http://dummyimage.com/106x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Det Udom",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$7.71",
+   "hotel_image": "http://dummyimage.com/136x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Baiyanghe",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$5.87",
+   "hotel_image": "http://dummyimage.com/169x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Ribeirinha",
+   "hotel_category": "Asphalt Paving",
+   "price": "$8.91",
+   "hotel_image": "http://dummyimage.com/246x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Dýšina",
+   "hotel_category": "RF Shielding",
+   "price": "$4.56",
+   "hotel_image": "http://dummyimage.com/140x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Liuzhou",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$7.05",
+   "hotel_image": "http://dummyimage.com/156x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Khāsh",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$9.53",
+   "hotel_image": "http://dummyimage.com/103x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Sovetskiy",
+   "hotel_category": "Framing (Wood)",
+   "price": "$8.70",
+   "hotel_image": "http://dummyimage.com/238x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Lianhua",
+   "hotel_category": "Termite Control",
+   "price": "$3.77",
+   "hotel_image": "http://dummyimage.com/155x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Marisol",
+   "hotel_category": "Exterior Signage",
+   "price": "$5.60",
+   "hotel_image": "http://dummyimage.com/153x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Lishu",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$9.46",
+   "hotel_image": "http://dummyimage.com/187x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Lijiaping",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$5.79",
+   "hotel_image": "http://dummyimage.com/106x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Hefei",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$9.84",
+   "hotel_image": "http://dummyimage.com/194x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Gus’-Zheleznyy",
+   "hotel_category": "EIFS",
+   "price": "$7.69",
+   "hotel_image": "http://dummyimage.com/165x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "San Francisco",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$9.10",
+   "hotel_image": "http://dummyimage.com/156x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Pleshanovo",
+   "hotel_category": "RF Shielding",
+   "price": "$0.31",
+   "hotel_image": "http://dummyimage.com/161x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Bárrio",
+   "hotel_category": "Framing (Steel)",
+   "price": "$7.76",
+   "hotel_image": "http://dummyimage.com/160x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Poddębice",
+   "hotel_category": "Asphalt Paving",
+   "price": "$4.76",
+   "hotel_image": "http://dummyimage.com/185x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Shaba",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$9.47",
+   "hotel_image": "http://dummyimage.com/161x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Zeerust",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$5.93",
+   "hotel_image": "http://dummyimage.com/178x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Dengfang",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$5.78",
+   "hotel_image": "http://dummyimage.com/190x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Huimin",
+   "hotel_category": "HVAC",
+   "price": "$1.27",
+   "hotel_image": "http://dummyimage.com/110x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Oxapampa",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$7.18",
+   "hotel_image": "http://dummyimage.com/118x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Znomenka",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$9.98",
+   "hotel_image": "http://dummyimage.com/122x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Darungan",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$5.08",
+   "hotel_image": "http://dummyimage.com/141x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Kalávryta",
+   "hotel_category": "RF Shielding",
+   "price": "$9.32",
+   "hotel_image": "http://dummyimage.com/132x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Khorramdarreh",
+   "hotel_category": "Electrical",
+   "price": "$8.86",
+   "hotel_image": "http://dummyimage.com/249x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Canavieiras",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$9.69",
+   "hotel_image": "http://dummyimage.com/127x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Yawata",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$6.06",
+   "hotel_image": "http://dummyimage.com/143x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Arivonimamo",
+   "hotel_category": "Casework",
+   "price": "$7.00",
+   "hotel_image": "http://dummyimage.com/155x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Dongfeng",
+   "hotel_category": "HVAC",
+   "price": "$5.84",
+   "hotel_image": "http://dummyimage.com/152x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Xijiang",
+   "hotel_category": "Exterior Signage",
+   "price": "$3.90",
+   "hotel_image": "http://dummyimage.com/222x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Bourg-en-Bresse",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$6.48",
+   "hotel_image": "http://dummyimage.com/196x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Moyogalpa",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$7.87",
+   "hotel_image": "http://dummyimage.com/133x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tomsk",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$4.52",
+   "hotel_image": "http://dummyimage.com/130x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Heqiao",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$3.70",
+   "hotel_image": "http://dummyimage.com/165x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Magsaysay",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$7.94",
+   "hotel_image": "http://dummyimage.com/228x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Zborište",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$5.77",
+   "hotel_image": "http://dummyimage.com/132x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Postupice",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$4.64",
+   "hotel_image": "http://dummyimage.com/187x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Kamiennik",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$1.15",
+   "hotel_image": "http://dummyimage.com/233x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Rancabelut",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$3.68",
+   "hotel_image": "http://dummyimage.com/217x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Krikil",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$2.63",
+   "hotel_image": "http://dummyimage.com/118x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Saint-Eustache",
+   "hotel_category": "Drilled Shafts",
+   "price": "$5.42",
+   "hotel_image": "http://dummyimage.com/119x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Bayawan",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$0.23",
+   "hotel_image": "http://dummyimage.com/128x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Banjar Tengah",
+   "hotel_category": "Casework",
+   "price": "$4.58",
+   "hotel_image": "http://dummyimage.com/191x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Juli",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$8.31",
+   "hotel_image": "http://dummyimage.com/185x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Xilian",
+   "hotel_category": "Electrical",
+   "price": "$8.85",
+   "hotel_image": "http://dummyimage.com/180x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "San Jacinto",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$7.10",
+   "hotel_image": "http://dummyimage.com/119x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Zaandam",
+   "hotel_category": "EIFS",
+   "price": "$8.38",
+   "hotel_image": "http://dummyimage.com/130x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Umm Şalāl ‘Alī",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$5.27",
+   "hotel_image": "http://dummyimage.com/163x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Banjar Laing",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$3.63",
+   "hotel_image": "http://dummyimage.com/123x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Quinipot",
+   "hotel_category": "Termite Control",
+   "price": "$2.81",
+   "hotel_image": "http://dummyimage.com/170x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Camperdown",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$1.01",
+   "hotel_image": "http://dummyimage.com/173x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kashiwa",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$6.41",
+   "hotel_image": "http://dummyimage.com/244x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Khanāşir",
+   "hotel_category": "Glass & Glazing",
+   "price": "$6.57",
+   "hotel_image": "http://dummyimage.com/133x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Koceljeva",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$4.51",
+   "hotel_image": "http://dummyimage.com/161x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Kari",
+   "hotel_category": "Framing (Wood)",
+   "price": "$6.09",
+   "hotel_image": "http://dummyimage.com/181x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Sandayong Sur",
+   "hotel_category": "Elevator",
+   "price": "$6.41",
+   "hotel_image": "http://dummyimage.com/148x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Poigar",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$3.64",
+   "hotel_image": "http://dummyimage.com/103x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Saint-Marcellin",
+   "hotel_category": "Curb & Gutter",
+   "price": "$0.39",
+   "hotel_image": "http://dummyimage.com/137x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Guadalupe",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$8.31",
+   "hotel_image": "http://dummyimage.com/242x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Elx/Elche",
+   "hotel_category": "Framing (Wood)",
+   "price": "$6.54",
+   "hotel_image": "http://dummyimage.com/185x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Bludov",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$3.63",
+   "hotel_image": "http://dummyimage.com/177x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Peroguarda",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$3.16",
+   "hotel_image": "http://dummyimage.com/229x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Daohe",
+   "hotel_category": "Drilled Shafts",
+   "price": "$1.06",
+   "hotel_image": "http://dummyimage.com/141x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Birinci Aşıqlı",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$6.13",
+   "hotel_image": "http://dummyimage.com/160x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Barajevo",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$6.68",
+   "hotel_image": "http://dummyimage.com/182x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Pamotan",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$9.76",
+   "hotel_image": "http://dummyimage.com/183x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Dishnā",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$6.98",
+   "hotel_image": "http://dummyimage.com/138x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Mandala",
+   "hotel_category": "Drilled Shafts",
+   "price": "$5.63",
+   "hotel_image": "http://dummyimage.com/125x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Gorzyce",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$0.75",
+   "hotel_image": "http://dummyimage.com/157x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Raydah",
+   "hotel_category": "Asphalt Paving",
+   "price": "$7.83",
+   "hotel_image": "http://dummyimage.com/189x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Saint-Maurice",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$8.63",
+   "hotel_image": "http://dummyimage.com/237x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Hūn",
+   "hotel_category": "Masonry & Precast",
+   "price": "$0.03",
+   "hotel_image": "http://dummyimage.com/154x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Chemal",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$0.57",
+   "hotel_image": "http://dummyimage.com/220x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Rebrikha",
+   "hotel_category": "Elevator",
+   "price": "$6.33",
+   "hotel_image": "http://dummyimage.com/116x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Dayangqi",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$0.33",
+   "hotel_image": "http://dummyimage.com/192x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Gaotian",
+   "hotel_category": "Ornamental Railings",
+   "price": "$2.31",
+   "hotel_image": "http://dummyimage.com/244x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Ruma",
+   "hotel_category": "Electrical",
+   "price": "$5.50",
+   "hotel_image": "http://dummyimage.com/102x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Łopuszna",
+   "hotel_category": "Framing (Steel)",
+   "price": "$5.41",
+   "hotel_image": "http://dummyimage.com/202x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Finspång",
+   "hotel_category": "RF Shielding",
+   "price": "$8.22",
+   "hotel_image": "http://dummyimage.com/230x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Zorak",
+   "hotel_category": "Casework",
+   "price": "$1.27",
+   "hotel_image": "http://dummyimage.com/210x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Xinjian",
+   "hotel_category": "Wall Protection",
+   "price": "$2.21",
+   "hotel_image": "http://dummyimage.com/126x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Bairro Assunção Piedade",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$8.45",
+   "hotel_image": "http://dummyimage.com/228x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Yingde’er",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$7.34",
+   "hotel_image": "http://dummyimage.com/140x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Zomba",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$9.20",
+   "hotel_image": "http://dummyimage.com/191x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Sovetskaya Gavan’",
+   "hotel_category": "RF Shielding",
+   "price": "$1.54",
+   "hotel_image": "http://dummyimage.com/156x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Muang Long",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$5.31",
+   "hotel_image": "http://dummyimage.com/174x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Tríkala",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$6.07",
+   "hotel_image": "http://dummyimage.com/233x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Sydney",
+   "hotel_category": "Overhead Doors",
+   "price": "$6.73",
+   "hotel_image": "http://dummyimage.com/120x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Bcharré",
+   "hotel_category": "Termite Control",
+   "price": "$6.82",
+   "hotel_image": "http://dummyimage.com/235x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Mîndreşti",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$4.40",
+   "hotel_image": "http://dummyimage.com/161x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Krasae Sin",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$8.02",
+   "hotel_image": "http://dummyimage.com/222x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Orita Eruwa",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$1.73",
+   "hotel_image": "http://dummyimage.com/181x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Douala",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$5.78",
+   "hotel_image": "http://dummyimage.com/221x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Candelária",
+   "hotel_category": "HVAC",
+   "price": "$4.79",
+   "hotel_image": "http://dummyimage.com/171x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Sísion",
+   "hotel_category": "Framing (Wood)",
+   "price": "$3.65",
+   "hotel_image": "http://dummyimage.com/201x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Não Me Toque",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$2.73",
+   "hotel_image": "http://dummyimage.com/217x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Dongtucheng",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$7.88",
+   "hotel_image": "http://dummyimage.com/103x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Barusuda",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$6.01",
+   "hotel_image": "http://dummyimage.com/158x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Wilkes Barre",
+   "hotel_category": "Glass & Glazing",
+   "price": "$4.77",
+   "hotel_image": "http://dummyimage.com/130x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Rengang",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$8.07",
+   "hotel_image": "http://dummyimage.com/228x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Wuxi",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$9.05",
+   "hotel_image": "http://dummyimage.com/248x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Ciudad Sandino",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$2.16",
+   "hotel_image": "http://dummyimage.com/208x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Ksawerów",
+   "hotel_category": "EIFS",
+   "price": "$6.15",
+   "hotel_image": "http://dummyimage.com/193x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Hobaramachi",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$5.09",
+   "hotel_image": "http://dummyimage.com/247x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Hejiang",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$9.14",
+   "hotel_image": "http://dummyimage.com/152x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Olocuilta",
+   "hotel_category": "Electrical",
+   "price": "$4.01",
+   "hotel_image": "http://dummyimage.com/174x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Iranduba",
+   "hotel_category": "Asphalt Paving",
+   "price": "$8.12",
+   "hotel_image": "http://dummyimage.com/215x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Persen",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$4.66",
+   "hotel_image": "http://dummyimage.com/150x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Aranas Sur",
+   "hotel_category": "Asphalt Paving",
+   "price": "$9.34",
+   "hotel_image": "http://dummyimage.com/217x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Gaohu",
+   "hotel_category": "Termite Control",
+   "price": "$2.84",
+   "hotel_image": "http://dummyimage.com/172x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Teófilo Otoni",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$5.65",
+   "hotel_image": "http://dummyimage.com/172x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Hat Yai",
+   "hotel_category": "Casework",
+   "price": "$4.24",
+   "hotel_image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Chicheng",
+   "hotel_category": "Wall Protection",
+   "price": "$7.08",
+   "hotel_image": "http://dummyimage.com/249x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Santo Domingo",
+   "hotel_category": "Electrical",
+   "price": "$8.44",
+   "hotel_image": "http://dummyimage.com/193x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Xihuachi",
+   "hotel_category": "EIFS",
+   "price": "$9.28",
+   "hotel_image": "http://dummyimage.com/140x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Ciela Lebak",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$4.65",
+   "hotel_image": "http://dummyimage.com/230x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Andrijevica",
+   "hotel_category": "Framing (Steel)",
+   "price": "$4.51",
+   "hotel_image": "http://dummyimage.com/235x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Brylivka",
+   "hotel_category": "Structural & Misc Steel Erection",
+   "price": "$8.53",
+   "hotel_image": "http://dummyimage.com/130x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Pasongsongan",
+   "hotel_category": "Site Furnishings",
+   "price": "$8.70",
+   "hotel_image": "http://dummyimage.com/189x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Atães",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$3.41",
+   "hotel_image": "http://dummyimage.com/125x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Öjebyn",
+   "hotel_category": "Exterior Signage",
+   "price": "$9.05",
+   "hotel_image": "http://dummyimage.com/210x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Vallentuna",
+   "hotel_category": "Electrical",
+   "price": "$3.01",
+   "hotel_image": "http://dummyimage.com/221x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Santo Niño",
+   "hotel_category": "Glass & Glazing",
+   "price": "$4.16",
+   "hotel_image": "http://dummyimage.com/210x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Perrelos",
+   "hotel_category": "Termite Control",
+   "price": "$2.46",
+   "hotel_image": "http://dummyimage.com/191x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Tarusan",
+   "hotel_category": "Ornamental Railings",
+   "price": "$1.18",
+   "hotel_image": "http://dummyimage.com/117x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Shah Alam",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$7.93",
+   "hotel_image": "http://dummyimage.com/114x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Białaczów",
+   "hotel_category": "Casework",
+   "price": "$5.06",
+   "hotel_image": "http://dummyimage.com/118x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Penghua",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$3.45",
+   "hotel_image": "http://dummyimage.com/158x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kafir Yasif",
+   "hotel_category": "Masonry",
+   "price": "$5.18",
+   "hotel_image": "http://dummyimage.com/177x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Vardablur",
+   "hotel_category": "Ornamental Railings",
+   "price": "$4.35",
+   "hotel_image": "http://dummyimage.com/142x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Sumberpinang Satu",
+   "hotel_category": "Drilled Shafts",
+   "price": "$5.53",
+   "hotel_image": "http://dummyimage.com/186x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Xinxu",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$2.19",
+   "hotel_image": "http://dummyimage.com/119x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Pare",
+   "hotel_category": "Overhead Doors",
+   "price": "$6.91",
+   "hotel_image": "http://dummyimage.com/180x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Ḩawallī",
+   "hotel_category": "Termite Control",
+   "price": "$0.33",
+   "hotel_image": "http://dummyimage.com/246x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Samouco",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$6.50",
+   "hotel_image": "http://dummyimage.com/199x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Zhongling",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$9.73",
+   "hotel_image": "http://dummyimage.com/217x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Paris 05",
+   "hotel_category": "Electrical",
+   "price": "$8.19",
+   "hotel_image": "http://dummyimage.com/153x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Liliba",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$7.75",
+   "hotel_image": "http://dummyimage.com/177x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Otacílio Costa",
+   "hotel_category": "Casework",
+   "price": "$1.69",
+   "hotel_image": "http://dummyimage.com/141x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Huyang",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$4.50",
+   "hotel_image": "http://dummyimage.com/167x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Wudabao",
+   "hotel_category": "HVAC",
+   "price": "$1.51",
+   "hotel_image": "http://dummyimage.com/210x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Jingyu",
+   "hotel_category": "HVAC",
+   "price": "$1.92",
+   "hotel_image": "http://dummyimage.com/204x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Madan",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$9.78",
+   "hotel_image": "http://dummyimage.com/139x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Gakem",
+   "hotel_category": "Overhead Doors",
+   "price": "$7.76",
+   "hotel_image": "http://dummyimage.com/178x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Lushnjë",
+   "hotel_category": "EIFS",
+   "price": "$2.95",
+   "hotel_image": "http://dummyimage.com/163x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Binglincha",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$7.52",
+   "hotel_image": "http://dummyimage.com/105x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Makui",
+   "hotel_category": "Site Furnishings",
+   "price": "$9.95",
+   "hotel_image": "http://dummyimage.com/188x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Bahay Pare",
+   "hotel_category": "Asphalt Paving",
+   "price": "$8.75",
+   "hotel_image": "http://dummyimage.com/250x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Gaphatshwe",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$3.23",
+   "hotel_image": "http://dummyimage.com/133x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Jinji",
+   "hotel_category": "Drilled Shafts",
+   "price": "$3.15",
+   "hotel_image": "http://dummyimage.com/169x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Paris La Défense",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$1.77",
+   "hotel_image": "http://dummyimage.com/230x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Islāmkot",
+   "hotel_category": "Elevator",
+   "price": "$4.75",
+   "hotel_image": "http://dummyimage.com/136x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kodyma",
+   "hotel_category": "Glass & Glazing",
+   "price": "$2.79",
+   "hotel_image": "http://dummyimage.com/106x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Gaborone",
+   "hotel_category": "Termite Control",
+   "price": "$5.04",
+   "hotel_image": "http://dummyimage.com/154x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Lyaskovets",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$3.86",
+   "hotel_image": "http://dummyimage.com/146x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Baraguá",
+   "hotel_category": "Asphalt Paving",
+   "price": "$2.97",
+   "hotel_image": "http://dummyimage.com/238x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Carrasqueira",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$1.09",
+   "hotel_image": "http://dummyimage.com/164x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Montenegro",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$8.73",
+   "hotel_image": "http://dummyimage.com/111x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Saint David’s",
+   "hotel_category": "Sitework & Site Utilities",
+   "price": "$6.66",
+   "hotel_image": "http://dummyimage.com/243x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "El Charco",
+   "hotel_category": "Ornamental Railings",
+   "price": "$9.36",
+   "hotel_image": "http://dummyimage.com/195x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Luntas",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$2.92",
+   "hotel_image": "http://dummyimage.com/236x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Xiaogang",
+   "hotel_category": "HVAC",
+   "price": "$4.15",
+   "hotel_image": "http://dummyimage.com/168x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Krutinka",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$9.02",
+   "hotel_image": "http://dummyimage.com/167x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Aricagua",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$6.31",
+   "hotel_image": "http://dummyimage.com/191x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Malonty",
+   "hotel_category": "Fire Sprinkler System",
+   "price": "$5.73",
+   "hotel_image": "http://dummyimage.com/136x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Hämeenkoski",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$9.63",
+   "hotel_image": "http://dummyimage.com/148x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Bromma",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$6.99",
+   "hotel_image": "http://dummyimage.com/234x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Yudong",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$9.42",
+   "hotel_image": "http://dummyimage.com/103x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Winong",
+   "hotel_category": "Termite Control",
+   "price": "$5.43",
+   "hotel_image": "http://dummyimage.com/165x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Florentino Ameghino",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$7.81",
+   "hotel_image": "http://dummyimage.com/199x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Bojong",
+   "hotel_category": "Retaining Wall and Brick Pavers",
+   "price": "$1.44",
+   "hotel_image": "http://dummyimage.com/157x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Galatás",
+   "hotel_category": "Curb & Gutter",
+   "price": "$1.61",
+   "hotel_image": "http://dummyimage.com/250x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Quán Hành",
+   "hotel_category": "Site Furnishings",
+   "price": "$5.44",
+   "hotel_image": "http://dummyimage.com/169x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Mölnlycke",
+   "hotel_category": "Glass & Glazing",
+   "price": "$6.86",
+   "hotel_image": "http://dummyimage.com/229x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Jiangkou",
+   "hotel_category": "Ornamental Railings",
+   "price": "$1.45",
+   "hotel_image": "http://dummyimage.com/194x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Sujji",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$8.48",
+   "hotel_image": "http://dummyimage.com/248x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Taokeng",
+   "hotel_category": "RF Shielding",
+   "price": "$3.30",
+   "hotel_image": "http://dummyimage.com/250x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Picungbera",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$0.33",
+   "hotel_image": "http://dummyimage.com/192x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Ila Orangun",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$6.58",
+   "hotel_image": "http://dummyimage.com/242x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Inawashiro",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$2.80",
+   "hotel_image": "http://dummyimage.com/234x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Jinan",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$4.95",
+   "hotel_image": "http://dummyimage.com/154x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kaminokawa",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$9.23",
+   "hotel_image": "http://dummyimage.com/203x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Dadu",
+   "hotel_category": "Framing (Steel)",
+   "price": "$5.15",
+   "hotel_image": "http://dummyimage.com/121x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Enjiang",
+   "hotel_category": "Termite Control",
+   "price": "$9.13",
+   "hotel_image": "http://dummyimage.com/179x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Bagacay",
+   "hotel_category": "Ornamental Railings",
+   "price": "$5.88",
+   "hotel_image": "http://dummyimage.com/225x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Port Erin",
+   "hotel_category": "Fire Protection",
+   "price": "$9.10",
+   "hotel_image": "http://dummyimage.com/162x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Aragarças",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$6.14",
+   "hotel_image": "http://dummyimage.com/111x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Aykhal",
+   "hotel_category": "Framing (Wood)",
+   "price": "$2.87",
+   "hotel_image": "http://dummyimage.com/156x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Gaohu",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$4.94",
+   "hotel_image": "http://dummyimage.com/167x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Eusébio",
+   "hotel_category": "Waterproofing & Caulking",
+   "price": "$4.46",
+   "hotel_image": "http://dummyimage.com/153x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Borlänge",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$6.80",
+   "hotel_image": "http://dummyimage.com/208x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Trudovoye",
+   "hotel_category": "EIFS",
+   "price": "$6.01",
+   "hotel_image": "http://dummyimage.com/115x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Kadubetara",
+   "hotel_category": "RF Shielding",
+   "price": "$0.86",
+   "hotel_image": "http://dummyimage.com/137x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Soledad",
+   "hotel_category": "Structural and Misc Steel (Fabrication)",
+   "price": "$8.22",
+   "hotel_image": "http://dummyimage.com/240x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Chasŏng",
+   "hotel_category": "Drilled Shafts",
+   "price": "$6.01",
+   "hotel_image": "http://dummyimage.com/145x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Huogezhuang",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$1.33",
+   "hotel_image": "http://dummyimage.com/238x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Oxelösund",
+   "hotel_category": "EIFS",
+   "price": "$4.07",
+   "hotel_image": "http://dummyimage.com/128x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Liudu",
+   "hotel_category": "Roofing (Metal)",
+   "price": "$1.59",
+   "hotel_image": "http://dummyimage.com/104x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Nālchiti",
+   "hotel_category": "Exterior Signage",
+   "price": "$7.76",
+   "hotel_image": "http://dummyimage.com/230x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Heilongkou",
+   "hotel_category": "Granite Surfaces",
+   "price": "$1.17",
+   "hotel_image": "http://dummyimage.com/225x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Skórzec",
+   "hotel_category": "Framing (Steel)",
+   "price": "$5.84",
+   "hotel_image": "http://dummyimage.com/134x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "København",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$3.42",
+   "hotel_image": "http://dummyimage.com/236x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Majagual",
+   "hotel_category": "Masonry",
+   "price": "$5.48",
+   "hotel_image": "http://dummyimage.com/112x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kahnūj",
+   "hotel_category": "Casework",
+   "price": "$0.56",
+   "hotel_image": "http://dummyimage.com/108x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Sevilla",
+   "hotel_category": "Casework",
+   "price": "$6.35",
+   "hotel_image": "http://dummyimage.com/186x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Chhātak",
+   "hotel_category": "HVAC",
+   "price": "$7.55",
+   "hotel_image": "http://dummyimage.com/145x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Borovo",
+   "hotel_category": "Framing (Wood)",
+   "price": "$5.37",
+   "hotel_image": "http://dummyimage.com/213x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Shangdu",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$7.83",
+   "hotel_image": "http://dummyimage.com/115x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Severomorsk",
+   "hotel_category": "Wall Protection",
+   "price": "$2.00",
+   "hotel_image": "http://dummyimage.com/214x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Krajan",
+   "hotel_category": "Wall Protection",
+   "price": "$7.46",
+   "hotel_image": "http://dummyimage.com/241x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Ciyu",
+   "hotel_category": "HVAC",
+   "price": "$0.38",
+   "hotel_image": "http://dummyimage.com/228x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kakogawachō-honmachi",
+   "hotel_category": "HVAC",
+   "price": "$9.95",
+   "hotel_image": "http://dummyimage.com/248x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Omutninsk",
+   "hotel_category": "Asphalt Paving",
+   "price": "$9.34",
+   "hotel_image": "http://dummyimage.com/194x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Gludug",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$7.18",
+   "hotel_image": "http://dummyimage.com/148x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Krajan Dua Padomasan",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$8.33",
+   "hotel_image": "http://dummyimage.com/147x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Baabda",
+   "hotel_category": "Exterior Signage",
+   "price": "$4.92",
+   "hotel_image": "http://dummyimage.com/166x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Matagalpa",
+   "hotel_category": "Casework",
+   "price": "$4.62",
+   "hotel_image": "http://dummyimage.com/185x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Jiangnan",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$0.26",
+   "hotel_image": "http://dummyimage.com/130x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kunjāh",
+   "hotel_category": "Framing (Wood)",
+   "price": "$4.83",
+   "hotel_image": "http://dummyimage.com/214x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Túquerres",
+   "hotel_category": "EIFS",
+   "price": "$3.35",
+   "hotel_image": "http://dummyimage.com/228x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Hồ Xá",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$6.95",
+   "hotel_image": "http://dummyimage.com/170x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Loutrós",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$1.46",
+   "hotel_image": "http://dummyimage.com/208x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Nowa Ruda",
+   "hotel_category": "Soft Flooring and Base",
+   "price": "$8.89",
+   "hotel_image": "http://dummyimage.com/248x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Crato",
+   "hotel_category": "Framing (Wood)",
+   "price": "$3.27",
+   "hotel_image": "http://dummyimage.com/228x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Chinch'ŏn",
+   "hotel_category": "Roofing (Asphalt)",
+   "price": "$3.52",
+   "hotel_image": "http://dummyimage.com/173x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Changjiang",
+   "hotel_category": "Electrical and Fire Alarm",
+   "price": "$3.07",
+   "hotel_image": "http://dummyimage.com/196x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Tlogotunggal",
+   "hotel_category": "Exterior Signage",
+   "price": "$3.14",
+   "hotel_image": "http://dummyimage.com/202x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Xylotymbou",
+   "hotel_category": "Prefabricated Aluminum Metal Canopies",
+   "price": "$5.72",
+   "hotel_image": "http://dummyimage.com/140x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Qandala",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$9.69",
+   "hotel_image": "http://dummyimage.com/159x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Villa de Soto",
+   "hotel_category": "Termite Control",
+   "price": "$6.27",
+   "hotel_image": "http://dummyimage.com/211x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Marseille",
+   "hotel_category": "Masonry & Precast",
+   "price": "$4.23",
+   "hotel_image": "http://dummyimage.com/224x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Avignon",
+   "hotel_category": "Masonry & Precast",
+   "price": "$7.66",
+   "hotel_image": "http://dummyimage.com/134x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "San Quintin",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$7.02",
+   "hotel_image": "http://dummyimage.com/209x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Kalabo",
+   "hotel_category": "Exterior Signage",
+   "price": "$0.52",
+   "hotel_image": "http://dummyimage.com/190x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Dykan’ka",
+   "hotel_category": "Curb & Gutter",
+   "price": "$1.51",
+   "hotel_image": "http://dummyimage.com/161x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Vouani",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$6.63",
+   "hotel_image": "http://dummyimage.com/176x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Shamkhor",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$6.17",
+   "hotel_image": "http://dummyimage.com/245x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Gantang",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$2.55",
+   "hotel_image": "http://dummyimage.com/107x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kozyatyn",
+   "hotel_category": "Plumbing & Medical Gas",
+   "price": "$7.48",
+   "hotel_image": "http://dummyimage.com/178x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Moste",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$8.55",
+   "hotel_image": "http://dummyimage.com/193x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Salima",
+   "hotel_category": "Termite Control",
+   "price": "$4.49",
+   "hotel_image": "http://dummyimage.com/222x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Berģi",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$0.02",
+   "hotel_image": "http://dummyimage.com/203x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Kaoma",
+   "hotel_category": "Wall Protection",
+   "price": "$1.37",
+   "hotel_image": "http://dummyimage.com/188x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Maundai",
+   "hotel_category": "Curb & Gutter",
+   "price": "$3.90",
+   "hotel_image": "http://dummyimage.com/147x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Huata",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$4.93",
+   "hotel_image": "http://dummyimage.com/228x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "San Jacinto",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$6.59",
+   "hotel_image": "http://dummyimage.com/232x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Gostynin",
+   "hotel_category": "Overhead Doors",
+   "price": "$5.79",
+   "hotel_image": "http://dummyimage.com/230x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Oslo",
+   "hotel_category": "Temp Fencing, Decorative Fencing and Gates",
+   "price": "$0.72",
+   "hotel_image": "http://dummyimage.com/100x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Huage",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$8.02",
+   "hotel_image": "http://dummyimage.com/175x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Xiaojin",
+   "hotel_category": "Masonry",
+   "price": "$7.29",
+   "hotel_image": "http://dummyimage.com/130x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Himeji",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$2.74",
+   "hotel_image": "http://dummyimage.com/110x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Panao",
+   "hotel_category": "Glass & Glazing",
+   "price": "$6.18",
+   "hotel_image": "http://dummyimage.com/183x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Bilo",
+   "hotel_category": "Epoxy Flooring",
+   "price": "$9.58",
+   "hotel_image": "http://dummyimage.com/121x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Dongpu",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$3.25",
+   "hotel_image": "http://dummyimage.com/216x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Ludwin",
+   "hotel_category": "Glass & Glazing",
+   "price": "$1.65",
+   "hotel_image": "http://dummyimage.com/149x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "San Miguel",
+   "hotel_category": "Casework",
+   "price": "$0.27",
+   "hotel_image": "http://dummyimage.com/180x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Kozy",
+   "hotel_category": "Casework",
+   "price": "$2.10",
+   "hotel_image": "http://dummyimage.com/190x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Ubatã",
+   "hotel_category": "Casework",
+   "price": "$7.75",
+   "hotel_image": "http://dummyimage.com/165x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Macapo",
+   "hotel_category": "Casework",
+   "price": "$7.72",
+   "hotel_image": "http://dummyimage.com/231x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Qozonketkan",
+   "hotel_category": "Termite Control",
+   "price": "$3.84",
+   "hotel_image": "http://dummyimage.com/213x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Nagai",
+   "hotel_category": "Ornamental Railings",
+   "price": "$6.35",
+   "hotel_image": "http://dummyimage.com/152x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Şafāshahr",
+   "hotel_category": "Doors, Frames & Hardware",
+   "price": "$9.48",
+   "hotel_image": "http://dummyimage.com/232x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Budva",
+   "hotel_category": "Marlite Panels (FED)",
+   "price": "$9.48",
+   "hotel_image": "http://dummyimage.com/221x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Jawatiwa",
+   "hotel_category": "Painting & Vinyl Wall Covering",
+   "price": "$7.00",
+   "hotel_image": "http://dummyimage.com/174x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Bảo Lộc",
+   "hotel_category": "Hard Tile & Stone",
+   "price": "$4.67",
+   "hotel_image": "http://dummyimage.com/172x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Banjar Lalangpasek",
+   "hotel_category": "Granite Surfaces",
+   "price": "$6.47",
+   "hotel_image": "http://dummyimage.com/242x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Arnoia",
+   "hotel_category": "Drywall & Acoustical (MOB)",
+   "price": "$0.27",
+   "hotel_image": "http://dummyimage.com/172x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Ciparay",
+   "hotel_category": "HVAC",
+   "price": "$7.24",
+   "hotel_image": "http://dummyimage.com/135x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Novohrad-Volyns’kyy",
+   "hotel_category": "Granite Surfaces",
+   "price": "$0.65",
+   "hotel_image": "http://dummyimage.com/218x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Rongcheng",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$6.95",
+   "hotel_image": "http://dummyimage.com/152x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Gengma",
+   "hotel_category": "Glass & Glazing",
+   "price": "$0.25",
+   "hotel_image": "http://dummyimage.com/127x100.png/ff4444/ffffff"
+ },
+ {
+   "hotel_name": "Evansville",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$3.42",
+   "hotel_image": "http://dummyimage.com/232x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Brondong",
+   "hotel_category": "Rebar & Wire Mesh Install",
+   "price": "$2.50",
+   "hotel_image": "http://dummyimage.com/238x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Quezaltepeque",
+   "hotel_category": "Ornamental Railings",
+   "price": "$3.47",
+   "hotel_image": "http://dummyimage.com/169x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Jawand",
+   "hotel_category": "Ornamental Railings",
+   "price": "$7.02",
+   "hotel_image": "http://dummyimage.com/104x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Tarlac City",
+   "hotel_category": "Ornamental Railings",
+   "price": "$0.20",
+   "hotel_image": "http://dummyimage.com/107x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Ichuña",
+   "hotel_category": "Landscaping & Irrigation",
+   "price": "$0.52",
+   "hotel_image": "http://dummyimage.com/114x100.png/5fa2dd/ffffff"
+ },
+ {
+   "hotel_name": "Sakākā",
+   "hotel_category": "Construction Clean and Final Clean",
+   "price": "$2.85",
+   "hotel_image": "http://dummyimage.com/182x100.png/cc0000/ffffff"
+ },
+ {
+   "hotel_name": "Yumendong",
+   "hotel_category": "Site Furnishings",
+   "price": "$6.88",
+   "hotel_image": "http://dummyimage.com/186x100.png/dddddd/000000"
+ },
+ {
+   "hotel_name": "Garland",
+   "hotel_category": "Drywall & Acoustical (FED)",
+   "price": "$0.34",
+   "hotel_image": "http://dummyimage.com/170x100.png/ff4444/ffffff"
+ }
+]

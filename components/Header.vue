@@ -27,13 +27,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <div
-          class="
-            d-lg-none d-flex
-            justify-content-between
-            px-4
-            py-3
-            align-items-center
-          "
+          class="d-lg-none d-flex justify-content-between px-4 py-3 align-items-center"
         >
           <img src="@/static/logo.png" class="logo-mobile-menu" alt="logo" />
           <a href="javascript:;" class="close-menu"
@@ -47,9 +41,38 @@
           <li class="nav-item">
             <NuxtLink class="nav-link" to="/aboutus">About</NuxtLink>
           </li>
-           <li class="nav-item">
+          <li class="nav-item">
             <NuxtLink class="nav-link" to="/imagegallery">Gallery</NuxtLink>
           </li>
+
+          <!-- main-menu -->
+          <template v-if="true">
+            <li class="nav-item">
+              <nuxt-link class="nav-link" to="/category">Category</nuxt-link>
+            </li>
+            <li class="nav-item">
+              <nuxt-link class="nav-link" to="/showStatus">Status</nuxt-link>
+            </li>
+            <li class="nav-item">
+              <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
+            </li>
+            <li class="nav-item">
+              <nuxt-link class="nav-link" to="/logout">Logout</nuxt-link>
+            </li>
+          </template>
+          <template v-else>
+            <li class="nav-item">
+              <nuxt-link class="nav-link" to="/login">Login</nuxt-link>
+            </li>
+            <li class="nav-item">
+              <nuxt-link class="nav-link" to="/createaccount"
+                >Create Account</nuxt-link
+              >
+            </li>
+            <li class="nav-item">
+              <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
+            </li>
+          </template>
           <li class="nav-item">
             <a class="nav-link btn btn-success" href="tel:7466056737"
               >7466056737</a

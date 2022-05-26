@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Hotel</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/assets/img/favicon.ico"
+    />
+
+    <!-- CSS here -->
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/responsive.css" />
+    <style media="screen">
+      .position {
+        margin-top: 50px;
+        width: 100%;
+        height: 300px;
+        display: inline;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+      }
+      .selectone {
+        float: left;
+      }
+      .positionbtn {
+        margin-top: 42px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <!-- Booking Room Start-->
+      <section class="login">
+        <div class="container mt-5 mb-5">
+          <form action="/category" method="POST">
+            <div class="row">
+              <div class="position">
+                <div class="col-lg-12">
+                  <div class="selectone">
+                    <p>Categhory</p>
+                    <select name="cat">
+                      <option value="Business Class">Business Class</option>
+                      <option value="First class">First class</option>
+                      <option value="Seceond class">Seceond class</option>
+                    </select>
+                  </div>
+                  <div class="selectone ml-3">
+                    <p>Room Type</p>
+                    <select name="type">
+                      <option value="Single Bed">Single Bed</option>
+                      <option value="Double Bed">Double Bed</option>
+                    </select>
+                  </div>
+                </div>
+
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-info btn-sm positionbtn ml-3"
+                />
+              </div>
+            </div>
+            <!-- Booking Room End-->
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Hotel</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.ico"
+    />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+   
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <main>
+      <!-- Room Start -->
+      <section class="room-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-lg-12 col-sm-12 col-12">
+              <!--font-back-tittle  -->
+              <div class="font-back-tittle mb-45">
+                <div class="archivment-front">
+                  <h3>Our Rooms</h3>
+                </div>
+                <h3 class="archivment-back">Our Rooms</h3>
+              </div>
+            </div>
+
+            <% if(rooms.length) { %> <% for(i=0;i<rooms.length;i++){ %>
+              <div class="col-xl-4 col-lg-4 col-md-12 col-12">
+                <!-- Single Room -->
+                <form action="/boooking" method="POST">
+                  <input
+                    type="text"
+                    name="name"
+                    value="<%=rooms[i].name%>"
+                    hidden
+                  />
+                  <input
+                    type="text"
+                    name="type"
+                    value="<%=rooms[i].type%>"
+                    hidden
+                  />
+                  <input
+                    type="text"
+                    name="cost"
+                    value="<%=rooms[i].cost%>"
+                    hidden
+                  />
+
+                  <div class="single-room mb-50">
+                    <div class="room-img p-2">
+                      <a href="#"
+                        ><img src="<%=rooms[i].img%>" alt="" height="200px"
+                      /></a>
+                    </div>
+                    <div class="room-caption text-center">
+                      <h3><a href="#"><%=rooms[i].type%></a></h3>
+                      <h5><%=rooms[i].dec%></h5>
+                      <div class="per-night">
+                        <span
+                          >&#2547; <%=rooms[i].cost%>
+                          <span>/ par night</span></span
+                        >
+                      </div>
+                      <input
+                        type="submit"
+                        class="btn btn-danger"
+                        value="Book Now!!"
+                      />
+                    </div>
+                  </div>
+                </form>
+                <% } %> <% } else{ %>
+                <br />
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h2 style="color: #ff304f;" class="text-center mt-5 mb-5">
+                    No Room Available Right Now
+                  </h2>
+                </div>
+                <br />
+                <% } %>
+              </div>
+
+              <!-- Room End -->
+            </rooms.length;i++){>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

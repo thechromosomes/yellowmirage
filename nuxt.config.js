@@ -40,37 +40,52 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    "~/static/assets/css/style.css",
-    "~/static/assets/css/style.css",
-    "~/static/assets/vendors/mdi/css/materialdesignicons.min.css",
-    "~/static/assets/vendors/owl.carousel/css/owl.carousel.css",
-    "~/static/assets/vendors/owl.carousel/css/owl.theme.default.min.css",
-    "~/static/assets/vendors/aos/css/aos.css",
-    "~/static/assets/vendors/jquery-flipster/css/jquery.flipster.css",
+    // "~/static/assets/css/style.css",
+    // "~/static/assets/css/style.css",
+    // "~/static/assets/vendors/mdi/css/materialdesignicons.min.css",
+    // "~/static/assets/vendors/owl.carousel/css/owl.carousel.css",
+    // "~/static/assets/vendors/owl.carousel/css/owl.theme.default.min.css",
+    // "~/static/assets/vendors/aos/css/aos.css",
+    // "~/static/assets/vendors/jquery-flipster/css/jquery.flipster.css",
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  modules: ["@nuxtjs/axios", "@nuxtjs/gtm", '@nuxtjs/device',],
+  modules: ["@nuxtjs/axios", "@nuxtjs/gtm", "@nuxtjs/device"],
 
   plugins: [
-    { src: "~/plugins/jsonld", defer: true },
-    { src: "@plugins/toast", mode: "client" },
+    { src: "@/plugins/thirdPartPluginsSSR", defer: true },
+    { src: "@/plugins/thirdPartPluginsNONSSR", mode: "client" },
+    { src: "@/plugins/initState", mode: "client" },
   ],
 
   // server  middleware for back end api
   // a server middleware that runs only server site
-  serverMiddleware: ["~/server-middleware/sendMail"],
+  serverMiddleware: ["~/server-middleware/sendMail", "~/server-middleware/app"],
 
   // target: "static", // default is 'server'
 
   // google tag manger
-  gtm: {
-    id: "GTM-T2WH949",
-    enabled: true,
-    debug: true,
-    loadScript: true,
+  // gtm: {
+  //   id: "GTM-T2WH949",
+  //   enabled: true,
+  //   debug: true,
+  //   loadScript: true,
+  // },
+
+  // error handler hook
+  hooks: {
+    render: {
+      errorMiddleware(app) {
+        app.use(async (error, req, res, next) => {
+          if (error) {
+            let finalError = await error;
+            console.log("final error from nuxt config", finalError);
+          }
+        });
+      },
+    },
   },
 
   server: {
