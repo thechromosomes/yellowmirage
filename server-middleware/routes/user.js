@@ -1,5 +1,4 @@
 const express = require("express");
-const path = require("path");
 
 //load middleware function to auth user
 const auth = require("../middleware/authUser");
@@ -7,6 +6,7 @@ const auth = require("../middleware/authUser");
 const router = express.Router();
 
 const userControler = require("../controllers/user");
+const paymentController = require("../controllers/paymentController");
 
 router.get("/test", auth, userControler.test); //logout
 
@@ -22,17 +22,20 @@ router
   .get(userControler.getCreateAccount) //get request for create account
   .post(userControler.postCreateAccount); //post request for create account
 
-router
-  .route("/category")
-  .get(userControler.authentication, userControler.getCategory) //get request for Category
-  .post(userControler.postCategory); //post request form the category
-router.route("/boooking").post(userControler.postBooking); //post booking data
+// router
+//   .route("/category")
+//   .get(auth, userControler.getCategory) //get request for Category
+//   .post(userControler.postCategory); //post request form the category
+router.route("/boooking").post(auth, userControler.postBooking); //post booking data
 
-router.route("/status").post(userControler.postStatus);
+// handle razorpay
+router.route("/getrazorpayid").post(auth, paymentController.getRazorId); //post booking data
+router.route("/authRazorpay").post(auth, paymentController.authRazorPay); //post booking data
 
-router
-  .route("/showStatus")
-  .get(userControler.authentication, userControler.getShowStatus); // get show status
+
+router.route("/status").post(auth, userControler.postStatus);
+
+router.route("/showStatus").get(auth, userControler.getShowStatus); // get show status
 
 router.post(
   "/deletereq",

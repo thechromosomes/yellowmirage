@@ -4,15 +4,6 @@ const Joi = require("joi");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 
-//authentication check
-exports.authentication = (req, res, next) => {
-  if (req.session.mail != undefined) {
-    next();
-  } else {
-    res.render("user/home", { user: "" });
-  }
-};
-
 //show the login page
 exports.getLogin = (req, res, next) => {
   res.render("user/loginAccount", { user: "", msg: [], err: [] });
@@ -238,13 +229,6 @@ exports.postBooking = (req, res, next) => {
 //post status request
 
 exports.postStatus = (req, res, next) => {
-  //console.log(req.body);
-  var connectDB = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "p@ssw0rd",
-    database: "hotel",
-  });
   var date = req.body.date;
   //console.log(date)
   data =
@@ -269,10 +253,10 @@ exports.postStatus = (req, res, next) => {
     " WHERE email = " +
     mysql.escape(req.session.mail);
 
-  connectDB.query(data, (err, reslt) => {
+  db.query(data, (err, result) => {
     if (err) throw err;
     else {
-      connectDB.query(data1, (err1, result) => {
+      db.query(data1, (err1, result) => {
         for (i in result) {
           var a = result[i].date;
           a = a.toString();

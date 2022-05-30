@@ -15,19 +15,20 @@ export const actions = {
     if (!payload.params.noLoader) {
       context.commit("updatePageLoader", { display: true });
     }
-    let request = payload.params;
     var authOptions = {
       method: payload.method,
       url: context.state.BASE_URL + payload.url,
       headers: {
         "Content-Type": "application/json",
       },
-      params: request,
+      params: payload.params,
     };
 
     // add headers for protected routes
     if (payload && payload.type && payload.type == "protected") {
-      authOptions.headers['authorization'] = `bearer ${payload.params.userToken}`;
+      authOptions.headers[
+        "authorization"
+      ] = `bearer ${payload.params.userToken}`;
     }
 
     return new Promise((resolve, reject) => {
@@ -50,7 +51,7 @@ export const mutations = {
     state.pageLoader = display;
   },
 
-  updateUserCreds(state, { payload }) {
+  updateUserCreds(state, payload) {
     state.userToken = payload.userToken;
     state.userEmail = payload.userEmail;
     state.user = payload.user;

@@ -3,6 +3,7 @@ const path = require("path");
 const bodyParser = require("body-parser");
 const session = require("express-session");
 const mysql = require("mysql");
+const cookieParser = require("cookie-parser");
 
 // setUp DataBase
 global.db = mysql.createConnection({
@@ -28,6 +29,7 @@ app.use(
     saveUninitialized: false,
   })
 );
+app.use(cookieParser());
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "/public")));

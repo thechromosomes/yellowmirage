@@ -46,33 +46,25 @@
           </li>
 
           <!-- main-menu -->
-          <template v-if="true">
+          <template v-if="$store.state.userToken != null">
             <li class="nav-item">
-              <nuxt-link class="nav-link" to="/category">Category</nuxt-link>
+              <a class="nav-link" href="/showStatus">Status</a>
             </li>
             <li class="nav-item">
-              <nuxt-link class="nav-link" to="/showStatus">Status</nuxt-link>
+              <a class="nav-link" href="/contactus">Contact</a>
             </li>
             <li class="nav-item">
-              <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
-            </li>
-            <li class="nav-item">
-              <nuxt-link class="nav-link" to="/logout">Logout</nuxt-link>
+              <a class="nav-link" href="/logout">Logout</a>
             </li>
           </template>
           <template v-else>
             <li class="nav-item">
-              <nuxt-link class="nav-link" to="/login">Login</nuxt-link>
-            </li>
-            <li class="nav-item">
-              <nuxt-link class="nav-link" to="/createaccount"
-                >Create Account</nuxt-link
-              >
-            </li>
-            <li class="nav-item">
-              <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
+              <a class="nav-link" href="/login">login</a>
             </li>
           </template>
+          <li class="nav-item">
+            <NuxtLink class="nav-link btn btn-success" to="/rooms">Book online</NuxtLink>
+          </li>
           <li class="nav-item">
             <a class="nav-link btn btn-success" href="tel:7466056737"
               >7466056737</a

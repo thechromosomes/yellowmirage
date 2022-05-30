@@ -1,29 +1,33 @@
 <template>
-<client-only>
-  <div>
-    <div class="main-container overflow-x-hidden">
-      <section class="pdp_wraper">
-        <div class="slider-all-left-part">
-          <div class="image_slider_div">
-            <div class="thumbnail-crousal" v-if="$device.isDesktopOrTablet">
-              <ul>
-                <li
-                  v-for="(item, index) in 5"
-                  :key="index"
-                  @click="currentThumnial(index + 1)"
-                  :class="{ 'border border-[#ed5736]': imgIndex == index + 1 }"
-                >
-                  <img
-                    src="@/static/assets/images/hotelPic/hotelPic2.jpeg"
-                  />
-                </li>
-              </ul>
-            </div>
-            <!-- ============ big item slider ======= -->
-            <div class="big-item-slider" v-if="$device.isDesktopOrTablet">
-              <template>
-                <client-only>
-                  <!-- <image-magnifier
+  <client-only>
+    <div>
+      <transition name="bounce">
+        <popUpFrom v-if="showPopUp" />
+      </transition>
+
+      <div class="main-container overflow-x-hidden" v-if="singleRoom != null">
+        <section class="pdp_wraper">
+          <div class="slider-all-left-part">
+            <div class="image_slider_div">
+              <div class="thumbnail-crousal" v-if="$device.isDesktopOrTablet">
+                <ul>
+                  <li
+                    v-for="(item, index) in singleRoom.gallery"
+                    :key="index"
+                    @click="currentThumnial(index + 1)"
+                    :class="{
+                      'border border-[#ed5736]': imgIndex == index + 1,
+                    }"
+                  >
+                    <img :src="item" />
+                  </li>
+                </ul>
+              </div>
+              <!-- ============ big item slider ======= -->
+              <div class="big-item-slider" v-if="$device.isDesktopOrTablet">
+                <template>
+                  <client-only>
+                    <!-- <image-magnifier
                     :src="singleProductList.gallery[imgIndex].image"
                     :zoom-src="singleProductList.gallery[imgIndex].image"
                     width="100%"
@@ -31,161 +35,115 @@
                     zoom-width="400"
                     zoom-height="400"
                   /> -->
-                  <img
-                    src="@/static/assets/images/hotelPic/hotelPic2.jpeg"
-                  />
-                </client-only>
-              </template>
-              <!-- custom slider  end-->
-            </div>
+                    <img src="@/static/assets/images/hotelPic/hotelPic2.jpeg" />
+                  </client-only>
+                </template>
+                <!-- custom slider  end-->
+              </div>
 
-            <div
-              class="big-slider mobile_only"
-            >
-              <div
-                id="H_slider"
-                class="slider-item"
-              >
-                <VueSlickCarousel
-                  v-bind="slickOptions"
-                  class="main-slider"
-                >
-                  <div
-                    v-for="(item, index) in 4"
-                    :key="index"
-                    class="item"
-                  >
-                    <img
-                      src="@/static/assets/images/hotelPic/hotelPic2.jpeg"
-                      class="w-100"
-                    />
-                  </div>
+              <div class="big-slider mobile_only">
+                <div id="H_slider" class="slider-item">
+                  <VueSlickCarousel v-bind="slickOptions" class="main-slider">
+                    <div
+                      v-for="(item, index) in singleRoom.gallery"
+                      :key="index"
+                      class="item"
+                    >
+                      <img :src="item" class="w-100" />
+                    </div>
+                  </VueSlickCarousel>
+                </div>
+              </div>
+              <!-- ================ mobile product crousal ============ -->
+              <section class="mobile_product_slider" v-if="$device.isMobile">
+                <VueSlickCarousel v-bind="mobile_single_product">
+                  <template v-for="(item, index) in singleRoom.gallery">
+                    <div
+                      :key="index"
+                      class="item-mobile-product"
+                      @click="zoom_mobile = true"
+                    >
+                      <img :src="item" class="border border-[#ed5736]" />
+                    </div>
+                  </template>
                 </VueSlickCarousel>
+              </section>
+              <!-- ================= end =========== -->
+            </div>
+            <!-- =================== import ===== accordians ==== -->
+            <pdpAccordians v-if="$device.isDesktop" ref="Open_size_chart" />
+            <!-- =================== -->
+          </div>
+          <!-- ============= content part -->
+          <div class="content_part_slider">
+            <!-- ============= content part -->
+            <h2 class="product-title">{{ singleRoom.room_name }}</h2>
+            <h3 class="mrp_price">Price: ₹ {{ singleRoom.price }}</h3>
+            <div class="price-with-discount">
+              <div v-if="true">
+                <span class="cut_price"
+                  >MRP:<del>₹ {{ singleRoom.price * 1.3 }}</del></span
+                >
+                <span class="save_price">Save {{ 30 }}%</span>
+              </div>
+              <div class="all-income-taxes">
+                <p>Price inclusive of all taxes</p>
               </div>
             </div>
-            <!-- ================ mobile product crousal ============ -->
-            <section class="mobile_product_slider" v-if="$device.isMobile">
-              <VueSlickCarousel v-bind="mobile_single_product">
-                <template v-for="(item, index) in 6">
-                  <div
-                    :key="index"
-                    class="item-mobile-product"
-                    @click="zoom_mobile = true"
-                  >
-                    <img
-                      src="@/static/logo.png"
-                      class="border border-[#ed5736]"
-                    />
-                  </div>
-                </template>
-              </VueSlickCarousel>
-            </section>
-            <!-- ================= end =========== -->
-          </div>
-          <!-- =================== import ===== accordians ==== -->
-          <pdpAccordians v-if="$device.isDesktop" ref="Open_size_chart" />
-          <!-- =================== -->
-        </div>
-        <!-- ============= content part -->
-        <div class="content_part_slider">
-          <!-- ============= content part -->
-          <h2 class="product-title">{{ "singleProductList.name" }}</h2>
-          <h3 class="mrp_price">
-            Selling Price: ₹ {{ "singleProductList.selling_price" }}
-          </h3>
-          <div class="price-with-discount">
-            <div v-if="true">
-              <span class="cut_price"
-                >MRP:<del>₹ {{ "singleProductList.price" }}</del></span
-              >
-              <span class="save_price"
-                >Save {{ "singleProductList.discount" }}%</span
-              >
+            <div v-if="true" class="rating-section flex">
+              <div class="rating-group">
+                <svg height="0" width="0">
+                  <defs>
+                    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop
+                        offset="0%"
+                        style="stop-color: #ffb306; stop-opacity: 1;"
+                      />
+                      <stop
+                        offset="50%"
+                        style="stop-color: #ffb306; stop-opacity: 1;"
+                      />
+                      <stop
+                        offset="50%"
+                        style="stop-color: transparent; stop-opacity: 1;"
+                      />
+                      <stop
+                        offset="100%"
+                        style="stop-color: transparent; stop-opacity: 1;"
+                      />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <span class="ml-1 text-[12px]">
+                <u>
+                  {{ "100+" }}
+                  Reviews
+                </u>
+              </span>
             </div>
-            <div class="all-income-taxes">
-              <p>Price inclusive of all taxes</p>
-            </div>
-          </div>
-          <div v-if="true" class="rating-section flex">
-            <div class="rating-group">
-              <svg height="0" width="0">
-                <defs>
-                  <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop
-                      offset="0%"
-                      style="stop-color: #ffb306; stop-opacity: 1;"
-                    />
-                    <stop
-                      offset="50%"
-                      style="stop-color: #ffb306; stop-opacity: 1;"
-                    />
-                    <stop
-                      offset="50%"
-                      style="stop-color: transparent; stop-opacity: 1;"
-                    />
-                    <stop
-                      offset="100%"
-                      style="stop-color: transparent; stop-opacity: 1;"
-                    />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-            <span class="ml-1 text-[12px]">
-              <u>
-                {{ "singleProductList.review_and_ratings.total_review" }}
-                Reviews
-              </u>
-            </span>
-          </div>
 
-          <!-- ================= add to cart button============ -->
-          <div class="add_cart_btn_div">
-            <button class="cart_butoon" @click="addToCart">add to cart</button>
-            <button class="wish_list_button">
-              <img
-                src="@/static/logo.png"
-                alt="heart"
-              />
-              <img
-                src="@/static/logo.png"
-                alt="heart"
-              />
-            </button>
-          </div>
-          <!-- ================= check aviblity ====== -->
-          <div class="check_aviblity_div">
-            <h3>Check pin code serviceability</h3>
-            <div class="search_store_input flex">
-              <input
-                type="text"
-                placeholder="Enter your Pincode"
-                v-model.number="pinCode"
-                class="pinCode-input"
-                :maxlength="6"
-              />
-              <button class="check_button" @click="productPinCode">
-                check
+            <!-- ================= add to cart button============ -->
+            <div class="add_cart_btn_div">
+              <button class="cart_butoon" @click="addToCart">
+                Book Now
               </button>
             </div>
-            <p :class="[deliveryStatusType == 'success' ? 'green' : 'red']">
-              {{ deliveryStatus }}
-            </p>
-          </div>
-          <!-- ---------- discribtion -->
-          <div class="discription_div" v-if="true">
-            <h4 class="uppercase discription_heding">DESCRIPTION</h4>
-            <p class="">
-              {{ "thisf dsifsd fsdjfsd fpodsjfdsgfals dglkdsa jgdsfg f" }}
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- =================== import ===== accordians ==== -->
-      <pdpAccordians v-if="$device.isMobile" ref="Open_size_chart" />
 
-      <!-- =================== -->
-      <!-- <div>
+            <!-- ---------- discribtion -->
+            <div class="discription_div" v-if="true">
+              <h4 class="uppercase discription_heding">DESCRIPTION</h4>
+              <p class="">
+                {{ "thisf dsifsd fsdjfsd fpodsjfdsgfals dglkdsa jgdsfg f" }}
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- =================== import ===== accordians ==== -->
+        <pdpAccordians v-if="$device.isMobile" ref="Open_size_chart" />
+
+        <!-- =================== -->
+        <!-- <div>
         <RelatedProducts heading="Related Products" />
       </div>
       <div>
@@ -194,9 +152,11 @@
           :relatedPrd="recentProducts"
         />
       </div> -->
+      </div>
+      <div v-else>
+        <h1>OPS! we are packed, please try again.</h1>
+      </div>
     </div>
-
-  </div>
   </client-only>
 </template>
 
@@ -206,22 +166,27 @@ import "vue-slick-carousel/dist/vue-slick-carousel.css";
 
 // optional style for arrows & dots
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+import popUpFrom from "@/components/utility-components/popUpForm.vue";
 import pdpAccordians from "@/components/utility-components/pdpAccordians.vue";
+import hotelData from "@/static/hotelData.json";
 // import RelatedProducts from "@/components/RelatedProducts.vue";
 
 export default {
   components: {
     pdpAccordians,
-    // RelatedProducts,
     VueSlickCarousel,
+    popUpFrom,
+    // RelatedProducts,
   },
   data() {
     return {
       imgIndex: 0,
+      showPopUp: false,
+      roomWant: 1,
+      bookingDate: null,
       zoom_mobile: false,
+      singleRoom: null,
       recentProducts: [],
-      addToCartVal: 1,
-      currentColorValue: 0,
       selectedSizeAttr: "",
       selectedSizeError: "",
       pinCode: "",
@@ -309,6 +274,9 @@ export default {
   // },
 
   methods: {
+    togglePopUP() {
+      this.showPopUp = !this.showPopUp;
+    },
     // fetch product data
 
     fetchRecentViews(sku) {
@@ -332,173 +300,42 @@ export default {
     currentThumnial(index) {
       this.imgIndex = index;
     },
-    colorindex(colorValue) {
-      this.currentColorValue = colorValue;
-    },
-    currentSizeget(item) {
-      this.selectedSizeError = "";
-      this.selectedSizeAttr = item;
-    },
 
-    // ----------- change image on click left irght //
-    changeMainImage(behave) {
-      if (behave == "pre") {
-        if (this.imgIndex != 0) {
-          this.imgIndex -= 1;
-        }
-      }
-      if (behave == "next") {
-        if (this.imgIndex < this.gallery.length - 1) {
-          this.imgIndex += 1;
-        }
-      }
-    },
-
-    // end//
-
-    OpenSizeChart() {
-      var elmnt = document.getElementById("size_id");
-      elmnt.scrollIntoView();
-      this.$refs["Open_size_chart"].accordianToggle("sizeGuide", "sizeGuide");
-    },
     async getProductDetail() {
+      let room_category = this.$route.query.room_category;
+      let room_name = this.$route.query.room_name;
+
+      hotelData.map((item) => {
+        if (
+          item.room_category == room_category &&
+          item.room_name == room_name
+        ) {
+          return (this.singleRoom = item);
+        }
+      });
+
       try {
-        await this.$store.commit("product/prepareStateForSingleProd", {
-          routeParam: this.$route.params.SingleProduct,
-        });
-        let {
-          service,
-          store,
-          url_key,
-        } = this.$store.state.product.singleProductList;
-        var form = {};
-        form.service = service;
-        form.store = store;
-        form.url_key = url_key;
-        form.noLoader = false;
-
-        if (this.$route.query.filter) {
-          form.filter = this.$route.query.filter;
-        }
-        let response = await this.$store.dispatch("pimAjax", {
-          method: "get",
-          url: `/pimresponse.php`,
-          params: form,
-        });
-
-        if (response) {
-          this.$store.commit("product/updateSingleProdState", {
-            error: null,
-            data: response,
-          });
-        }
-        if (response.response.success) {
-          this.$gtm.push({
-            event: "ProductDetail",
-            action: "Product Detail",
-            category: this.singleProductList.category || "",
-            ecommerce: {
-              detail: {
-                product: [
-                  {
-                    name: this.singleProductList.name,
-                    id: this.singleProductList.sku,
-                    price: this.singleProductList.selling_price,
-                    category: this.singleProductList.category,
-                  },
-                ],
-              },
-            },
-          });
-        } else {
-          throw `no response from api ${
-            response.response.error_message
-          }, REQUEST- ${JSON.stringify(form)}`;
-        }
       } catch (error) {
-        this.$globalError(`error from getProductDetail >>>> ${error}`);
-        if (error.message === "Network Error") {
-          this.$store.commit("product/updateSingleProdState", {
-            error:
-              "Oops there seems to be some Network issue, please try again",
-          });
-        }
+        console.log("error", error);
       }
     },
     async addToCart() {
-      if (Object.keys(this.selectedSizeAttr).length === 0) {
-        this.$toast.error("Please select a size");
-        this.sizeAlert = true;
-        this.selectedSizeError = "Please select size";
-        return false;
-      }
-      // console.log(this.singleProductList);
-      await this.addProductToCart(
-        this.singleProductList,
-        this.selectedSizeAttr
-      );
-    },
+      this.showPopUp = true;
+      return;
+      let type = this.singleRoom.room_category;
+      let name = this.singleRoom.room_name;
+      let cost = this.singleRoom.price;
+      let roomWant = this.roomWant;
+      let date = this.bookingDate;
 
-    async productPinCode() {
-      if (Object.keys(this.selectedSizeAttr).length === 0) {
-        this.$toast.error("Please select a size to check availability");
-        this.sizeAlert = true;
-        this.selectedSizeError = "Please select size";
-        return;
-      }
-      console.log(this.pinCode);
-      if (this.pinCode == "") {
-        this.deliveryStatus = "please select valid pin code";
-        this.deliveryStatusType = "error";
-        return;
-      }
-      let form = {
-        pincode: this.pinCode,
-        fynd_uid: this.singleProductList.fynd_uid,
-        fynd_size: this.selectedSizeAttr.configrable_atribute_value,
-      };
-
-      try {
-        let response = await this.$store.dispatch("cart/actCartAjax", {
-          method: "post",
-          url: `/customer/serviceable`,
-          params: form,
-        });
-
-        if (response) {
-          response.message == "validation error"
-            ? ((this.deliveryStatus = "please select valid pin code"),
-              (this.deliveryStatusType = "error"))
-            : (this.deliveryStatus = response.data);
-          if (response.success == false || response.message == "Unsuccessful") {
-            this.deliveryStatusType = "error";
-          }
-        } else {
-          throw "no response from api";
-        }
-      } catch (error) {
-        this.$globalError(
-          `error from single product page (ProductPinCode) >>>> ${error}`
-        );
-      }
-    },
-
-    //  =================== size guide data ================//
-    async sizeGuideOpen() {
-      const response = await this.$store.dispatch("pimAjax", {
-        method: "get",
-        url: "/pimresponse.php",
-        params: {
-          service: "size_guide",
-          store: "1",
-          category_id: this.$store.state.product.singleProductList
-            .single_prod_data.category,
-        },
+      await this.$store.dispatch("ApiCall", {
+        method: "post",
+        url: `/status`,
+        type: "protected",
+        params: { type, name, cost, roomWant, date },
       });
-      if (response.response.success == 1) {
-        this.sizeData = response.result;
-      }
     },
+
     scrollTo(selector) {
       const yOffset = this.$device.isMobile ? 0 : -60;
       const el = document.querySelector(selector);
@@ -510,7 +347,7 @@ export default {
   },
 
   async fetch() {
-    // await this.getProductDetail();
+    await this.getProductDetail();
   },
   //   mounted() {
   //     if (
