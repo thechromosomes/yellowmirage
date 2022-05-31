@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>hello from razor pay</h1>
+    <!-- <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8B3WCQ&" height="0" width="0"  title="gtm"></iframe> -->
     <button id="rzp-button1">Pay</button>
   </div>
 </template>
@@ -21,7 +22,11 @@ export default {
       method: "post",
       url: `/getrazorpayid`,
       type: "protected",
-      params: {},
+      params: {
+        name: this.$store.state.user?.name,
+        email: this.$store.state.user?.email,
+        contact: this.$store.state.user?.phone,
+      },
     });
     let { id, currency, amount } = response;
     var options = {
@@ -33,17 +38,18 @@ export default {
       image: "/static/logo.png",
       order_id: id,
       handler: function (response) {
-        alert(response.razorpay_payment_id);
-        alert(response.razorpay_order_id);
-        alert(response.razorpay_signature);
+        // alert(response.razorpay_payment_id);
+        // alert(response.razorpay_order_id);
+        // alert(response.razorpay_signature);
+        // verify razorpay payment
       },
       prefill: {
-        name: "Gaurav Kumar",
-        email: "gaurav.kumar@example.com",
-        contact: "9999999999",
+        name: this.$store.state.user.name,
+        email: this.$store.state.user.email,
+        contact: this.$store.state.user.phone,
       },
       notes: {
-        address: "Razorpay Corporate Office",
+        address: "Village bajun near golu mandir, district Nainital Uttrakhand",
       },
       theme: {
         color: "#3399cc",

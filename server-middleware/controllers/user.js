@@ -4,6 +4,15 @@ const Joi = require("joi");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 
+// //authentication check
+// exports.authentication = (req, res, next) => {
+//   if (req.session.mail != undefined) {
+//     next();
+//   } else {
+//     res.render("user/home", { user: "" });
+//   }
+// };
+
 //show the login page
 exports.getLogin = (req, res, next) => {
   res.render("user/loginAccount", { user: "", msg: [], err: [] });
@@ -219,7 +228,7 @@ exports.postBooking = (req, res, next) => {
   // console.log(req.body);
 
   res.render("user/bookingConfirm.ejs", {
-    user: req.session.mail,
+    user: req.session.mail || req.cookies.nature_roar_user,
     name: req.body.name,
     type: req.body.type,
     cost: req.body.cost,
@@ -229,12 +238,13 @@ exports.postBooking = (req, res, next) => {
 //post status request
 
 exports.postStatus = (req, res, next) => {
-  var date = req.body.date;
-  //console.log(date)
+  var dateFrom = req.body.dateFrom;
+  var dateTo = req.body.dateTo;
+  var userEmail = req.session.mail || req.cookies.nature_roar_user;
   data =
     "INSERT INTO bookingstatus " +
     " VALUES ('" +
-    req.session.mail +
+    userEmail +
     "','" +
     req.body.name +
     "','" +
@@ -244,8 +254,10 @@ exports.postStatus = (req, res, next) => {
     "','" +
     0 +
     "','" +
-    date +
-    "')";
+    dateFrom +
+    "', '" +
+    dateTo +
+    "') ";
 
   data1 =
     "SELECT * " +
@@ -310,13 +322,6 @@ exports.getShowStatus = (req, res, next) => {
 
 //delete booking request
 exports.deleteBooking = (req, res, next) => {
-  //console.log(req.body);
-  // var connectDB = mysql.createConnection({
-  //   host: "localhost",
-  //   user: "root",
-  //   password: "p@ssw0rd",
-  //   database: "hotel",
-  // });
 
   data =
     "DELETE FROM bookingstatus " +

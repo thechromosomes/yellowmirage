@@ -1,6 +1,7 @@
 const shortid = require("shortid");
 const Razorpay = require("razorpay");
 const crypto = require("crypto");
+const { response } = require("express");
 const secret = "natureRoarSecretKey";
 
 exports.getRazorId = async (req, res) => {
@@ -9,9 +10,9 @@ exports.getRazorId = async (req, res) => {
     key_secret: "o63wGye0iSt6jc1IFOuFjfuv",
   });
 
-  // do a validation
+  let { name, email, contact } = req.body;
 
-  console.log(req.body);
+  // do a validation
 
   const payment_capture = 1;
   const amount = 100;
@@ -26,35 +27,75 @@ exports.getRazorId = async (req, res) => {
 
   try {
     const response = await razorpay.orders.create(options);
-    res.json({
-      id: response.id,
-      currency: response.currency,
-      amount: response.amount,
+    let razor_id = response.id;
+
+    const data = {
+      razor_id,
+      status: 0,
+      name,
+      contact,
+      email,
+    };
+
+    db.query("INSERT INTO razorPayment SET ? ;", data, (err, result) => {
+      if (err) throw err;
+      else {
+        res.json({
+          id: razor_id,
+          currency: response.currency,
+          amount: response.amount,
+          error: false,
+        });
+      }
     });
   } catch (error) {
+    res.json({
+      id: null,
+      currency: null,
+      amount: null,
+      error: true,
+    });
     console.log(error);
   }
 };
-exports.authRazorPay = (req, res) => {
+exports.authRazorPay = async (req, res) => {
   // do a validation
+  try {
+    const shasum = crypto.createHmac("sha256", secret);
+    shasum.update(JSON.stringify(req.body));
+    const digest = shasum.digest("hex");
 
-  console.log(req.body);
+    if (digest === req.headers["x-razorpay-signature"]) {
+      let payment_detail = req.body.payload.payment.entity;
+      let queryData =
+        "UPDATE razorPayment SET payment_detail = " +
+        JSON.stringify(payment_detail) +
+        ", status = 1 " +
+        "WHERE razor_id = " +
+        JSON.stringify(payment_detail.order_id);
 
-  const shasum = crypto.createHmac("sha256", secret);
-  shasum.update(JSON.stringify(req.body));
-  const digest = shasum.digest("hex");
+      console.log("queryData", queryData);
 
-  console.log(digest, req.headers["x-razorpay-signature"]);
-
-  if (digest === req.headers["x-razorpay-signature"]) {
-    console.log("request is legit");
-    // process it
-    require("fs").writeFileSync(
-      "payment1.json",
-      JSON.stringify(req.body, null, 4)
-    );
-  } else {
-    // pass it
+      db.query(queryData, (err, result) => {
+        if (err) throw err;
+        else {
+          res.json({
+            status: "ok",
+            message: "payment successful",
+          });
+        }
+      });
+    } else {
+      res.json({
+        status: false,
+        message: `Payment failed with unauthorized header`,
+      });
+    }
+  } catch (error) {
+    console.log(error);
+    res.json({
+      status: false,
+      message: `Payment failed with unauthorized header`,
+    });
   }
-  res.json({ status: "ok" });
 };

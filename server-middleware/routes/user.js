@@ -30,7 +30,7 @@ router.route("/boooking").post(auth, userControler.postBooking); //post booking 
 
 // handle razorpay
 router.route("/getrazorpayid").post(auth, paymentController.getRazorId); //post booking data
-router.route("/authRazorpay").post(auth, paymentController.authRazorPay); //post booking data
+router.route("/authRazorpay").post(paymentController.authRazorPay); //post booking data
 
 
 router.route("/status").post(auth, userControler.postStatus);

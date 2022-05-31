@@ -12,7 +12,7 @@ export default async (context) => {
         params: { userToken, userEmail },
       });
 
-      user = userData;
+      user = userData.data[0];
 
       context.store.commit("updateUserCreds", {
         userToken,
