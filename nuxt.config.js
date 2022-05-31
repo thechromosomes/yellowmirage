@@ -50,7 +50,7 @@ export default {
   ],
 
   server: {
-    port: 12000,
+    port: process.env.PORT || 13000,
     // configure local area network
     // host: "0.0.0.0",
   },
