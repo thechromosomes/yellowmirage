@@ -1,16 +1,17 @@
 export const state = () => ({
   // BASE_URL: "https://natureroar.com",
   BASE_URL: "http://localhost:3000",
-  // BASE_URL: "https://cry-chris-civic-multi.trycloudflare.com",
+  // BASE_URL: "https://blast-promoting-district-technology.trycloudflare.com",
 
   RAZORPAY_KEY: "rzp_test_vfDjnIFxp14DhZ",
   INSTA_TOKEN:
-    "IGQVJVM3hhVl9ud0t6b2pHa1RUSlZAobnFEWnIwVnRmdFJsS0xGNE1hQXpGZAExaQjdERVMxWFlnVk4wZAlM2WkRDeGpZAcUFUUkhDd3lXLTA0ZA0EyeUdwbmdRX0ctRUN5OTRiQW1BMTRoVy03NC1nV0llMQZDZD",
+    "IGQVJXM2N6NGp4dkdpSDdZAaFRISnptZAmwxYUpBWkw3MHBCbnNqR0pzNGtXNjBYMXItZAnVWT2dUTXNZAcWRNOTRuaWFZAQkx6bFhISC1PUzh6M2JZAWlpQV2tNQW83WDVsOF9nTGJvR2xjektzbnNZAZAldrawZDZD",
 
   pageLoader: false,
   userEmail: null,
   userToken: null,
   user: null,
+  singleRoomData: null
 });
 
 export const actions = {
@@ -58,5 +59,10 @@ export const mutations = {
     state.userToken = payload.userToken;
     state.userEmail = payload.userEmail;
     state.user = payload.user;
+  },
+
+  // update single room data
+  updateSingleRoomDate(state, { payload }) {
+    state.singleRoomData = payload;
   },
 };

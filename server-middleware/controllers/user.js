@@ -3,6 +3,8 @@ var mysql = require("mysql");
 const Joi = require("joi");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
+const { json } = require("body-parser");
+const moment = require("moment");
 
 // //authentication check
 // exports.authentication = (req, res, next) => {
@@ -240,17 +242,22 @@ exports.postBooking = (req, res, next) => {
 exports.postStatus = (req, res, next) => {
   var dateFrom = req.body.dateFrom;
   var dateTo = req.body.dateTo;
-  var userEmail = req.session.mail || req.cookies.nature_roar_user;
+  var userEmail = req.cookies.nature_roar_user || req.session.mail;
+
+  console.log(dateFrom, dateTo);
+
   data =
-    "INSERT INTO bookingstatus " +
+    "INSERT INTO bookingstatus" +
     " VALUES ('" +
     userEmail +
     "','" +
-    req.body.name +
+    req.body.category +
+    "','" +
+    req.body.paymentID +
     "','" +
     req.body.type +
     "','" +
-    req.body.roomWant +
+    req.body.numberOfGuest * 1 +
     "','" +
     0 +
     "','" +
@@ -258,28 +265,33 @@ exports.postStatus = (req, res, next) => {
     "', '" +
     dateTo +
     "') ";
-
   data1 =
     "SELECT * " +
     " FROM  bookingstatus " +
     " WHERE email = " +
-    mysql.escape(req.session.mail);
+    mysql.escape(userEmail);
 
   db.query(data, (err, result) => {
     if (err) throw err;
     else {
-      db.query(data1, (err1, result) => {
-        for (i in result) {
-          var a = result[i].date;
-          a = a.toString();
-          result[i].date = a.slice(0, 15);
-        }
-        res.render("user/statusShow", {
-          user: req.session.mail,
-          msg: "Your booking is placed",
-          err: "",
-          data: result,
-        });
+      //   db.query(data1, (err1, result) => {
+      //     for (i in result) {
+      //       var a = result[i].dateTo + result[i].dateFrom;
+      //       a = a.toString();
+      //       result[i].date = a.slice(0, 15);
+      //     }
+      //     res.render("user/statusShow", {
+      //       user: userEmail,
+      //       msg: "Your booking is placed",
+      //       err: "",
+      //       data: result,
+      //     });
+      //   });
+      res.json({
+        user: userEmail,
+        msg: "Your booking is placed",
+        err: "",
+        status: true,
       });
     }
   });
@@ -287,30 +299,32 @@ exports.postStatus = (req, res, next) => {
 
 //get status
 exports.getShowStatus = (req, res, next) => {
+  let mail = req.cookies.nature_roar_user || req.session.mail;
   data =
     "SELECT * " +
     " FROM  bookingstatus " +
     " WHERE email = " +
-    mysql.escape(req.session.mail);
+    mysql.escape(mail);
 
   db.query(data, (err, result) => {
     if (err) throw err;
     else {
       for (i in result) {
-        var a = result[i].date;
-        a = a.toString();
-        result[i].date = a.slice(0, 15);
+        var dateTo = result[i].dateTo.toString();
+        var dateFrom = result[i].dateFrom.toString();
+        result[i].dateFrom = dateFrom.slice(0,15);
+        result[i].dateTo = dateTo.slice(0,15);
       }
       if (result.length < 1) {
         res.render("user/statusShow", {
-          user: req.session.mail,
+          user: mail,
           msg: "",
-          err: "You dont have any data",
+          err: "No booking yet, Head to our booking section.",
           data: result,
         });
       } else {
         res.render("user/statusShow", {
-          user: req.session.mail,
+          user: mail,
           msg: "",
           err: "",
           data: result,
@@ -322,7 +336,6 @@ exports.getShowStatus = (req, res, next) => {
 
 //delete booking request
 exports.deleteBooking = (req, res, next) => {
-
   data =
     "DELETE FROM bookingstatus " +
     " WHERE email = " +

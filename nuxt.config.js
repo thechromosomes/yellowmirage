@@ -40,17 +40,17 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    // "~/static/assets/css/style.css",
-    // "~/static/assets/css/style.css",
-    // "~/static/assets/vendors/mdi/css/materialdesignicons.min.css",
-    // "~/static/assets/vendors/owl.carousel/css/owl.carousel.css",
-    // "~/static/assets/vendors/owl.carousel/css/owl.theme.default.min.css",
-    // "~/static/assets/vendors/aos/css/aos.css",
-    // "~/static/assets/vendors/jquery-flipster/css/jquery.flipster.css",
+    "~/static/assets/css/style.css",
+    "~/static/assets/css/style.css",
+    "~/static/assets/vendors/mdi/css/materialdesignicons.min.css",
+    "~/static/assets/vendors/owl.carousel/css/owl.carousel.css",
+    "~/static/assets/vendors/owl.carousel/css/owl.theme.default.min.css",
+    "~/static/assets/vendors/aos/css/aos.css",
+    "~/static/assets/vendors/jquery-flipster/css/jquery.flipster.css",
   ],
 
   server: {
-    port: process.env.PORT || 13000,
+    port: 3001,
     // configure local area network
     // host: "0.0.0.0",
   },
@@ -92,5 +92,11 @@ export default {
         });
       },
     },
+  },
+
+  server: {
+    port: 3000,
+    // configure local area network
+    // host: "0.0.0.0",
   },
 };

@@ -7,19 +7,21 @@ exports.getLogin = (req, res, next) => {
   if (req.session.admin == undefined) {
     res.render("admin/login", { msg: "", err: "" });
   } else {
-    var connectDB = mysql.createConnection({
+    var db = mysql.createConnection({
       host: "localhost",
       user: "root",
       password: "p@ssw0rd",
       database: "hotel",
     });
     data1 = "SELECT * " + "FROM  bookingstatus " + "WHERE status = 0 ";
-    connectDB.query(data1, (err1, result1) => {
+    db.query(data1, (err1, result1) => {
       if (err1) throw err1;
       else {
         for (i in result1) {
-          var a = result1[i].date;
-          result1[i].date = a.toString().slice(0, 15);
+          var dateTo = result1[i].dateTo.toString();
+          var dateFrom = result1[i].dateFrom.toString();
+          result1[i].dateFrom = dateFrom.slice(0, 15);
+          result1[i].dateTo = dateTo.slice(0, 15);
         }
         return res.render("admin/index", { msg: "", err: "", data: result1 });
       }
@@ -29,7 +31,7 @@ exports.getLogin = (req, res, next) => {
 
 //login post request
 exports.postLogin = (req, res, next) => {
-  var connectDB = mysql.createConnection({
+  var db = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "p@ssw0rd",
@@ -46,17 +48,19 @@ exports.postLogin = (req, res, next) => {
 
   data1 = "SELECT * " + "FROM  bookingstatus " + "WHERE status = 0 ";
 
-  connectDB.query(data, (err, result) => {
+  db.query(data, (err, result) => {
     if (err) throw err;
     else {
       if (result.length) {
         req.session.admin = result[0].name;
-        connectDB.query(data1, (err1, result1) => {
+        db.query(data1, (err1, result1) => {
           if (err1) throw err1;
           else {
             for (i in result1) {
-              var a = result1[i].date;
-              result1[i].date = a.toString().slice(0, 15);
+              var dateTo = result1[i].dateTo.toString();
+              var dateFrom = result1[i].dateFrom.toString();
+              result1[i].dateFrom = dateFrom.slice(0, 15);
+              result1[i].dateTo = dateTo.slice(0, 15);
             }
             return res.render("admin/index", {
               msg: "",
@@ -77,15 +81,6 @@ exports.postLogin = (req, res, next) => {
 
 //change booking status
 exports.postChnageStatus = (req, res, next) => {
-  //console.log(req.body);
-
-  var connectDB = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "p@ssw0rd",
-    database: "hotel",
-  });
-
   var value = 0;
 
   if (req.body.click == "Approve") {
@@ -99,10 +94,24 @@ exports.postChnageStatus = (req, res, next) => {
       " AND type = " +
       mysql.escape(req.body.type) +
       " AND category = " +
-      mysql.escape(req.body.cat) +
-      " AND roomWant = " +
-      mysql.escape(req.body.want);
-  } else {
+      mysql.escape(req.body.cat);
+  }
+
+  if (req.body.click == "cancel") {
+    value = 0;
+    data =
+      "UPDATE bookingstatus " +
+      " SET  status = " +
+      mysql.escape(value) +
+      " WHERE email = " +
+      mysql.escape(req.body.mail) +
+      " AND type = " +
+      mysql.escape(req.body.type) +
+      " AND category = " +
+      mysql.escape(req.body.cat);
+  }
+
+  if (req.body.click == "Delete") {
     data =
       "DELETE FROM bookingstatus " +
       " WHERE email = " +
@@ -110,22 +119,23 @@ exports.postChnageStatus = (req, res, next) => {
       " AND type = " +
       mysql.escape(req.body.type) +
       " AND category = " +
-      mysql.escape(req.body.cat) +
-      " AND roomWant = " +
-      mysql.escape(req.body.want);
+      mysql.escape(req.body.cat);
   }
 
   data1 = "SELECT * " + "FROM  bookingstatus " + "WHERE status = 0 ";
 
-  connectDB.query(data, (err, result) => {
+  db.query(data, (err, result) => {
     if (err) throw err;
     else {
-      connectDB.query(data1, (err1, result1) => {
+      db.query(data1, (err1, result1) => {
         if (err1) throw err1;
         else {
           for (i in result1) {
             var a = result1[i].date;
-            result1[i].date = a.toString().slice(0, 15);
+            var dateTo = result1[i].dateTo.toString();
+            var dateFrom = result1[i].dateFrom.toString();
+            result1[i].dateFrom = dateFrom.slice(0, 15);
+            result1[i].dateTo = dateTo.slice(0, 15);
           }
           return res.render("admin/index", { msg: "", err: "", data: result1 });
         }
@@ -142,7 +152,7 @@ exports.getAddHotel = (req, res, next) => {
 
 //add new hotel info
 exports.postAddHotel = (req, res, next) => {
-  var connectDB = mysql.createConnection({
+  var db = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "p@ssw0rd",
@@ -227,7 +237,7 @@ exports.postAddHotel = (req, res, next) => {
           "' ,'" +
           des +
           "' )";
-        connectDB.query(data, (err, result) => {
+        db.query(data, (err, result) => {
           if (err) {
             throw err;
           } else {
@@ -250,7 +260,7 @@ exports.getSearch = (req, res, next) => {
 exports.postSearch = (req, res, next) => {
   //console.log(req.body);
 
-  var connectDB = mysql.createConnection({
+  var db = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "p@ssw0rd",
@@ -263,7 +273,7 @@ exports.postSearch = (req, res, next) => {
     "WHERE name = " +
     mysql.escape(req.body.cat);
 
-  connectDB.query(data, (err, result) => {
+  db.query(data, (err, result) => {
     if (err) throw err;
     else {
       return res.render("admin/update", { msg: "", err: "", data: result });
@@ -275,7 +285,7 @@ exports.postSearch = (req, res, next) => {
 
 exports.getUpdate = (req, res, next) => {
   // console.log(req.body);
-  var connectDB = mysql.createConnection({
+  var db = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "p@ssw0rd",
@@ -292,7 +302,7 @@ exports.getUpdate = (req, res, next) => {
     " AND cost = " +
     mysql.escape(req.body.cost);
 
-  connectDB.query(data, (err, result) => {
+  db.query(data, (err, result) => {
     if (err) throw err;
     else {
       req.session.info = result[0];
@@ -304,7 +314,7 @@ exports.getUpdate = (req, res, next) => {
 //update previous data
 
 exports.updatePrevData = (req, res, next) => {
-  var connectDB = mysql.createConnection({
+  var db = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "p@ssw0rd",
@@ -332,7 +342,7 @@ exports.updatePrevData = (req, res, next) => {
   //  console.log(req.body);
   //  console.log(data);
 
-  connectDB.query(data, (err, result) => {
+  db.query(data, (err, result) => {
     if (err) throw err;
     else {
       res.render("admin/search", { msg: "Update Done Successfuly", err: "" });

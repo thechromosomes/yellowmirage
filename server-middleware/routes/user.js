@@ -7,8 +7,10 @@ const router = express.Router();
 
 const userControler = require("../controllers/user");
 const paymentController = require("../controllers/paymentController");
+const pdfController = require("../controllers/createPDF");
 
-router.get("/test", auth, userControler.test); //logout
+
+router.get("/test", auth, pdfController.createPDf); //logout
 
 router.get("/getUserData", auth, userControler.getUserData); //home page
 
@@ -37,11 +39,11 @@ router.route("/status").post(auth, userControler.postStatus);
 
 router.route("/showStatus").get(auth, userControler.getShowStatus); // get show status
 
-router.post(
-  "/deletereq",
-  userControler.deleteBooking,
-  userControler.getShowStatus
-);
+// router.post(
+//   "/deletereq",
+//   userControler.deleteBooking,
+//   userControler.getShowStatus
+// );
 
 // router.get('/contact',userControler.getContact);
 

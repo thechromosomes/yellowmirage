@@ -54,7 +54,10 @@
               <a class="nav-link" href="/contactus">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/logout">Logout</a>
+              <a class="nav-link" href="/contactus">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/showStatus">Booking Status</a>
             </li>
           </template>
           <template v-else>
@@ -63,7 +66,9 @@
             </li>
           </template>
           <li class="nav-item">
-            <NuxtLink class="nav-link btn btn-success" to="/rooms">Book online</NuxtLink>
+            <NuxtLink class="nav-link btn btn-success" to="/rooms"
+              >Book online</NuxtLink
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link btn btn-success" href="tel:7466056737"

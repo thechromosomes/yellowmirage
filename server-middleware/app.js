@@ -22,13 +22,26 @@ app.set("views", path.join(__dirname, "../server-middleware/views"));
 const userRouter = require("./routes/user");
 const adminRouter = require("./routes/admin");
 
+// app.use(
+//   session({
+//     secret: "secret",
+//     resave: true,
+//     saveUninitialized: false,
+//   })
+// );
+
 app.use(
   session({
+    cookie: {
+      secure: true,
+      maxAge: 60000,
+    },
     secret: "secret",
-    resave: true,
-    saveUninitialized: false,
+    saveUninitialized: true,
+    resave: false,
   })
 );
+
 app.use(cookieParser());
 
 app.use(bodyParser.urlencoded({ extended: false }));

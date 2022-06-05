@@ -9,22 +9,47 @@
             <div class="dot"></div>
           </div>
 
-          <span class="close" @click="$parent.togglePopUP()">close</span>
+          <span class="close" @click="closeHandler()">close</span>
 
           <div class="title">
             <h1>Nature roar</h1>
+            <h5>We'll try to be your best stay in the world :)</h5>
           </div>
 
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/256492/cXsiNryL.png"
-            alt="Car"
-          />
+          <div class="subscribe mt-2">
+            <HotelDatePicker
+              :startDate="
+                new Date(new Date().getFullYear(), new Date().getMonth() + 1, 1)
+              "
+              @period-selected="handleDatePicker"
+              positionRight
+              :gridStyle="false"
+              :disabledDates="disabledDates"
+            >
+            </HotelDatePicker>
+            <div class="mt-2">
+              <label class="dropdown">
+                <div class="dd-button">
+                  Number of guest(s) {{ user.numberOfGuest }}
+                </div>
+                <input type="checkbox" class="dd-input" id="test" />
+                <ul class="dd-menu">
+                  <li
+                    v-for="(guest, index) in 4"
+                    :key="index"
+                    @click="handNumberOfGuest(guest)"
+                  >
+                    {{ guest }} guest
+                  </li>
 
-          <div class="subscribe">
-            <form>
-              <input type="email" placeholder="Your email address" />
-              <input type="submit" value="Subscribe" />
-            </form>
+                  <li class="divider"></li>
+                </ul>
+              </label>
+            </div>
+            <img src="@/static/assets/images/booking-car-min.png" alt="Car" />
+            <div>
+              <razor-pay :user="user"></razor-pay>
+            </div>
           </div>
         </div>
       </div>
@@ -34,9 +59,33 @@
 
 <script>
 import HotelDatePicker from "vue-hotel-datepicker";
+import moment from "moment"
 import "vue-hotel-datepicker/dist/vueHotelDatepicker.css";
 export default {
   components: { HotelDatePicker },
+  data() {
+    return {
+      selectedValue: null,
+      user: {},
+      disabledDates: []
+    };
+  },
+  methods: {
+    closeHandler() {
+      this.$parent.togglePopUP();
+    },
+    handleDatePicker(Event, dateFrom, dateTo) {
+      this.user.dateFrom = moment(dateFrom).format("YYYY-MM-DD HH:mm:ss");
+      this.user.dateTo = moment(dateTo).format("YYYY-MM-DD HH:mm:ss");
+
+    },
+
+    handNumberOfGuest(guest) {
+      let temp = { ...this.user };
+      temp.numberOfGuest = guest;
+      this.user = temp;
+    },
+  },
 };
 </script>
 
@@ -198,20 +247,20 @@ body {
   .pop-up {
     width: calc(100% - 40px);
     height: auto;
-    max-width: 900px;
+    max-width: 980px;
   }
 }
 .pop-up .content {
   width: 100%;
-  max-width: 900px;
+  /* max-width: 900px; */
   overflow: hidden;
   text-align: center;
   position: relative;
-  min-height: 100vh;
+  min-height: 85vh;
 }
 @media (min-width: 768px) {
   .pop-up .content {
-    min-height: inherit;
+    /* min-height: auto; */
   }
 }
 .pop-up .content .container {
@@ -405,5 +454,93 @@ body {
   -ms-transform: translateX(0px);
   -o-transform: translateX(0px);
   transform: translateX(0px);
+}
+
+/* Dropdown */
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dd-button {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px 30px 10px 20px;
+  background-color: #ffffff;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-button:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.dd-button:hover {
+  background-color: #eeeeee;
+}
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  position: absolute;
+  top: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+  z-index: 99;
+  width: 100%;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+}
+
+.dd-input:checked + .dd-menu {
+  display: block;
+}
+
+.dd-menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-menu li:hover {
+  background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+
+.dd-menu li.divider {
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* drop down end */
+
+/* custom css for date picker */
+.vhd__datepicker__inner {
+  padding: 0px !important;
 }
 </style>

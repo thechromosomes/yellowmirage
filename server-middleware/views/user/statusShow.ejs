@@ -55,9 +55,11 @@
               <thead class="thead-dark">
                 <tr border="1">
                   <th>Name</th>
-                  <th>Date</th>
+                  <th>Date from</th>
+                  <th>Date to</th>
                   <th>Category</th>
                   <th>Type</th>
+                  <th>No. of guest</th>
                   <th>Status</th>
                 </tr>
               </thead>
@@ -66,48 +68,18 @@
               <tbody>
                 <tr>
                   <td><%=data[i].email%></td>
-                  <td><%=data[i].date%></td>
+                  <td><%=data[i].dateFrom%></td>
+                  <td><%=data[i].dateTo%></td>
                   <td><%=data[i].category%></td>
+
                   <td><%=data[i].type%></td>
+                  <td><%=data[i].numberOfGuest%></td>
 
                   <% if(data[i].status == 1){ %>
                   <td style="color: #17b978;" class="text-center">Approved</td>
                   <% } else if(data[i].status == 0){ %>
                   <td style="color: #f0da16;" class="text-center">
-                    Pending
-                    <form action="/deletereq" method="POST">
-                      <input
-                        type="text"
-                        name="mail"
-                        value="<%=data[i].email%>"
-                        hidden
-                      />
-                      <input
-                        type="text"
-                        name="want"
-                        value="<%=data[i].roomWant%>"
-                        hidden
-                      />
-                      <input
-                        type="text"
-                        name="cat"
-                        value="<%=data[i].category%>"
-                        hidden
-                      />
-                      <input
-                        type="text"
-                        name="type"
-                        value="<%=data[i].type%>"
-                        hidden
-                      />
-                      <input
-                        type="submit"
-                        value="Delete"
-                        style="background-color: #ff304f;"
-                        class="text-center btn btn-danger buttonDelete"
-                      />
-                    </form>
-                    <% } %>
+                    Pending <% } %>
                   </td>
                 </tr>
               </tbody>

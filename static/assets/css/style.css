@@ -19497,3 +19497,8 @@ section {
   width: 5px;
 }
 /*# sourceMappingURL=maps/style.css.map */
+
+/* body overflow hidden */
+.body-overflow-hidden {
+  overflow: hidden !important;
+}

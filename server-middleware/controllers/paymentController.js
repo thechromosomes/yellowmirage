@@ -67,18 +67,22 @@ exports.authRazorPay = async (req, res) => {
 
     if (digest === req.headers["x-razorpay-signature"]) {
       let payment_detail = req.body.payload.payment.entity;
+      let razorId = JSON.stringify(payment_detail.order_id);
+
       let queryData =
         "UPDATE razorPayment SET payment_detail = " +
-        JSON.stringify(payment_detail) +
+        "'" +
+        JSON.stringify(req.body.payload) +
+        "'" +
         ", status = 1 " +
         "WHERE razor_id = " +
-        JSON.stringify(payment_detail.order_id);
-
-      console.log("queryData", queryData);
+        razorId;
 
       db.query(queryData, (err, result) => {
         if (err) throw err;
         else {
+          // create PDF to send over email
+
           res.json({
             status: "ok",
             message: "payment successful",

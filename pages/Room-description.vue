@@ -232,46 +232,46 @@ export default {
       },
     };
   },
-  // head() {
-  //   return {
-  //     title: this.title,
-  //     meta: [
-  //       {
-  //         hid: "description",
-  //         name: "description",
-  //         content: this.description,
-  //       },
-  //       {
-  //         hid: "keyword",
-  //         name: "keyword",
-  //         content: this.singleProductList.meta_keyword,
-  //       },
-  //       {
-  //         hid: "og:title",
-  //         content: this.title,
-  //         property: "og:title",
-  //       },
-  //       {
-  //         hid: "og:description",
-  //         content: this.description,
-  //         property: "og:description",
-  //       },
-  //       {
-  //         hid: "og:url",
-  //         content: this.url,
-  //         property: "og:url",
-  //       },
-  //       {
-  //         hid: "og:image",
-  //         content: this.image,
-  //         property: "og:image",
-  //       },
-  //     ],
-  //     bodyAttrs: {
-  //       class: "footer_mobile_pd",
-  //     },
-  //   };
-  // },
+  head() {
+    return {
+      //     title: this.title,
+      //     meta: [
+      //       {
+      //         hid: "description",
+      //         name: "description",
+      //         content: this.description,
+      //       },
+      //       {
+      //         hid: "keyword",
+      //         name: "keyword",
+      //         content: this.singleProductList.meta_keyword,
+      //       },
+      //       {
+      //         hid: "og:title",
+      //         content: this.title,
+      //         property: "og:title",
+      //       },
+      //       {
+      //         hid: "og:description",
+      //         content: this.description,
+      //         property: "og:description",
+      //       },
+      //       {
+      //         hid: "og:url",
+      //         content: this.url,
+      //         property: "og:url",
+      //       },
+      //       {
+      //         hid: "og:image",
+      //         content: this.image,
+      //         property: "og:image",
+      //       },
+      //     ],
+      bodyAttrs: {
+        class: `${this.showPopUp ? "body-overflow-hidden" : ""}`,
+      },
+    };
+  },
 
   methods: {
     togglePopUP() {
@@ -310,7 +310,13 @@ export default {
           item.room_category == room_category &&
           item.room_name == room_name
         ) {
-          return (this.singleRoom = item);
+          this.singleRoom = item;
+          this.$store.commit("updateSingleRoomDate",
+            {
+              payload: item,
+            });
+
+          return;
         }
       });
 
@@ -321,19 +327,6 @@ export default {
     },
     async addToCart() {
       this.showPopUp = true;
-      return;
-      let type = this.singleRoom.room_category;
-      let name = this.singleRoom.room_name;
-      let cost = this.singleRoom.price;
-      let roomWant = this.roomWant;
-      let date = this.bookingDate;
-
-      await this.$store.dispatch("ApiCall", {
-        method: "post",
-        url: `/status`,
-        type: "protected",
-        params: { type, name, cost, roomWant, date },
-      });
     },
 
     scrollTo(selector) {
