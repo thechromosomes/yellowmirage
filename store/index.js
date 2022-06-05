@@ -1,7 +1,9 @@
 export const state = () => ({
   // BASE_URL: "https://natureroar.com",
-  BASE_URL: "http://localhost:3000",
+  // BASE_URL: "http://localhost:3000",
   // BASE_URL: "https://blast-promoting-district-technology.trycloudflare.com",
+  BASE_URL: "http://nature-roar-staging.ml",
+
 
   RAZORPAY_KEY: "rzp_test_vfDjnIFxp14DhZ",
   INSTA_TOKEN:
