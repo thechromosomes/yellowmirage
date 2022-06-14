@@ -196,6 +196,7 @@ export default {
 
 .mainSliderImage img {
   width: 100% !important;
+  height: 100% !important;
 }
 
 .mainBannerString {
