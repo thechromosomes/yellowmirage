@@ -18,12 +18,9 @@
 
           <div class="subscribe mt-2">
             <HotelDatePicker
-              :startDate="
-                new Date(new Date().getFullYear(), new Date().getMonth() + 1, 1)
-              "
               @period-selected="handleDatePicker"
               positionRight
-              :gridStyle="false"
+              gridStyle
               :disabledDates="disabledDates"
             >
             </HotelDatePicker>
@@ -59,7 +56,7 @@
 
 <script>
 import HotelDatePicker from "vue-hotel-datepicker";
-import moment from "moment"
+import moment from "moment";
 import "vue-hotel-datepicker/dist/vueHotelDatepicker.css";
 export default {
   components: { HotelDatePicker },
@@ -67,7 +64,7 @@ export default {
     return {
       selectedValue: null,
       user: {},
-      disabledDates: []
+      disabledDates: [],
     };
   },
   methods: {
@@ -77,7 +74,6 @@ export default {
     handleDatePicker(Event, dateFrom, dateTo) {
       this.user.dateFrom = moment(dateFrom).format("YYYY-MM-DD HH:mm:ss");
       this.user.dateTo = moment(dateTo).format("YYYY-MM-DD HH:mm:ss");
-
     },
 
     handNumberOfGuest(guest) {
@@ -85,6 +81,23 @@ export default {
       temp.numberOfGuest = guest;
       this.user = temp;
     },
+
+    async getBookedDate() {
+      let response = await this.$store.dispatch("ApiCall", {
+        method: "post",
+        url: `/getBookedDate`,
+        params: {
+          category: this.$store.state.singleRoomData.room_category,
+          type: this.$store.state.singleRoomData.room_name,
+        },
+      });
+
+      this.disabledDates = response.data;
+    },
+  },
+
+  beforeMount() {
+    this.getBookedDate();
   },
 };
 </script>

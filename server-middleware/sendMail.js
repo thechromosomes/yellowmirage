@@ -1,6 +1,6 @@
 const bodyParser = require("body-parser");
 const app = require("express")();
-const nodemailer = require("nodemailer");
+const axios = require("axios");
 
 app.use(bodyParser.json());
 
@@ -37,47 +37,57 @@ app.post("/sendmail", async (req, res) => {
     `;
     }
 
-    // create reusable transporter object using the default SMTP transport
-    let transporter = nodemailer.createTransport({
-      host: "smtpout.secureserver.net",
-      port: 465,
-      // secure: false, // true for 465, false for other ports
-      secureConnection: true,
-      auth: {
-        user: "support@natureroar.com", // generated ethereal user
-        pass: "@26stringsand9nums", // generated ethereal password
-      },
-      tls: {
-        rejectUnauthorized: false,
-      },
-    });
-
-    // setup email data with unicode symbols
     let dummy = Math.floor(Math.random() * (1000 - 100) + 100) / 100;
-    let mailOptions = {
-      from: `natureRoar${dummy}@natureroar.com`, // sender address
-      to: "support@natureroar.com", // list of receivers
-      subject: `nature roar ${req.body.emailType}`, // Subject line
-      text: `From ${req.body.name} `, // plain text body
-      html: output, // html body
+
+    let personalization = {
+      personalizations: [
+        {
+          to: [
+            {
+              email: "thenatureroar@gmail.com",
+            },
+          ],
+          subject: `Nature roar ${req.body.emailType}`,
+        },
+      ],
+      from: {
+        email: `natureRoar${dummy}@natureroar.com`,
+      },
+      content: [
+        {
+          type: "text/html",
+          value: output,
+        },
+      ],
     };
 
-    // send mail with defined transport object
-    transporter.sendMail(mailOptions, (error, info) => {
-      if (error) {
+    const options = {
+      method: "POST",
+      url: "https://rapidprod-sendgrid-v1.p.rapidapi.com/mail/send",
+      headers: {
+        "content-type": "application/json",
+        "X-RapidAPI-Key": "8953346137msh5153af51b2a639ep12086bjsn45635ad766a8",
+        "X-RapidAPI-Host": "rapidprod-sendgrid-v1.p.rapidapi.com",
+      },
+      data: personalization,
+    };
+
+    axios
+      .request(options)
+      .then(function (response) {
+        res.send({
+          status: true,
+          message: "Email has been sent",
+        });
+      })
+      .catch(function (error) {
         res.send({
           status: false,
           message: "Error occurred while sending email",
         });
-        return false
-      }
-
-      res.send({
-        status: true,
-        message: "Email has been sent",
       });
-    });
   } catch (error) {
+    console.log(error);
     res.send({
       status: false,
       message: "Error occurred while sending email",

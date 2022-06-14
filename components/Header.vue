@@ -46,7 +46,7 @@
           </li>
 
           <!-- main-menu -->
-          <template v-if="$store.state.userToken != null">
+          <!-- <template v-if="$store.state.userToken != null">
             <li class="nav-item">
               <a class="nav-link" href="/showStatus">Status</a>
             </li>
@@ -59,20 +59,20 @@
             <li class="nav-item">
               <a class="nav-link" href="/showStatus">Booking Status</a>
             </li>
-          </template>
-          <template v-else>
+          </template> -->
+          <!-- <template>
             <li class="nav-item">
               <a class="nav-link" href="/login">login</a>
             </li>
-          </template>
-          <li class="nav-item">
-            <NuxtLink class="nav-link btn btn-success" to="/rooms"
-              >Book online</NuxtLink
+          </template> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link btn btn-success" href="/rooms"
+              >Book online</a
             >
-          </li>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link btn btn-success" href="tel:7466056737"
-              >7466056737</a
+            <a class="nav-link btn btn-success" href="tel:9837176793"
+              >9837176793</a
             >
           </li>
         </ul>

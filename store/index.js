@@ -1,7 +1,9 @@
 export const state = () => ({
-  // BASE_URL: "https://natureroar.com",
-  BASE_URL: "http://localhost:3000",
+  BASE_URL: "https://natureroar.com",
+  // BASE_URL: "http://localhost:3000",
   // BASE_URL: "http://nature-roar-staging.ml",
+
+  homePageBannerLoaded: false,
 
   RAZORPAY_KEY: "rzp_test_vfDjnIFxp14DhZ",
   INSTA_TOKEN:
@@ -50,6 +52,9 @@ export const actions = {
 };
 
 export const mutations = {
+  setHomePageBannerLoaded(state, data) {
+    state.homePageBannerLoaded = data.status;
+  },
   // update loader status
   updatePageLoader(state, { display }) {
     state.pageLoader = display;

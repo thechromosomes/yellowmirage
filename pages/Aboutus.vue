@@ -3,8 +3,8 @@
     <section class="page-section" id="about">
       <div class="container">
         <div class="text-center">
-          <h2 class="section-heading ">
-            International Experiance
+          <h2 class="section-heading">
+            Nature roar
           </h2>
           <h3 class="section-subheading text-muted">
             What to be part of Adamant Story
@@ -48,7 +48,12 @@
               </div>
               <div class="timeline-body">
                 <p class="text-muted">
-                 The idea that one can go through life without conflict or issues arising is unrealistic. Some might dream of a frictionless ride through the world as the ideal journey, but without some form of pushback, growth is impossible. It is these problems that we face which build our character, engage our creativity and build humility.
+                  The idea that one can go through life without conflict or
+                  issues arising is unrealistic. Some might dream of a
+                  frictionless ride through the world as the ideal journey, but
+                  without some form of pushback, growth is impossible. It is
+                  these problems that we face which build our character, engage
+                  our creativity and build humility.
                 </p>
               </div>
             </div>
@@ -68,14 +73,17 @@
               </div>
               <div class="timeline-body">
                 <p class="text-muted">
-                  A lot of people resist transition and therefore never allow themselves to enjoy who they are. Embrace the change, no matter what it is; once you do, you can learn about the new world you’re in and take advantage of it.
+                  A lot of people resist transition and therefore never allow
+                  themselves to enjoy who they are. Embrace the change, no
+                  matter what it is; once you do, you can learn about the new
+                  world you’re in and take advantage of it.
                 </p>
               </div>
             </div>
           </li>
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <h4 style="color:#fff">
+              <h4 style="color: #fff;">
                 Be Part
                 <br />
                 Of Our
@@ -97,13 +105,13 @@
   list-style: none;
 }
 .timeline:before {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 40px;
-    width: 1px;
-    margin-left: -1.5px;
-    content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 1px;
+  margin-left: -1.5px;
+  content: "";
   background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='3' stroke-dasharray='6%2c 14' stroke-dashoffset='6' stroke-linecap='square'/%3e%3c/svg%3e");
 }
 .timeline > li {
@@ -190,7 +198,9 @@
 .timeline .timeline-body > p {
   margin-bottom: 0;
 }
-#about{ padding-top: 50px;}
+#about {
+  padding-top: 50px;
+}
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
@@ -373,6 +383,14 @@ p {
 user agent stylesheet div {
   display: block;
 }
-#about .section-heading { color: #000; text-transform: capitalize; font-weight: bold;}
-#about h4{ color: #000; font-weight: bold; font-size: 20px;}
+#about .section-heading {
+  color: #000;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+#about h4 {
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
 </style>

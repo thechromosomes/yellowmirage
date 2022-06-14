@@ -1,6 +1,12 @@
 <template>
   <div data-spy="scroll" data-target=".navbar" data-offset="50">
     <div id="mobile-menu-overlay"></div>
+    <!-- full [page initial loader] -->
+    <!-- <full-page-loader v-show="!$store.state.homePageBannerLoaded" /> -->
+
+    <div class="floating-images">
+      <FloatingImages />
+    </div>
 
     <div class="page-body-wrapper">
       <section id="home" class="home">
@@ -119,9 +125,7 @@
           </div>
         </div>
       </section>
-         <section class="floating-images">
-        <FloatingImages />
-      </section>
+
       <section class="our-services" id="services">
         <div class="container">
           <div class="row">
@@ -269,12 +273,7 @@
           <div class="row mb-5">
             <div class="col-sm-12">
               <div
-                class="
-                  d-sm-flex
-                  justify-content-between
-                  align-items-center
-                  mb-2
-                "
+                class="d-sm-flex justify-content-between align-items-center mb-2"
               >
                 <h3 class="font-weight-medium text-dark explore-heavern">
                   Let's Explore The Heaven
@@ -391,7 +390,7 @@
 
       <section class="contactus" id="contact">
         <div class="container">
-          <div class="row mb-5 pb-5 contactus-bottom-pd">
+          <div class="row contactus-bottom-pd">
             <div class="col-sm-5">
               <img
                 src="@/static/assets/images/contact.jpg"
@@ -482,6 +481,19 @@
       <section class="instagram-sectiuon">
         <Instagram />
       </section>
+      <section class="google-maps-section mb-1 text-center">
+        <div >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1787229.2213991978!2d77.24689132838202!3d28.967152917271093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a0294000001f%3A0x8690100935d5ebe4!2sThe%20Nature%20Roar!5e0!3m2!1sen!2sin!4v1655194410992!5m2!1sen!2sin"
+            width="90%"
+            height="350"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="border border-primary"
+          ></iframe>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -564,7 +576,8 @@ export default {
       meta: [
         {
           hid: "we are trying to make eco friendly and peaceful living",
-          name: "Best home stay | Best view | Best birdwatching | Best place to stay | Best mountain",
+          name:
+            "Best home stay | Best view | Best birdwatching | Best place to stay | Best mountain",
           content:
             "Best home stay | Best view | Best birdwatching | Best place to stay | Best mountain",
         },
@@ -656,6 +669,14 @@ export default {
         });
       }
     },
+
+    toggleHomePageBannerLoaded() {
+      setTimeout(() => {
+        this.$store.commit("setHomePageBannerLoaded", {
+          status: true,
+        });
+      }, 0);
+    },
   },
   async fetch() {
     function importAll(r) {
@@ -713,7 +734,6 @@ section {
   padding-bottom: 40px;
 }
 .instagram-sectiuon {
-  padding-bottom: 60px;
   padding-left: 15px;
 }
 .owl-carousel .owl-item .item img {
@@ -794,6 +814,3 @@ section {
   }
 }
 </style>
-
-
-

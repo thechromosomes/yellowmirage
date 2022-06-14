@@ -6,15 +6,6 @@ const bcrypt = require("bcrypt");
 const { json } = require("body-parser");
 const moment = require("moment");
 
-// //authentication check
-// exports.authentication = (req, res, next) => {
-//   if (req.session.mail != undefined) {
-//     next();
-//   } else {
-//     res.render("user/home", { user: "" });
-//   }
-// };
-
 //show the login page
 exports.getLogin = (req, res, next) => {
   res.render("user/loginAccount", { user: "", msg: [], err: [] });
@@ -312,8 +303,8 @@ exports.getShowStatus = (req, res, next) => {
       for (i in result) {
         var dateTo = result[i].dateTo.toString();
         var dateFrom = result[i].dateFrom.toString();
-        result[i].dateFrom = dateFrom.slice(0,15);
-        result[i].dateTo = dateTo.slice(0,15);
+        result[i].dateFrom = dateFrom.slice(0, 15);
+        result[i].dateTo = dateTo.slice(0, 15);
       }
       if (result.length < 1) {
         res.render("user/statusShow", {
@@ -374,4 +365,68 @@ exports.logout = (req, res, next) => {
 
 exports.test = (req, res, next) => {
   res.send("hello world from test");
+};
+
+// get booked date
+exports.getBookedDate = async (req, res, next) => {
+  // let currentDate = moment().toISOString();
+  let currentDate = moment().format("YYYY-MM-DD HH:mm:ss");
+
+  let category = req.body.category;
+  let type = req.body.type;
+
+  // add status to the query
+  try {
+    let query =
+      "SELECT `dateFrom`, `dateTo` FROM `bookingstatus` WHERE `dateFrom` > " +
+      "'" +
+      currentDate +
+      "'" +
+      " AND `category` = " +
+      "'" +
+      category +
+      "'" +
+      " AND type = " +
+      "'" +
+      type +
+      "'" +
+      " ORDER BY `bookingstatus`.`dateFrom` DESC";
+
+    console.log(query);
+
+    db.query(query, (err, result) => {
+      if (err) throw err;
+
+      let finalDateArray = [];
+
+      // function to fetch the all the date between two dates
+      getDaysBetweenDates = function (startDate, endDate) {
+        var now = startDate.clone(),
+          dates = [];
+
+        while (now.isSameOrBefore(endDate)) {
+          dates.push(now.format("YYYY-MM-DD"));
+          now.add(1, "days");
+        }
+        return dates;
+      };
+
+      result.map((elem) => {
+        let startDate = moment(elem.dateFrom);
+        let endDate = moment(elem.dateTo);
+        let range = getDaysBetweenDates(startDate, endDate);
+        finalDateArray.push(range);
+      });
+
+      let finalArray = [].concat.apply([], finalDateArray);
+
+      res.json({
+        data: finalArray,
+        status: true,
+        error: false,
+      });
+    });
+  } catch (error) {
+    console.log("error", error);
+  }
 };

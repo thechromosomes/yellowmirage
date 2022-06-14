@@ -9,10 +9,10 @@ const userControler = require("../controllers/user");
 const paymentController = require("../controllers/paymentController");
 const pdfController = require("../controllers/createPDF");
 
-
-router.get("/test", auth, pdfController.createPDf); //logout
+router.get("/test",  pdfController.createPDf); //logout
 
 router.get("/getUserData", auth, userControler.getUserData); //home page
+router.post("/getBookedDate", userControler.getBookedDate); //home page
 
 router
   .route("/login")
@@ -33,7 +33,6 @@ router.route("/boooking").post(auth, userControler.postBooking); //post booking 
 // handle razorpay
 router.route("/getrazorpayid").post(auth, paymentController.getRazorId); //post booking data
 router.route("/authRazorpay").post(paymentController.authRazorPay); //post booking data
-
 
 router.route("/status").post(auth, userControler.postStatus);
 

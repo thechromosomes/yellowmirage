@@ -35,6 +35,10 @@ export default {
         src: "/assets/js/gSap.js",
         defer: true,
       },
+      {
+        src: "/conversionScript.js",
+        defer: true,
+      },
     ],
   },
 
@@ -73,12 +77,12 @@ export default {
   // target: "static", // default is 'server'
 
   // google tag manger
-  // gtm: {
-  //   id: "GTM-T2WH949",
-  //   enabled: true,
-  //   debug: true,
-  //   loadScript: true,
-  // },
+  gtm: {
+    id: "GTM-T2WH949",
+    enabled: true,
+    debug: true,
+    loadScript: true,
+  },
 
   // error handler hook
   hooks: {
@@ -95,7 +99,7 @@ export default {
   },
 
   server: {
-    port: 13000,
+    port: 3000,
     // configure local area network
     // host: "0.0.0.0",
   },
