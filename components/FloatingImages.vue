@@ -17,7 +17,7 @@
           v-for="(item, index) in mainSlider"
           :key="index"
         >
-          <img :src="item.image" @load="$parent.toggleHomePageBannerLoaded()" />
+          <img :src="item.image" @load="toggleHomePageBannerLoaded()" />
         </div>
       </template>
       <template v-else>
@@ -105,6 +105,13 @@ export default {
   },
 
   methods: {
+    toggleHomePageBannerLoaded() {
+      setTimeout(() => {
+        this.$store.commit("setHomePageBannerLoaded", {
+          status: true,
+        });
+      }, 0);
+    },
     renderComponent() {
       const sliderContainer = document.querySelector(".slider-container");
       const slideRight = document.querySelector(".right-slide");
