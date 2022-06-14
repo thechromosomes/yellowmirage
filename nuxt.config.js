@@ -99,7 +99,7 @@ export default {
   },
 
   server: {
-    port: 3000,
+    port: 3001,
     // configure local area network
     // host: "0.0.0.0",
   },
