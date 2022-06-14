@@ -17,7 +17,7 @@
           v-for="(item, index) in mainSlider"
           :key="index"
         >
-          <img :src="item.image" />
+          <img :src="item.image" @load="$parent.toggleHomePageBannerLoaded()" />
         </div>
       </template>
       <template v-else>

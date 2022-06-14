@@ -2,7 +2,7 @@
   <div data-spy="scroll" data-target=".navbar" data-offset="50">
     <div id="mobile-menu-overlay"></div>
     <!-- full [page initial loader] -->
-    <!-- <full-page-loader v-show="!$store.state.homePageBannerLoaded" /> -->
+    <full-page-loader v-show="!$store.state.homePageBannerLoaded" />
 
     <div class="floating-images">
       <FloatingImages />
@@ -482,7 +482,7 @@
         <Instagram />
       </section>
       <section class="google-maps-section mb-1 text-center">
-        <div >
+        <div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1787229.2213991978!2d77.24689132838202!3d28.967152917271093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a0294000001f%3A0x8690100935d5ebe4!2sThe%20Nature%20Roar!5e0!3m2!1sen!2sin!4v1655194410992!5m2!1sen!2sin"
             width="90%"

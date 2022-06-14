@@ -11,7 +11,8 @@
             >
               <div class="gallery-image__img relative">
                 <div class="fill-dimensions cover-img">
-                  <img :src="item.image" />
+                  <img :src="item.image"
+                  @load="$parent.toggleHomePageBannerLoaded()"/>
                 </div>
               </div>
             </div>
