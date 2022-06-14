@@ -36,4 +36,22 @@
   gtag("config", "AW-10833597163/ndzLCJzW0MUDEOul7q0o", {
     phone_conversion_number: "9837176793",
   });
+
+  //   gumlet
+  window.GUMLET_CONFIG = {
+    hosts: [
+      {
+        current: "https://natureroar.com",
+        gumlet: "natureroar.gumlet.io",
+      },
+    ],
+    lazy_load: true,
+  };
+  (function () {
+    d = document;
+    s = d.createElement("script");
+    s.src = "https://cdn.gumlet.com/gumlet.js/2.1/gumlet.min.js";
+    s.async = 1;
+    d.getElementsByTagName("head")[0].appendChild(s);
+  })();
 })();
