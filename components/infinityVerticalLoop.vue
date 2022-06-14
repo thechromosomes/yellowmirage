@@ -10,10 +10,9 @@
               :key="index"
             >
               <div class="gallery-image__img relative">
-                <div
-                  class="fill-dimensions cover-img"
-                  :style="`background-image:url(${item.image})`"
-                ></div>
+                <div class="fill-dimensions cover-img">
+                  <img :src="item.image" />
+                </div>
               </div>
             </div>
           </div>
@@ -64,12 +63,15 @@ body {
 .relative {
   position: relative;
 }
-.cover-img {
+.cover-img img {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  width: 100% !important;
+  height: 100%;
+  object-fit: cover;
 }
-.gallery-h{
+.gallery-h {
   animation: marqueeTop 1220s linear infinite;
 }
 
@@ -90,7 +92,7 @@ body {
   }
   100% {
     -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, calc(-100% + 100vh) , 0);
+    transform: translate3d(0, calc(-100% + 100vh), 0);
   }
 }
 

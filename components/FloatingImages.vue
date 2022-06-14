@@ -13,10 +13,12 @@
     <div class="right-slide">
       <template v-if="!$device.isMobileOrTablet">
         <div
+          class="mainSliderImage"
           v-for="(item, index) in mainSlider"
           :key="index"
-          :style="`background-image:url(${item.image})`"
-        ></div>
+        >
+          <img :src="item.image" />
+        </div>
       </template>
       <template v-else>
         <infinityVerticalLoop :mainSliderData="mainSlider" />
@@ -190,6 +192,10 @@ export default {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.mainSliderImage img {
+  width: 100% !important;
 }
 
 .mainBannerString {
