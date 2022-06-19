@@ -24,19 +24,6 @@
   fbq("init", "1996440903892483");
   fbq("track", "PageView");
 
-  // google conversion code
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-
-  gtag("config", "AW-10833597163");
-
-  gtag("config", "AW-10833597163/ndzLCJzW0MUDEOul7q0o", {
-    phone_conversion_number: "9837176793",
-  });
-
   //   gumlet
   window.GUMLET_CONFIG = {
     hosts: [

@@ -1,27 +1,27 @@
 <template>
   <div>
-    <div id="Gallery" v-if="images.length">
-      <div id="List">
-        <div
-          v-for="(img, index) in images"
-          id="Item"
-          :key="index"
-          v-bind:style="{ 'background-image': 'url(' + images[index] + ')' }"
-        >
-          <h1 v-on:click="showSource(index)"></h1>
+    <main class="main">
+      <div class="container">
+        <div class="card" v-for="(item, index) in images" :key="index">
+          <div class="card-image">
+            <a :src="item.image" @click.prevent="showSource(index)">
+              <img :src="item.image" alt="Image Gallery" />
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </main>
   </div>
 </template>
 
-
 <script>
+import hotelImage from "@/static/hotelImage.json";
+
 export default {
   data() {
     return {
       newItem: { name: "Name of new IMG", path: "Path to new IMG" },
-      images: [],
+      images: hotelImage.reverse(),
     };
   },
 
@@ -33,127 +33,67 @@ export default {
     },
     showSource: function (index) {
       this.$swal.fire({
-        title: this.images[index].name,
-        imageUrl: this.images[index],
+        imageUrl: this.images[index].image,
         button: "Nice",
-        timer: 10000,
+        // timer: 10000,
+        backdrop: `rgba(33, 35, 241, 0.65)`,
+        showClass: {
+          popup: "popUpClassForImage",
+        },
       });
     },
   },
-
-  async fetch() {
-    function importAll(r) {
-      return r.keys().map(r);
-    }
-
-    const images = await importAll(
-      require.context(
-        "@/static/assets/images/hotelPic",
-        false,
-        /\.(png|jpe?g|svg)$/
-      )
-    );
-    this.images = images;
-  },
 };
-</script> 
- 
+</script>
+
 <style scoped>
-/* body {
-  background-color: gray;
-  margin: 0px;
-} */
-#List {
-  background-color: gray;
+.sweet-alert {
+  width: 90% !important;
+  background: red !important;
+}
+
+.container {
+  max-width: 80rem;
+  width: 100%;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+}
+
+.main .container {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 600px;
-  margin: 0px;
-  margin-top: 100px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
-#Item {
-  background-attachment: scroll;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: auto;
-  height: auto;
+.main .card {
+  color: #252a32;
+  border-radius: 2px;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+}
+.main .card-image {
+  position: relative;
   display: block;
-  margin: 0px;
-  position: relative; /* for #Item button {position: absolute;}*/
-}
-#Item h1 {
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-size: 50px;
-  letter-spacing: 10px;
-  text-align: center;
-  line-height: 600px;
-  background-color: transparent;
   width: 100%;
-  height: 600px;
-  margin: 0px;
-  transition-duration: 0.3s;
-  cursor: default;
+  padding-top: 70%;
+  background: #ffffff;
 }
-#Item button {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  background-color: white;
-  width: 40px;
-  height: 40px;
+.main .card-image img {
+  display: block;
   position: absolute;
-  top: 0px;
-  right: 0px;
-  border: none;
-  cursor: pointer;
-}
-
-#Actions {
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100px;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 1000;
-  display: flex;
-  flex-direction: row;
-}
-#Shuffle {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 50px;
-  text-align: center;
-  background-color: white;
-  width: 50%;
-  height: 100px;
-  border: none;
-  cursor: pointer;
-  transition-duration: 0.3s;
-}
-#Add {
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  background-color: gray;
-  width: 25%;
-  height: 98px;
-  border: none;
-  cursor: pointer;
-  transition-duration: 0.3s;
+  height: 100%;
+  object-fit: cover;
 }
 
-#Shuffle:hover {
-  color: white;
-  background-color: black;
-}
-#Item h1:hover {
-  letter-spacing: 1px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#Item:hover {
-  filter: hue-rotate(50deg);
+@media only screen and (max-width: 600px) {
+  .main .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
 }
 </style>

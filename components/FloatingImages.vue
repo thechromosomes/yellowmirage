@@ -208,7 +208,7 @@ export default {
 
 .mainBannerString {
   padding: 10px;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -222,6 +222,8 @@ body {
   overflow: hidden;
   width: 100vw;
   height: 92vh;
+  border-radius: 100% / 0 0 30% 30%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .left-slide {
@@ -263,6 +265,8 @@ body {
   background: #383232;
   border-radius: 12px;
   padding: 18px;
+  border-radius: 0 100px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .right-slide > div {
@@ -324,6 +328,9 @@ button:focus {
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 40px;
+  }
+  .slider-container {
+    border-radius: 220% / 0 0 30% 30%;
   }
 }
 </style>

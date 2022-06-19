@@ -17,3 +17,6 @@ export default {};
   min-height: 700px;
 }
 </style>
+
+<script>
+</script>

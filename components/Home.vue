@@ -4,12 +4,59 @@
     <!-- full [page initial loader] -->
     <full-page-loader v-show="!$store.state.homePageBannerLoaded" />
 
-    <div class="floating-images">
-      <FloatingImages />
+    <!--Hey! This is the original version
+of Simple CSS Waves-->
+
+    <div class="header">
+      <div class="floating-images">
+        <FloatingImages />
+      </div>
+
+      <!--Waves Container-->
+      <div>
+        <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(255,255,255,0.7"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255,255,255,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(255,255,255,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+      <!--Waves end-->
     </div>
 
     <div class="page-body-wrapper">
-      <section id="home" class="home">
+      <Earth />
+      <section id="home" class="home" v-if="false">
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
@@ -17,7 +64,7 @@
                 <div class="d-sm-flex justify-content-between">
                   <div data-aos="zoom-in-up glob-content-div">
                     <div class="banner-title">
-                      <h3 class="font-weight-medium text-white">
+                      <h3 class="font-weight-medium">
                         Once a year...<br />
                         go someplace you've <br />never been before.
                       </h3>
@@ -294,7 +341,11 @@
               v-for="(item, index) in projectImages.length"
               :key="index"
             >
-              <img :src="projectImages[index]" alt="slickder" />
+              <img
+                class="box-shadow-item"
+                :src="projectImages[index]"
+                alt="slickder"
+              />
             </div>
           </slick>
         </div>
@@ -376,7 +427,7 @@
         </div>
       </section>
 
-      <section class="testimonial">
+      <!-- <section class="testimonial">
         <div class="container">
           <div class="row mt-md-0 mt-lg-4">
             <div class="col-sm-12">
@@ -386,7 +437,8 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
+      <google-reviews />
 
       <section class="contactus" id="contact">
         <div class="container">
@@ -490,6 +542,7 @@
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            style="  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);"
             class="border border-primary"
           ></iframe>
         </div>
@@ -500,8 +553,10 @@
 <script>
 import Slick from "vue-slick";
 import "slick-carousel/slick/slick.css";
+import Earth from "@/components/earth.vue";
+import GoogleReviews from "@/components/googleReviews.vue";
 export default {
-  components: { Slick },
+  components: { Slick, Earth, GoogleReviews },
   name: "home",
 
   data() {
@@ -530,7 +585,7 @@ export default {
             breakpoint: 767,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 1.5,
+              slidesToScroll: 1,
               dots: true,
               arrows: false,
               infinite: false,
@@ -539,7 +594,7 @@ export default {
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1.5,
+              slidesToShow: 1,
               slidesToScroll: 2,
               dots: true,
               autoplay: true,
@@ -695,6 +750,20 @@ export default {
 };
 </script>
 <style scoped>
+.box-shadow-item {
+  border-radius: 0 100px;
+  background: linear-gradient(
+    0.01000000000001deg,
+    rgba(179, 179, 179, 1) 8.92%,
+    rgba(213, 213, 213, 1) 31.91%,
+    rgba(240, 240, 240, 1) 54.33%,
+    rgba(250, 250, 250, 1) 67.52%
+  );
+}
+
+.box-shadow-item:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
 .date-picker {
   padding: 15px 0px;
   margin-top: 20px;
@@ -811,6 +880,91 @@ section {
   }
   .explore-heavern {
     padding-bottom: 20px;
+  }
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+  color: white;
+}
+
+.inner-header {
+  height: 65vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px; /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+}
+
+.content {
+  position: relative;
+  height: 20vh;
+  text-align: center;
+  background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+  .content {
+    height: 30vh;
+  }
+  h1 {
+    font-size: 24px;
   }
 }
 </style>
