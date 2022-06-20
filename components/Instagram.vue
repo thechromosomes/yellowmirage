@@ -1,41 +1,60 @@
 <template>
-  <div class="container mainContainer" v-if="instaPost.length">
-    <!-- instagram @ -->
-    <div class="instagram-section">
-      <h3 class="title">
-        <span class="text-black">@</span><span class="text-success">Nature</span
-        ><span class="text-pink">Roar</span>
-      </h3>
-      <div class="slider-wrapper slider_box slider_arrow">
-        <VueSlickCarousel ref="slick" :options="settingsInsta">
-          <template v-for="(image, imgIndex) in instaPost">
-            <div
-              class="item"
-              v-if="image.media_type === 'IMAGE'"
-              :key="imgIndex"
-            >
-              <div class="img-box">
-                <img :src="image.media_url" alt="img" class="w-100" />
-                <div class="overlaey">
-                  <a :href="image.permalink" target="_blank">
-                    <span class="insta-icon">
-                      <img
-                        src="~/static/assets/images/instagram.png"
-                        aria-label="instagram"
-                        alt="img"
-                    /></span>
-                  </a>
+  <div>
+    <div class="container mainContainer" v-if="instaPost.length && false">
+      <!-- instagram @ -->
+      <div class="instagram-section">
+        <h3 class="title">
+          <span class="text-black">@</span
+          ><span class="text-success">Nature</span
+          ><span class="text-pink">Roar</span>
+        </h3>
+        <div class="slider-wrapper slider_box slider_arrow">
+          <VueSlickCarousel ref="slick" :options="settingsInsta">
+            <template v-for="(image, imgIndex) in instaPost">
+              <div
+                class="item"
+                v-if="image.media_type === 'IMAGE'"
+                :key="imgIndex"
+              >
+                <div class="img-box">
+                  <img :src="image.media_url" alt="img" class="w-100" />
+                  <div class="overlaey">
+                    <a :href="image.permalink" target="_blank">
+                      <span class="insta-icon">
+                        <img
+                          src="~/static/assets/images/instagram.png"
+                          aria-label="instagram"
+                          alt="img"
+                      /></span>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </template>
-        </VueSlickCarousel>
+            </template>
+          </VueSlickCarousel>
+        </div>
+        <div class="b-flowbox-body">
+          <p>
+            Tag your pictures with
+            <b
+              ><a
+                href="https://www.instagram.com/explore/tags/natureRoar/"
+                target="_blank"
+                >#NatureRoar</a
+              ></b
+            >
+            and appear at our feed!
+          </p>
+        </div>
       </div>
-      <div class="b-flowbox-body">
-        <p>Tag your pictures with <b><a href="https://www.instagram.com/explore/tags/natureRoar/" target="_blank">#NatureRoar</a></b> and appear at our feed!</p>
-      </div>
+      <!-- instagram @ end -->
     </div>
-    <!-- instagram @ end -->
+    <div
+      class="embedsocial-hashtag"
+      data-ref="3fa21c5447cb455c57e64e882206ff6a5d43f8c1"
+    >
+     
+    </div>
   </div>
 </template>
 
@@ -96,6 +115,21 @@ export default {
     },
   },
 
+  mounted() {
+
+    // init third party instagram widget
+    (function (d, s, id) {
+      var js;
+      if (d.getElementById(id)) {
+        return;
+      }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://embedsocial.com/cdn/ht.js";
+      d.getElementsByTagName("head")[0].appendChild(js);
+    })(document, "script", "EmbedSocialHashtagScript");
+  },
+
   async fetch() {
     this.getInstaPost();
   },
@@ -103,11 +137,10 @@ export default {
 </script>
 
 <style scoped>
-
 .text-pink {
   color: #f05c90;
 }
-.text-black{
+.text-black {
   color: black;
 }
 .mainContainer {
@@ -202,7 +235,6 @@ export default {
   opacity: 1;
 }
 
-
 @media only screen and (max-width: 767px) {
   .instagram-section .slider-wrapper {
     padding: 0;
@@ -276,4 +308,5 @@ export default {
     display: none !important;
   }
 }
+
 </style>

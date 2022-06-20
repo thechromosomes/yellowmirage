@@ -536,14 +536,17 @@ of Simple CSS Waves-->
       <section class="google-maps-section mb-1 text-center">
         <div>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1787229.2213991978!2d77.24689132838202!3d28.967152917271093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a0294000001f%3A0x8690100935d5ebe4!2sThe%20Nature%20Roar!5e0!3m2!1sen!2sin!4v1655194410992!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13908.229771595168!2d79.40003364805962!3d29.368607232294806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a18930118803%3A0x87add6e54607428e!2sNature%20Roar!5e0!3m2!1sen!2sin!4v1655647789014!5m2!1sen!2sin"
             width="90%"
             height="350"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            style="  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);"
-            class="border border-primary"
+            style="
+              box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+                0 15px 12px rgba(0, 0, 0, 0.22);
+            "
+            class="border border-primary radius-class"
           ></iframe>
         </div>
       </section>
@@ -966,5 +969,9 @@ section {
   h1 {
     font-size: 24px;
   }
+}
+
+.radius-class{
+  border-radius:20px
 }
 </style>

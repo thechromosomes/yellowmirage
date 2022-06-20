@@ -12,7 +12,7 @@
                   go someplace you've <br />never been before.
                 </h3>
               </div>
-              <p class="mt-3">
+              <p class="mt-3 font-weight-bold">
                 This holiday season, make the most of every moment with us. Take
                 pleasure in the perfect escape.
 

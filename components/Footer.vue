@@ -3,7 +3,7 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-4">
             <address>
               <p>Village bajun near golu mandir.</p>
               <p class="mb-4">district, Nainital Uttrakhand</p>
@@ -26,21 +26,26 @@
               </div>
             </address>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-8">
             <div class="row">
               <div class="col-sm-6">
                 <div class="social-icons">
                   <h6 class="footer-title font-weight-bold">Explore</h6>
-                  <div class="d-flex-custom">
+                  <div class="d-flex-custom mainFooterLinks">
                     <NuxtLink to="/" title="home"
-                      ><i class="mdi mdi-home-assistant"></i
-                    ></NuxtLink>
+                      >Home</NuxtLink>
                     <NuxtLink to="/contactus" title="contact us"
-                      ><i class="mdi mdi-email"></i
-                    ></NuxtLink>
-                    <NuxtLink to="/aboutus" title="about us"
-                      ><i class="mdi mdi-information-variant"></i
-                    ></NuxtLink>
+                      >Contact us</NuxtLink>
+                      <NuxtLink to="/aboutus" title="about us"
+                      >About us</NuxtLink>
+                   
+                    <NuxtLink to="/faq" title="FAQ(s)"
+                      >FAQs</NuxtLink>
+
+                    <NuxtLink to="/privacy-policy" title="Privacy policy"
+                      >Privacy policy</NuxtLink>
+                     <NuxtLink to="/GuestAndCancellation" title="Guest policy"
+                      >Guest & cancellation policy</NuxtLink>
                   </div>
                 </div>
               </div>
@@ -93,5 +98,11 @@ export default {
 }
 .Blondie {
   color: #fff;
+}
+.mainFooterLinks a{
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  padding: 2px;
 }
 </style>
