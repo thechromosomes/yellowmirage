@@ -100,7 +100,6 @@ export default {
   position: fixed;
   bottom: 85px;
   right: 8px;
-
 }
 
 .bottomStickBotton img {
@@ -115,5 +114,16 @@ export default {
   display: block;
   text-decoration: none;
   padding: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+  .bottomStickBotton {
+    position: fixed;
+    bottom: 60px;
+    right: 0px;
+  }
+  .bottomStickBotton img {
+    width: 80px;
+  }
 }
 </style>
