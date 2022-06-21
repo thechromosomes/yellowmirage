@@ -71,7 +71,9 @@
             >
           </li> -->
           <li class="nav-item">
-            <a class="nav-link btn btn-success" href="tel:9837176793"
+            <a
+              class="nav-link btn btn-success pulse-button"
+              href="tel:9837176793"
               >9837176793</a
             >
           </li>
@@ -99,6 +101,20 @@ export default {
 };
 </script>
 <style scoped>
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(10, 220, 13, 0.2);
+    scale: 1.7;
+    background: rgb(231, 8, 71);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(121, 239, 11, 0);
+    scale: 0;
+  }
+}
+.pulse-button {
+  animation: shadow-pulse 1s infinite;
+}
 nav.navbar.navbar-expand-lg.fixed {
   top: 0;
   position: fixed;

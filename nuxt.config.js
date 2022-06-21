@@ -39,6 +39,10 @@ export default {
         src: "/conversionScript.js",
         defer: true,
       },
+       {
+        src: "/chatBot.js",
+        defer: true,
+      },
     ],
   },
 

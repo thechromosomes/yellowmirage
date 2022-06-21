@@ -32,20 +32,20 @@
                 <div class="social-icons">
                   <h6 class="footer-title font-weight-bold">Explore</h6>
                   <div class="d-flex-custom mainFooterLinks">
-                    <NuxtLink to="/" title="home"
-                      >Home</NuxtLink>
+                    <NuxtLink to="/" title="home">Home</NuxtLink>
                     <NuxtLink to="/contactus" title="contact us"
-                      >Contact us</NuxtLink>
-                      <NuxtLink to="/aboutus" title="about us"
-                      >About us</NuxtLink>
-                   
-                    <NuxtLink to="/faq" title="FAQ(s)"
-                      >FAQs</NuxtLink>
+                      >Contact us</NuxtLink
+                    >
+                    <NuxtLink to="/aboutus" title="about us">About us</NuxtLink>
+
+                    <NuxtLink to="/faq" title="FAQ(s)">FAQs</NuxtLink>
 
                     <NuxtLink to="/privacy-policy" title="Privacy policy"
-                      >Privacy policy</NuxtLink>
-                     <NuxtLink to="/GuestAndCancellation" title="Guest policy"
-                      >Guest & cancellation policy</NuxtLink>
+                      >Privacy policy</NuxtLink
+                    >
+                    <NuxtLink to="/GuestAndCancellation" title="Guest policy"
+                      >Guest & cancellation policy</NuxtLink
+                    >
                   </div>
                 </div>
               </div>
@@ -53,9 +53,19 @@
                 <div class="social-icons">
                   <h6 class="footer-title font-weight-bold">Social Share</h6>
                   <div class="d-flex-custom">
-                    <a href="https://twitter.com/TheNatureRoar/" target="_BLANK"><i class="mdi mdi-twitter"></i></a>
-                    <a href="https://www.facebook.com/natureroar.official/" target="_BLANK"><i class="mdi mdi-facebook-box"></i></a>
-                    <a href="https://www.instagram.com/thenatureroar/" target="_BLANK"><i class="mdi mdi-instagram"></i></a>
+                    <a href="https://twitter.com/TheNatureRoar/" target="_BLANK"
+                      ><i class="mdi mdi-twitter"></i
+                    ></a>
+                    <a
+                      href="https://www.facebook.com/natureroar.official/"
+                      target="_BLANK"
+                      ><i class="mdi mdi-facebook-box"></i
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/thenatureroar/"
+                      target="_BLANK"
+                      ><i class="mdi mdi-instagram"></i
+                    ></a>
                   </div>
                 </div>
               </div>
@@ -88,18 +98,19 @@ export default {
 <style scoped>
 .bottomStickBotton {
   position: fixed;
-  bottom: 0px;
-  right: 0;
+  bottom: 85px;
+  right: 8px;
+
 }
 
 .bottomStickBotton img {
-  width: 79px;
+  width: 90px;
   padding: 15px;
 }
 .Blondie {
   color: #fff;
 }
-.mainFooterLinks a{
+.mainFooterLinks a {
   color: #fff;
   display: block;
   text-decoration: none;
