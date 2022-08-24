@@ -659,25 +659,7 @@ export default {
     };
   },
 
-  jsonld() {
-    return {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      name: "Natiure roar",
-      image: "./logo.png",
-      "@id": "randomID",
-      url: "http://natureroar.com/",
-      telephone: "7466056737",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "Village bajun near golu mandir.",
-        addressLocality: "Nainital",
-        postalCode: "263001",
-        addressCountry: "IN",
-      },
-      sameAs: [" https://www.instagram.com/thenatureroar/"],
-    };
-  },
+
 
   methods: {
     async sendMail(type) {

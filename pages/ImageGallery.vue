@@ -5,7 +5,7 @@
         <div class="card" v-for="(item, index) in images" :key="index">
           <div class="card-image">
             <a :src="item.image" @click.prevent="showSource(index)">
-              <img :src="item.image" alt="Image Gallery" />
+              <img :src="item.image" :alt="item.image" />
             </a>
           </div>
         </div>
@@ -22,6 +22,70 @@ export default {
     return {
       newItem: { name: "Name of new IMG", path: "Path to new IMG" },
       images: hotelImage.reverse(),
+    };
+  },
+
+    head() {
+    return {
+      // seo tags
+      title:
+        "nature roar image gallery | home-stay | birdwatching | eco-tourism | peaceful-living",
+      meta: [
+        {
+          hid: "we are trying to make eco friendly and peaceful living",
+          name:
+            "Best home stay | Best view | Best birdwatching | Best place to stay | Best mountain",
+          content:
+            "Best home stay | Best view | Best birdwatching | Best place to stay | Best mountain",
+        },
+        {
+          hid: "og:title",
+          content: "nature roar- home-stay | birdwatching",
+          property: "og:title",
+        },
+        {
+          hid: "og:description",
+          content:
+            "Best home stay | Best view | Best birdwatching | Best place to stay | Best mountain",
+          property: "og:description",
+        },
+        {
+          hid: "og:url",
+          content: this.$store.state.BASE_URL + this.$route.fullPath,
+          property: "og:url",
+        },
+        {
+          hid: "og:image",
+          property: "og:image",
+          content: "/logo.png",
+        },
+      ],
+    };
+  },
+
+    jsonld() {
+    return {
+      "@context": "http://schema.org",
+      "@type": "Gallery",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://natureroar.com/ImageGallery",
+      },
+      headline: "Nature Roar Image Gallery",
+      description: "We are trying eco-friendly and peaceful living",
+      image: this.images,
+      author: {
+        "@type": "Person",
+        name: "Nature Roar",
+      },
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Village bajun near golu mandir.",
+        addressLocality: "Nainital",
+        postalCode: "263001",
+        addressCountry: "IN",
+      },
+      sameAs: [" https://www.instagram.com/thenatureroar/"],
     };
   },
 

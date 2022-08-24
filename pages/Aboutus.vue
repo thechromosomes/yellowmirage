@@ -97,6 +97,35 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  jsonld() {
+    return {
+      "@context": "http://schema.org",
+      "@type": "About us",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://natureroar.com/aboutus",
+      },
+      headline: "About Nature Roar",
+      description: "We are trying eco-friendly and peaceful living",
+      image: "/logo.png",
+      author: {
+        "@type": "Person",
+        name: "Nature Roar",
+      },
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Village bajun near golu mandir.",
+        addressLocality: "Nainital",
+        postalCode: "263001",
+        addressCountry: "IN",
+      },
+      sameAs: [" https://www.instagram.com/thenatureroar/"],
+    };
+  },
+};
+</script>
 
 <style scoped>
 .timeline {

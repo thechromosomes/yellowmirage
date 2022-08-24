@@ -235,7 +235,6 @@ exports.postStatus = (req, res, next) => {
   var dateTo = req.body.dateTo;
   var userEmail = req.cookies.nature_roar_user || req.session.mail;
 
-  console.log(dateFrom, dateTo);
 
   data =
     "INSERT INTO bookingstatus" +

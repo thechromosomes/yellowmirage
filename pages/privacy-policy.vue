@@ -1,6 +1,8 @@
 <template>
   <div class="main-privacy-policy">
-    <h3 class="text-center p-3 mb-2 bg-primary text-white">Nature Roar privacy-policy</h3>
+    <h3 class="text-center p-3 mb-2 bg-primary text-white">
+      Nature Roar privacy-policy
+    </h3>
     <h4>General</h4>
     <p>
       First thing first, Nature Roar respects the right to privacy of every
@@ -158,9 +160,76 @@
   </div>
 </template>
 
+<script>
+export default {
+  jsonld() {
+    return {
+      "@context": "http://schema.org",
+      "@type": "Privacy policy",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://natureroar.com/privacy-policy",
+      },
+      headline: "About Nature Roar",
+      description: "We are trying eco-friendly and peaceful living",
+      image: "/logo.png",
+      author: {
+        "@type": "Person",
+        name: "Nature Roar",
+      },
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Village bajun near golu mandir.",
+        addressLocality: "Nainital",
+        postalCode: "263001",
+        addressCountry: "IN",
+      },
+      sameAs: [" https://www.instagram.com/thenatureroar/"],
+    };
+  },
+
+  head() {
+    return {
+      // seo tags
+      title:
+        "nature roar privacy policy | home-stay | birdwatching | eco-tourism | peaceful-living",
+      meta: [
+        {
+          hid: "we are trying to make eco friendly and peaceful living",
+          name:
+            "Best home stay | Best view | Best birdwatching | Best place to stay | Best mountain",
+          content:
+            "Best home stay | Best view | Best birdwatching | Best place to stay | Best mountain",
+        },
+        {
+          hid: "og:title",
+          content: "nature roar- home-stay | birdwatching",
+          property: "og:title",
+        },
+        {
+          hid: "og:description",
+          content:
+            "Best home stay | Best view | Best birdwatching | Best place to stay | Best mountain",
+          property: "og:description",
+        },
+        {
+          hid: "og:url",
+          content: this.$store.state.BASE_URL + this.$route.fullPath,
+          property: "og:url",
+        },
+        {
+          hid: "og:image",
+          property: "og:image",
+          content: "/logo.png",
+        },
+      ],
+    };
+  },
+};
+</script>
 
 <style scoped>
-.main-privacy-policy{
-    padding: 50px;
+.main-privacy-policy {
+  padding: 50px;
 }
 </style>

@@ -35,6 +35,8 @@
     "nodemon": "^2.0.3",
     "nuxt": "^2.15.7",
     "nuxt-jsonld": "^1.5.3",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
     "path": "^0.12.7",
     "razorpay": "^2.8.1",
     "shortid": "^2.2.16",

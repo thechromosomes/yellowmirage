@@ -113,7 +113,7 @@ export default {
   }
 }
 .pulse-button {
-  animation: shadow-pulse 1s infinite;
+  animation: pulse 1.2s ease infinite;
 }
 nav.navbar.navbar-expand-lg.fixed {
   top: 0;
