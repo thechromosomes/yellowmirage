@@ -76,7 +76,7 @@ export default {
 
   // server  middleware for back end api
   // a server middleware that runs only server site
-  serverMiddleware: ["~/server-middleware/sendMail", "~/server-middleware/app"],
+  serverMiddleware: ["@/server-middleware/sendMail", "@/server-middleware/app"],
 
   // target: "static", // default is 'server'
 
