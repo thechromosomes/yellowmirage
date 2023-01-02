@@ -33,7 +33,7 @@
     "mysql": "^2.18.1",
     "nodemailer": "^6.7.2",
     "nodemon": "^2.0.3",
-    "nuxt": "^2.15.7",
+    "nuxt": "^3.0.0",
     "nuxt-jsonld": "^1.5.3",
     "passport": "^0.6.0",
     "passport-google-oauth20": "^2.0.0",
