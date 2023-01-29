@@ -77,6 +77,13 @@
               >9837176793</a
             >
           </li>
+          <li class="nav-item">
+            <a
+              class="nav-link btn btn-success pulse-button"
+              href="https://natureroarnainital.in/"
+              >BOOK NOW</a
+            >
+          </li>
         </ul>
       </div>
     </div>

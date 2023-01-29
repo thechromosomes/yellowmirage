@@ -95,6 +95,7 @@ export default {
 
   methods: {
     async getInstaPost() {
+      return
       try {
         var authOptions = {
           method: "get",
