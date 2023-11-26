@@ -57,12 +57,6 @@ export default {
     "~/static/assets/vendors/jquery-flipster/css/jquery.flipster.css",
   ],
 
-  server: {
-    port: 3001,
-    // configure local area network
-    // host: "0.0.0.0",
-  },
-
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
