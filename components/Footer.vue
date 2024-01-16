@@ -7,8 +7,8 @@
             <address>
               <p>Village bajun near golu mandir.</p>
               <p class="mb-4">district, Nainital Uttrakhand</p>
-              <a href="mailto:support@natureroar.com" class="footer-link"
-                >support@natureroar.com</a
+              <a href="mailto:thenatureroar@gmail.com" class="footer-link"
+                >thenatureroar@gmail.com</a
               >
               <div class="d-flex-custom align-items-center">
                 <p class="mr-4 mb-0">
