@@ -4,8 +4,7 @@
   "builds": [
     {
       "src": "nuxt.config.js",
-      "use": "@nuxtjs/now-builder",
-      "config": {}
+      "use": "@nuxtjs/now-builder"
     }
   ]
 }
